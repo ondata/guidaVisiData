@@ -59,7 +59,7 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' P
 - si utilizza **soltanto da tastiera**, ed è possibile dimenticarsi del mouse;
 - è free ed _**open source**_.
 
-Io apprezzo molto la rapidità e come offra in modo agile una visione di insieme sui dati. Questo, affiancato all'utilizzo da tastiera, lo rende un prodotto che da una marcia in più.
+Apprezzo molto la sua rapidità e come offra in modo agile una visione di insieme sui dati. Questo, affiancato all'utilizzo da tastiera, lo rende un prodotto che dà una marcia in più a chi lo usa.
 
 ## Supportarne lo sviluppo
 
