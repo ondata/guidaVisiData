@@ -12,4 +12,4 @@ Se VisiData piacerà anche a te e lo utilizzerai, sarà cosa buona **supportarne
 
 ---
 
-NOTA BENE: questa guida è ampiamente ispirata a [quella]((https://jsvine.github.io/intro-to-visidata/)) molto bella di Jeremy Singer Vine.
+NOTA BENE: questa guida è ampiamente ispirata a [quella](https://jsvine.github.io/intro-to-visidata/) molto bella di Jeremy Singer Vine.
