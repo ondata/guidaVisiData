@@ -105,6 +105,8 @@ Ribadisco però ancora un volta che il "grande" e la valutazione del tempo dipen
 
 Per chiudere la tabella aperta e Visidata si fa click nelle tastiera su `q`.
 
+**NOTA BENE**: questo file con i dati sul "Parco Circolante dei veicoli" in Abruzzo, verrà usato in questa guida come dataset di base.
+
 ### Navigare tra i dati
 
 Per muoversi tra le celle si usano le 4 frecce direzionali dalla tastiera o (come vim, da cui nell'uso da tastiera VisiData prende molta ispirazione) `h`,`j`,`k`,`l`.
@@ -443,7 +445,7 @@ Per salvare un foglio si fa click su `CTRL+s`, poi si scrive il nome del file co
 
 Se ad esempio si volesse fare il rapporto tra numero di mezzi e popolazione, sarebbe utile fare un JOIN con una tabella con i dati della popolazione residente.
 
-I dati per provincia sono quelli di sotto e sono stati salvati in un file TSV denominato `popolazioneAbruzzo.tsv` (fonte [ISTAT](http://dati.istat.it/Index.aspx?QueryId=18545#)).
+I dati per provincia sono quelli di sotto e sono stati salvati in un [file TSV](../dati/popolazioneAbruzzo.tsv) denominato `popolazioneAbruzzo.tsv` (fonte [ISTAT](http://dati.istat.it/Index.aspx?QueryId=18545#)).
 
 | Provincia | Popolazione |
 | --- | --- |
