@@ -6,7 +6,7 @@ La presentazione ufficiale fa un'ottima sintesi, ma non evidenzia la cosa che mi
 
 Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' Python, sarà possibile usarlo in modo ancora più comoda ed efficiente.
 
-**Qui** una [**guida introduttiva in italiano**](./testo/README.md) scritta da [Andrea Borruso](https://twitter.com/aborruso).
+[**Qui**](./testo/README.md) la prima release di una [**guida introduttiva in italiano**](./testo/README.md) scritta da [Andrea Borruso](https://twitter.com/aborruso).
 
 Se VisiData piacerà anche a voi e lo utilizzerete, sarà cosa buona **supportarne lo sviluppo con una donazione**. Andrea ha deciso di farlo e di esserne un "patrono"! Si fa da qui [https://www.patreon.com/saulpw](https://www.patreon.com/saulpw).
 
