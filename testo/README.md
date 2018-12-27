@@ -65,7 +65,7 @@ Apprezzo molto la sua rapidità e come offra in modo agile una visione di insiem
 
 Se VisiData vi piacerà e lo utilizzerete, sarà cosa buona **supportarne lo sviluppo con una donazione**. Io ho deciso di farlo e di esserne un "patrono"!
 
-Per farlo si fa da qui [https://www.patreon.com/saulpw](https://www.patreon.com/saulpw).
+Si fa da qui [https://www.patreon.com/saulpw](https://www.patreon.com/saulpw).
 
 ## Come si installa
 
