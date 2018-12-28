@@ -37,6 +37,7 @@
     - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
     - [Tabelle Pivot](#tabelle-pivot)
     - [Moduli Python](#moduli-python)
+    - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
     - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
     - [Note finali](#note-finali)
     - [URL consigliati](#url-consigliati)
@@ -526,6 +527,12 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 ![](./imgs/27_moduli.png)
 
 **NOTA BENE**: le funzioni del modulo `datetime` sono disponibili in modo nativo per le colonne già impostate (come tipo) a data. Quanto scritto sopra vale soprattutto come guida al come precaricare e utilizzare un modulo Python in VisiData.
+
+## Salvare un flusso di lavoro
+
+È possibile salvare in un file l'elenco delle operazioni fatte su una o più tabelle, per poi riutilizzarlo successivamente e replicare le operazioni fatte. Questo consente ad esempio di continuare oggi, quanto fatto sino a ieri.
+
+Per salvare questo file si preme `CTRL+d`, poi si digita il nome del file (di solito con estensione `.vd`) e si preme `Invio`. Per ripetere i comandi salvati nel file il comando da digitare è `vd -p nomeFile.vd`.
 
 ## Fare proposte e/o Chiedere supporto
 
