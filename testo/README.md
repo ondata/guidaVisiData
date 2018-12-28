@@ -105,7 +105,7 @@ Ribadisco però ancora un volta che il "grande" e la valutazione del tempo dipen
 
 Per chiudere la tabella aperta e Visidata si fa click nelle tastiera su `q`.
 
-**NOTA BENE**: questo file con i dati sul "Parco Circolante dei veicoli" in Abruzzo, verrà usato in questa guida come dataset di base.
+**NOTA BENE**: questo file con i dati sul "Parco Circolante dei veicoli" in Abruzzo, verrà usato in questa guida come dataset di base. Ne ho pertanto creato una copia di backup [qui](../dati/parco_circolante_Abruzzo.zip).
 
 ### Navigare tra i dati
 
@@ -524,7 +524,7 @@ E a questo punto si può rinominare la colonna facendo click su `^`, scrivendo "
 
 ![](./imgs/27_moduli.png)
 
-**NOTA BENE**: le funzioni del modulo `datetime` sono disponibili in modo nativo nella colonne già impostate come tipo a data. Questo di sopra vale soprattutto come guida al come precaricare e utilizzare un modulo Python.
+**NOTA BENE**: le funzioni del modulo `datetime` sono disponibili in modo nativo per le colonne già impostate (come tipo) a data. Quanto scritto sopra vale soprattutto come guida al come precaricare e utilizzare un modulo Python in VisiData.
 
 ## Note finali
 
