@@ -325,7 +325,7 @@ In output qualcosa come quella di sotto, con la nuova colonna risultato di un'es
 #### Nuove colonne come risultato di splitting
 
 Si possono creare nuove colonne, come risultato di una suddivisione di una già esistente. Ad esempio nel campo `data_immatricolazione` è contenuta sia la data che l'orario, separati da spazio (i.e. `1995-04-03 00:00:00`). <br>
-Se si vuole suddividerla in due colonna (data e orario), si può procedere in questo modo:
+Se si vuole suddividerla in due colonne (data e orario), si può procedere in questo modo:
 
 - si naviga sino alla colonna `data_immatricolazione`;
 - si fa click su `:`;
@@ -338,9 +338,9 @@ Come output si avrà qualcosa come quella di sotto: due colonne frutto della div
 
 #### Nuove colonne come risultato di cattura e estrazione
 
-Per farlo ci vogliono delle conoscenze di base sulle espressioni regolari (che devono essere una conoscenza propedeutica per chiunque lavora con i dati).
+Per farlo ci vogliono delle conoscenze di base sulle espressioni regolari (che sono una conoscenza propedeutica per chiunque lavori con i dati).
 
-Se si vuole ad esempio estrarre l'anno dalla celle che contiene il valore `1995-04-03 00:00:00`, basterà definire l'espressione regolare che estrae a partire dall'inizio cella i primi 4 numeri. Che in termini di espressione regolare è `^[0-9]{4}`.
+Se si vuole ad esempio estrarre l'anno dalla celle che contiene il valore `1995-04-03 00:00:00`, basterà definire l'espressione regolare che estrae a partire dall'inizio della cella i primi 4 numeri. Che in termini di espressione regolare è `^[0-9]{4}`.
 
 Per creare una nuova colonna a partire dalla definizione di un'espressione regolare da usare come "estrattore", si procede in questo modo:
 
@@ -359,7 +359,7 @@ Su ogni colonna è possibile fare delle trasformazioni basate su espressioni reg
 
 - si va nella colonna `data_immatricolazione`;
 - si fa click su `g*`;
-- si scrive nel prompt ` .*$/`. Il simbolo in VisiData separa ciò che si cerca, da ciò con cui si vuole sostituire. Qui si cerca uno spazio (` `), seguito da qualsiasi carattere sino a fine cella (`.*$`), e si vuole sostituire con nulla;
+- si scrive nel prompt ` .*$/`. Il simbolo `/` in VisiData separa ciò che si cerca, da ciò con cui si vuole sostituire. Qui si cerca uno spazio (` `), seguito da qualsiasi carattere sino a fine cella (`.*$`), e si vuole sostituire con nulla;
 - si fa click su `Invio` (ci vorrà un po' di tempo, sono più di un milione di righe).
 
 Il risultato sarà qualcosa come quella di sotto:
@@ -374,7 +374,7 @@ Se per esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, si voles
 
 ![](./imgs/09_tabellaFrequenze.png)
 
-I dati sono ordinati per conteggio ed emerge subito come una famosa marca nazionale da sola faccia 1/4 del campione. Così come emerge che c'è un 5% di elementi in cui la marca non è definita e anche questa è un'informazione che ci potrebbe consetire da subito di prendere delle decisioni. Molto comoda anche la colonna `histogram` che da visivamente in modo molto diretto un'idea del rapporto tra i numeri descritti in tabella.
+I dati sono ordinati per conteggio ed emerge subito come una famosa marca nazionale da sola faccia 1/4 del campione. Così come emerge che c'è un 5% di elementi in cui la marca non è definita e anche questa è un'informazione che ci potrebbe consentire da subito di prendere delle decisioni. <br>Molto comoda anche la colonna `histogram` che da visivamente in modo molto diretto un'idea del rapporto tra i numeri descritti in tabella.
 
 ## Ordinare e filtrare
 
@@ -384,7 +384,7 @@ I tasti `[` e `]` ordinano i dati rispettivamente in modo crescente e decrescent
 
 ### Filtrare righe
 
-È possibile estrarre un campione delle righe della tabella visualizzata in vari modi. Quella di base è a partire dalla selezione delle righe (in uno dei modi visti sopra)e poi fare click su `"`. Ad esempio si naviga sino alla colonna `marca`, si fa click su `|`, si scrive `chevr`, si fa click su `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si fa click su `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
+È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi fare click su `"`. Ad esempio si naviga sino alla colonna `marca`, si fa click su `|`, si scrive `chevr`, si fa click su `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si fa click su `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
 
 Oppure posso farlo a partire da un "foglio delle frequenze" (vedi [qui](#il-foglio-delle-frequenze)):
 
@@ -398,9 +398,9 @@ Oppure posso farlo a partire da un "foglio delle frequenze" (vedi [qui](#il-fogl
 
 ![](./imgs/12_filtro.png)
 
-Dal foglio delle frequenze è possibile filtra su più di un elemento:
+Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 
-- si selezionano ad esempio tre marche con `s`;
+- si selezionano ad esempio tre marche facendo un click su `s` per ognuna;
 - si chiude il foglio delle frequenze con `q` e si torna al foglio dati;
 - si fa click su `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
 
@@ -408,13 +408,13 @@ Dal foglio delle frequenze è possibile filtra su più di un elemento:
 
 Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qui](#il-foglio-delle-frequenze)).
 
-È possibile generare un foglio delle frequenze anche basato su più colonne. Per farlo si impostanto le colonne chiave ([qui](#come-definire-una-colonna-chiave) come fare) che si vogliono trasformare in "foglio delle frequenze", e poi si fa click su `g+Shift+f`. Qui sotto ad esempio un riepilogo per le coppie univoche di `destinazione/alimentazione`.
+È possibile generare un foglio delle frequenze anche basato su più colonne. Per farlo si impostano come colonne chiave ([qui](#come-definire-una-colonna-chiave) come fare) quelle che si vogliono trasformare in "foglio delle frequenze", e poi si fa click su `g+Shift+f`. Qui sotto ad esempio un riepilogo per le coppie univoche di `destinazione/alimentazione`.
 
 ![](./imgs/13_riepilogo.png)
 
 ### Aggiunta di aggregatori
 
-I fogli di frequenza, oltre al conteggio per valori distinti, possono contenere altri calcoli. Gli "aggregatori" possibili sono `min`, `max`, `avg / mean`, `median`, `q3/q4/q5/q10` (terzili/quartili/quintili/decili), `sum`, `distinct`, `count` e `keymax`
+I fogli di frequenza, oltre al conteggio per valori distinti, possono contenere altri calcoli. Gli "aggregatori" possibili sono `min`, `max`, `avg / mean`, `median`, `q3/q4/q5/q10` (terzili/quartili/quintili/decili), `sum`, `distinct`, `count` e `keymax`.
 
 Ad esempio per ogni provincia si può avere restituito la distribuzione di età per quartile e scoprire che il 50% del campione è compreso nella fascia di età tra i 18 e circa i 55 anni.
 
@@ -423,15 +423,15 @@ Ad esempio per ogni provincia si può avere restituito la distribuzione di età 
 Per aggiungere l'aggregatore `q4` al foglio delle frequenze, bisogna seguire questi passi:
 
 - navigare sino alla colonna `eta_intestatario` e impostarla a numero intero con `#`;
-- fare click su `+` e scrivere (in basso a sinistra) `q4` (per il calcolo dei quartili al 25, 50 e 75 percento);
-- e navigare sino alla colonna `provincia_residenza` e fare click su `Shift+f`.
+- fare click su `+` e scrivere (in basso a sinistra) `q4` (per il calcolo dei quartili, quindi al 25, 50 e 75 percento);
+- navigare sino alla colonna `provincia_residenza` e fare click su `Shift+f`.
 
 Inizierà da subito il calcolo (che non è immediato, sono più di un milione di righe) e alla fine si avrà qualcosa come l'immagine di sopra (non è fico VisiData?).
 
 ### Il riepilogo globale
 
 Per avere una visione a "volo d'uccello" sull'intera tabella esiste il comando `Shift+i`, che restituisce un riepilogo statistico per tutte le colonne.<br>
-Se prime di lanciarlo si definiscono correttamente i campi (ad esempio i numerici, come numerici), verranno eseguiti correttamente anche i calcoli per `min`, `max``median`, `mean`, `stdev`.
+Se prima di lanciarlo si definiscono correttamente i campi (ad esempio i numerici, come numerici), verranno eseguiti correttamente anche i calcoli per `min`, `max`, `median`, `mean`, `stdev`.
 
 ![](./imgs/14_riepilogo.png)
 
@@ -443,9 +443,9 @@ Per salvare un foglio si fa click su `CTRL+s`, poi si scrive il nome del file co
 
 ## Fare JOIN tra tabelle
 
-Se ad esempio si volesse fare il rapporto tra numero di mezzi e popolazione, sarebbe utile fare un JOIN con una tabella con i dati della popolazione residente.
+Se ad esempio si volesse calcolare il rapporto tra numero di mezzi e popolazione, sarebbe utile fare un JOIN con una tabella con i dati della popolazione residente.
 
-I dati per provincia sono quelli di sotto e sono stati salvati in un [file TSV](../dati/popolazioneAbruzzo.tsv) denominato `popolazioneAbruzzo.tsv` (fonte [ISTAT](http://dati.istat.it/Index.aspx?QueryId=18545#)).
+I dati per provincia sono quelli di sotto e sono stati salvati in un [file TSV](../dati/popolazioneAbruzzo.tsv) denominato [`popolazioneAbruzzo.tsv`](../dati/popolazioneAbruzzo.tsv) (fonte [ISTAT](http://dati.istat.it/Index.aspx?QueryId=18545#)).
 
 | Provincia | Popolazione |
 | --- | --- |
@@ -454,7 +454,7 @@ I dati per provincia sono quelli di sotto e sono stati salvati in un [file TSV](
 | PESCARA | 319388 |
 | CHIETI | 387120 |
 
-Si puo fare in questo modo:
+Si può fare in questo modo:
 
 - si parte da `vd parco_circolante_Abruzzo.csv`;
 - si va sulla colonna `provincia_residenza`;
@@ -463,7 +463,7 @@ Si puo fare in questo modo:
 ![](./imgs/18_join.png)
 
 - si rinomina questo foglio frequenze facendo click sulla barra spaziatrice, scrivendo il comando `rename-sheet` e dando poi `Invio`. E poi inserendo il nome nuovo (ad esempio `mezziProvincia`);
-- si apre la tabella con i dati sulla popolazione per provincia, facendo click su `o`, scrivendo `popolazioneAbruzzo.tsv` (che è il nome del file) e facendo click su `Invio` (NOTA BENE si può scrivere anche soltanto `popo` e poi fare click su `TAB` e il nome del file verrà autocompilato). Si otterrà
+- si apre la tabella con i dati sulla popolazione per provincia, facendo click su `o`, scrivendo `popolazioneAbruzzo.tsv` (che è il nome del file) e facendo click su `Invio` (NOTA BENE si può scrivere anche soltanto `popo` e poi fare click su `TAB` e il nome del file verrà autocompletato). Si otterrà
 
 ![](./imgs/19_join.png)
 
@@ -472,12 +472,12 @@ Si puo fare in questo modo:
 
 ![](./imgs/20_join.png)
 
-- si seleziona con `s` la riga che contiene `popolazioneAbruzzo` e quella che contiene `mezziProvincia` (che diventano gialle, perché selezionate);
-- si fa click su `&` che è il comando di Join e in basso a sinistra ci viene chieste che tipo si vuole applicare;
+- si seleziona con `s` la riga che contiene `popolazioneAbruzzo` e si ripete per quella che contiene `mezziProvincia` (che diventano gialle, perché selezionate);
+- si fa click su `&` che è il comando di JOIN e in basso a sinistra ci viene chiesto quale tipo si vuole applicare;
 
 ![](./imgs/21_join.png)
 
-- si scrive `inner` e si fa click su `Invio` e si ottiene una tabella che contiene sia il numero di mezzi per provincia che il numero di abitanti.
+- si scrive `inner` e si fa click su `Invio` e si ottiene una tabella che contiene sia il numero di mezzi per provincia, che il numero di abitanti.
 
 ![](./imgs/22_join.png)
 
@@ -492,7 +492,7 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 
 ## Tabelle Pivot
 
-Ecco ad esempio come creare quella che da contro del numero di mezzi per marca, suddivisi per provincia:
+Ecco ad esempio come creare quella che da conto del numero di mezzi per marca, suddivisi per provincia:
 
 - si va nella colonna `marca` e si imposta come colonna chiave, facendo click su `!`;
 - si va poi nella colonna `provincia_residenza` e si fa click su `Shift+w`;
@@ -502,15 +502,15 @@ Ecco ad esempio come creare quella che da contro del numero di mezzi per marca, 
 
 ## Moduli Python
 
-VisiData è un foglio elettronico basato su Python 3. Questo consente di utilizzare al suo interno la galassia dei moduli su cui è basato.
+VisiData è un foglio elettronico basato su Python 3. Questo consente di utilizzare al suo interno la galassia dei moduli disponibili per Python.
 
-Per farlo, bisogna precaricare questi moduli all'avvio di VisiData. Questo è possibile modificando il file di configurazione del programma - si chiama `.visidatarc` - contenuto nella cartella _home_ dell'utente. Se si vuole ad esempio sfruttare il modulo `datetime` si apre in modifica il file `.visidatarc` e si aggiunge la riga
+Per farlo, bisogna precaricare questi moduli all'avvio di VisiData. Questo si realizza modificando il file di configurazione del programma - si chiama `.visidatarc` - contenuto nella cartella _home_ dell'utente. Se si vuole ad esempio sfruttare il modulo `datetime`, si apre in modifica il file `.visidatarc` e si aggiunge la riga
 
     from datetime import datetime
 
 Poi si salva il file e si fa partire VisiData.
 
-Se ad esempio si vuole fare un'analisi di data di immatricolazione per mese a partire dalla colonna `data_immatricolazione` e si volesse sfruttare il modulo `datetime`, si può procedere in questo modo:
+Se ad esempio si vuole fare un'analisi sulla data di immatricolazione per mese a partire dalla colonna `data_immatricolazione` e si volesse sfruttare il modulo `datetime`, si può procedere in questo modo:
 
 - si va nella colonna `data_immatricolazione`;
 - si fa click su `=`;
@@ -535,9 +535,9 @@ Il grande **Jeremy Singer Vine** lo usa da molto più tempo di me e ha creato la
 
 Lo sviluppatore principale e chi collabora con lui sono molto attenti alle richieste e alle proposte che vengono dall'esterno, in una bella mescolanza di sensibilità "tecnologica" e umana. <br>In queste settimane ho aperto diverse _issue_ a cui ho avuto sempre riscontri di qualità. Alcune erano richieste da uomo primitivo, altre erano buone e confesso di essere **orgoglioso** di avere avuto degli effetti nel rilascio dell'ultima versione (la 1.5.1) e di essere citato più volte nelle [note di rilascio](https://github.com/saulpw/visidata/releases/tag/v1.5.1). Ringrazio molto [**Saul Pwanson**](http://saul.pw/) e [**Anja Kefala**](https://github.com/anjakefala).
 
-A breve gli proporrò l'integrazione in lettura e scrittura dei [`datapackage`](https://frictionlessdata.io/specs/data-package/) in modo da estendere la qualità e le modalità di lavoro su dati ben descritti e strutturati.
+A breve gli proporrò l'integrazione in lettura e scrittura dei [`datapackage`](https://frictionlessdata.io/specs/data-package/), in modo da estendere la qualità e le modalità di lavoro su dati ben descritti e strutturati.
 
-Siamo a fine anno e questo lungo testo ha per me un duplice valore. Il primo è quello di poter dire di aver fatto anche io un post della serie "I migliori telefonini del 2018". VisiData è **uno dei due strumenti più sorprendenti**, **ben fatti** e **utili** del **2018** (del secondo scriverò purtroppo nel 2019).<br>
+Siamo a fine anno e questo lungo testo ha per me un duplice valore. Il primo è quello di poter dire di aver fatto anche io un post della serie "I migliori telefonini del 2018". VisiData infatti è per me **uno dei due strumenti più sorprendenti**, **ben fatti** e **utili** del **2018**.<br>
 Il secondo è il mio augurio di **buon 2019**, con questo testo come "regalo" simbolico.
 
 ---
