@@ -55,7 +55,7 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' P
 
 - È **rapido**, apre quasi istantaneamente file di diverse decine di **megabyte**;
 - è **agile**, rende semplice la **ricerca**, il **filtraggio**, l'**ordinamento**,il _**join**_ e la ristrutturazione  di dati tabellari;
-- consente di **avere con pochi click** un **visione di insieme dei dataset** su cui si vuole lavorare;
+- consente di **avere in pochi passaggi** un **visione di insieme dei dataset** su cui si vuole lavorare;
 - apre **molti** dei **formati** **tipici** di testo strutturato (csv, tsv,  xlsx , xls, json, xml, sqlite, shp, html, hdf5, xpt, sas7bdat, sav, dta)
 - si utilizza **soltanto da tastiera**, ed è possibile dimenticarsi del mouse;
 - è free ed _**open source**_.
@@ -104,7 +104,7 @@ Con **VisiData** lancio `vd parco_circolante_Abruzzo.csv` e lo visualizzo **in 1
 Questo essere "subito pronto" lo rende uno strumento di grande comodità, che l'ha portato a essere uno dei miei quotidiani.<br>
 Ribadisco però ancora un volta che il "grande" e la valutazione del tempo dipendono dagli obiettivi che si hanno, dalle proprie conoscenze di base e dall'_hardware/software_ che si ha a disposizione.
 
-Per chiudere la tabella aperta e Visidata si fa click nelle tastiera su `q`.
+Per chiudere la tabella aperta e Visidata si pigia `q` sulla tastiera.
 
 **NOTA BENE**: questo file con i dati sul "Parco Circolante dei veicoli" in Abruzzo, verrà usato in questa guida come dataset di base. Ne ho pertanto creato una copia di backup [qui](../dati/parco_circolante_Abruzzo.zip).
 
@@ -142,11 +142,11 @@ In VisiData ci sono tre tipi di fogli:
 - i fogli derivati, come quelli derivanti da filtraggio o la tabelle con le frequenze (vedi sotto);
 - i metafogli, che descrivono e definiscono i dataset caricati (come quello che descrive ad esempio le colonne di una tabella, o il "foglio dei fogli").
 
-Il "foglio dei fogli" si apre con `Shift + s` e fornisce le elenco (e alcune informazioni correlate) di tutti i fogli aperti. Selezionandone uno e facendo click su `Invio`, quest'ultimo si aprirà.
+Il "foglio dei fogli" si apre con `Shift + s` e fornisce le elenco (e alcune informazioni correlate) di tutti i fogli aperti. Selezionandone uno e pigiando `Invio`, quest'ultimo si aprirà.
 
 ![](./imgs/02_foglioDeiFogli.png)
 
-Per rinominarne uno dal "foglio dei fogli", basta selezionarlo, fare click su `e` e inserire il nuovo nome e poi dare `Invio`. O in alternativa, se si è davanti un foglio aperto fare click sulla `barra spaziatrice`, scrivere `rename-sheet`, digitare il nuovo nome e infine fare click su `Invio`.
+Per rinominarne uno dal "foglio dei fogli", basta selezionarlo, premere `e` e inserire il nuovo nome e poi dare `Invio`. O in alternativa, se si è davanti al foglio che si vuole rinominare, premere la `barra spaziatrice`, scrivere `rename-sheet`, digitare il nuovo nome e infine pigiare su `Invio`.
 
 Il foglio correntemente aperto si chiude con `q`.
 
@@ -177,9 +177,9 @@ I tasti principali di selezione sono:
 Se ad esempio:
 
 - ci si sposta nella colonna `provincia_residenza`
-- poi si fa click su `|`;
+- poi si pigia `|`;
 - si digita `TERAMO`;
-- si fa click su `Invio`.
+- si preme `Invio`.
 
 ... si ottiene qualcosa come quella di sotto.
 
@@ -199,7 +199,7 @@ Ad esempio seguendo questi step:
 - `gu`, per deselezionare tutto;
 - `z|`, per attivare la selezione tramite espressione Python;
 - scrivendo `provincia_residenza == "PESCARA" and sesso == "F"`;
-- e facendo click su `Invio`.
+- e pigiando su `Invio`.
 
 ... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "F".
 
@@ -242,7 +242,7 @@ A partire dalla visualizzazione di una tabella, si apre con `Shift+c`.
 ### Impostare il tipo di campo
 
 Come impostazione predefinita VisiData imposta a "testo" la tipologia di tutti i campi (che è quello che faccio di solito anche io alla prima apertura sia in un foglio elettronico che in Pandas).<br>
-Per definire il tipo di campo di una colonna della tabella che si sta visualizzando (cosa che consente di fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.), si deve navigare sino alla colonna su cui si vuole intervenire e poi fare click su:
+Per definire il tipo di campo di una colonna della tabella che si sta visualizzando (cosa che consente di fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.), si deve navigare sino alla colonna su cui si vuole intervenire e poi pigiare:
 
 - `#`, per definire un campo con numeri interi (0, -1, 5000000)
 - `%`, per definire un campo con numeri decimali (0.5, -3.14, 23.45557)
@@ -254,9 +254,9 @@ Per definire il tipo di campo di una colonna della tabella che si sta visualizza
 
 Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 
-- si fa click su `^`;
+- si pigia `^`;
 - si digita il nome che si vuole assegnare;
-- si fa click su `Invio`.
+- si pigia `Invio`.
 
 ### Come espandere, ridurre e rimuovere colonne
 
@@ -283,7 +283,7 @@ Per ogni foglio è possibile definire una o più colonne chiave. Hanno due funzi
 - rimangono fissate sul lato sinistra, quando si naviga orizzontalmente sulla tabella;
 - hanno una funzione speciale quando si fanno certe operazioni (come quelle di _JOIN_, per alcuni conteggi, ecc.).
 
-Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di interesse e si fa click su `!`.
+Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di interesse e si pigia `!`.
 
 ### Manipolare le colonne dal foglio delle colonne
 
@@ -297,7 +297,7 @@ Se si vuole impostare a "numero intero" le colonne `progressivo` e `eta_intestat
 
 ![](./imgs/07_foglioColonne.png)
 
-Poi fare click su `g#`.
+Poi premere `g#`.
 
 ![](./imgs/08_foglioColonne.png)
 
@@ -315,7 +315,7 @@ Ad esempio potrebbe essere utile creare una colonna vero/falso, per tutte le aut
 
 - navigare sino alla colonna `cilindrata`;
 - premere `%` per impostarla come numero decimale;
-- fare click su `=`;
+- pigiare su `=`;
 - nel _prompt_ in basso a sinistra scrivere `cilindrata > 643`;
 - premere `Invio`.
 
@@ -329,7 +329,7 @@ Si possono creare nuove colonne, come risultato di una suddivisione di una già 
 Se si vuole suddividerla in due colonne (data e orario), si può procedere in questo modo:
 
 - si naviga sino alla colonna `data_immatricolazione`;
-- si fa click su `:`;
+- si preme `:`;
 - si sceglie la stringa di testo (definibile anche come espressione regolare) da usare come separatore e si scrive in basso a sinistra nel _prompt_. In questo caso è lo spazio;
 - si digita quindi lo spazio e si dà `Invio`.
 
@@ -346,9 +346,9 @@ Se si vuole ad esempio estrarre l'anno dalla celle che contiene il valore `1995-
 Per creare una nuova colonna a partire dalla definizione di un'espressione regolare da usare come "estrattore", si procede in questo modo:
 
 - si naviga sulla colonna `data_immatricolazione`;
-- si fa click su `;`;
+- si pigia `;`;
 - si scrive nel prompt in basso a sinistra `^([0-9]{4})`. Sono state inserite le parentesi tonde, perché la cattura si fa a partire dalla definizione di un gruppo;
-- si fa click su `Invio`.
+- si pigia `Invio`.
 
 E si ottiene qualcosa come quella di sotto:
 
@@ -359,9 +359,9 @@ E si ottiene qualcosa come quella di sotto:
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalla colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
 - si va nella colonna `data_immatricolazione`;
-- si fa click su `g*`;
+- si pigia su `g*`;
 - si scrive nel prompt ` .*$/`. Il simbolo `/` in VisiData separa ciò che si cerca, da ciò con cui si vuole sostituire. Qui si cerca uno spazio (` `), seguito da qualsiasi carattere sino a fine cella (`.*$`), e si vuole sostituire con nulla;
-- si fa click su `Invio` (ci vorrà un po' di tempo, sono più di un milione di righe).
+- si pigia `Invio` (ci vorrà un po' di tempo, sono più di un milione di righe).
 
 Il risultato sarà qualcosa come quella di sotto:
 
@@ -371,7 +371,7 @@ Il risultato sarà qualcosa come quella di sotto:
 
 Questa è una delle funzioni che uso di più ed è un'altra gran bell'idea. A partire da una colonna (o dalla combinazione di più d'una) è possibile - con `Shift+f` - aprire un foglio derivato, che contiene dei dati relativi al conteggio per valori distinti di quanto contenuto in quella colonna.
 
-Se per esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, si volesse avere un'idea sulla distribuzione per "marca", basta navigare in vista tabella sino a quella colonna e poi fare click su `Shift+f` e avere qualcosa come quella di sotto.
+Se per esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, si volesse avere un'idea sulla distribuzione per "marca", basta navigare in vista tabella sino a quella colonna e poi pigiare `Shift+f` e avere qualcosa come quella di sotto.
 
 ![](./imgs/09_tabellaFrequenze.png)
 
@@ -385,31 +385,31 @@ I tasti `[` e `]` ordinano i dati rispettivamente in modo crescente e decrescent
 
 ### Filtrare righe
 
-È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi fare click su `"`. Ad esempio si naviga sino alla colonna `marca`, si fa click su `|`, si scrive `chevr`, si fa click su `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si fa click su `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
+È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi pigiare `"`. Ad esempio si naviga sino alla colonna `marca`, si preme `|`, si scrive `chevr`, si pigia `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si preme `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
 
 Oppure posso farlo a partire da un "foglio delle frequenze" (vedi [qui](#il-foglio-delle-frequenze)):
 
-- navigo sino alla colonna `marca`;
-- faccio click su `Shift+f`, che mi da in output il conteggio dei valori distinti per marca (sono più di un milione di record, ci vorrà un po' di tempo);
+- si naviga sino alla colonna `marca`;
+- si pigia `Shift+f`, che mi da in _output_ il conteggio dei valori distinti per marca (sono più di un milione di record, ci vorrà un po' di tempo);
 - si scorre sino alla riga che contiene la marca che si vuole filtrare;
 
 ![](./imgs/11_filtro.png)
 
-- si fa click su `Invio` e si avrà una tabella filtrata, con i record relativi a quella marca per l'Abruzzo.
+- si pigia `Invio` e si avrà una tabella filtrata, con i record relativi a quella marca per l'Abruzzo.
 
 ![](./imgs/12_filtro.png)
 
 Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 
-- si selezionano ad esempio tre marche facendo un click su `s` per ognuna;
+- si selezionano ad esempio tre marche, pigiando `s` per ognuna;
 - si chiude il foglio delle frequenze con `q` e si torna al foglio dati;
-- si fa click su `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
+- si pigia `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
 
 ## Riepilogo dei dati
 
 Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qui](#il-foglio-delle-frequenze)).
 
-È possibile generare un foglio delle frequenze anche basato su più colonne. Per farlo si impostano come colonne chiave ([qui](#come-definire-una-colonna-chiave) come fare) quelle che si vogliono trasformare in "foglio delle frequenze", e poi si fa click su `g+Shift+f`. Qui sotto ad esempio un riepilogo per le coppie univoche di `destinazione/alimentazione`.
+È possibile generare un foglio delle frequenze anche basato su più colonne. Per farlo si impostano come colonne chiave ([qui](#come-definire-una-colonna-chiave) come fare) quelle che si vogliono trasformare in "foglio delle frequenze", e poi si pigia `g+Shift+f`. Qui sotto ad esempio un riepilogo per le coppie univoche di `destinazione/alimentazione`.
 
 ![](./imgs/13_riepilogo.png)
 
@@ -424,8 +424,8 @@ Ad esempio per ogni provincia si può avere restituito la distribuzione di età 
 Per aggiungere l'aggregatore `q4` al foglio delle frequenze, bisogna seguire questi passi:
 
 - navigare sino alla colonna `eta_intestatario` e impostarla a numero intero con `#`;
-- fare click su `+` e scrivere (in basso a sinistra) `q4` (per il calcolo dei quartili, quindi al 25, 50 e 75 percento);
-- navigare sino alla colonna `provincia_residenza` e fare click su `Shift+f`.
+- premere `+` e scrivere (in basso a sinistra) `q4` (per il calcolo dei quartili, quindi al 25, 50 e 75 percento);
+- navigare sino alla colonna `provincia_residenza` e pigiare `Shift+f`.
 
 Inizierà da subito il calcolo (che non è immediato, sono più di un milione di righe) e alla fine si avrà qualcosa come l'immagine di sopra (non è fico VisiData?).
 
@@ -440,7 +440,7 @@ Questa è un'altra _feature_ di grande comodità (presente in molte applicazione
 
 ## Salvare un foglio
 
-Per salvare un foglio si fa click su `CTRL+s`, poi si scrive il nome del file con estensione (`nomeEsempio.csv`) e infine si fa click su `Invio`.
+Per salvare un foglio si preme `CTRL+s`, poi si scrive il nome del file con estensione (`nomeEsempio.csv`) e infine si pigia `Invio`.
 
 ## Fare JOIN tra tabelle
 
@@ -459,33 +459,33 @@ Si può fare in questo modo:
 
 - si parte da `vd parco_circolante_Abruzzo.csv`;
 - si va sulla colonna `provincia_residenza`;
-- si calcola il foglio delle frequenze facendo click su `Shift+f` e si ottiene
+- si calcola il foglio delle frequenze pigiando `Shift+f` e si ottiene
 
 ![](./imgs/18_join.png)
 
-- si rinomina questo foglio frequenze facendo click sulla barra spaziatrice, scrivendo il comando `rename-sheet` e dando poi `Invio`. E poi inserendo il nome nuovo (ad esempio `mezziProvincia`);
-- si apre la tabella con i dati sulla popolazione per provincia, facendo click su `o`, scrivendo `popolazioneAbruzzo.tsv` (che è il nome del file) e facendo click su `Invio` (NOTA BENE si può scrivere anche soltanto `popo` e poi fare click su `TAB` e il nome del file verrà autocompletato). Si otterrà
+- si rinomina questo foglio frequenze premendo la barra spaziatrice, scrivendo il comando `rename-sheet` e dando poi `Invio`. E poi inserendo il nome nuovo (ad esempio `mezziProvincia`);
+- si apre la tabella con i dati sulla popolazione per provincia, pigiando `o`, scrivendo `popolazioneAbruzzo.tsv` (che è il nome del file) e pigiando `Invio` (NOTA BENE si può scrivere anche soltanto `popo` e poi pigiare `TAB` e il nome del file verrà autocompletato). Si otterrà
 
 ![](./imgs/19_join.png)
 
-- si va nella colonna `Popolazione` e si fa click su `!` per impostarla come colonna chiave. Il JOIN in VisiData viene fatto tra colonne chiave;
+- si va nella colonna `Popolazione` e si preme `!` per impostarla come colonna chiave. Il JOIN in VisiData viene fatto tra colonne chiave;
 - si apre il "foglio dei fogli" con `Shift+s` e si visualizzerà qualcosa come;
 
 ![](./imgs/20_join.png)
 
 - si seleziona con `s` la riga che contiene `popolazioneAbruzzo` e si ripete per quella che contiene `mezziProvincia` (che diventano gialle, perché selezionate);
-- si fa click su `&` che è il comando di JOIN e in basso a sinistra ci viene chiesto quale tipo si vuole applicare;
+- si pigia `&` che è il comando di JOIN e in basso a sinistra ci viene chiesto quale tipo si vuole applicare;
 
 ![](./imgs/21_join.png)
 
-- si scrive `inner` e si fa click su `Invio` e si ottiene una tabella che contiene sia il numero di mezzi per provincia, che il numero di abitanti.
+- si scrive `inner` e si pigia `Invio` e si ottiene una tabella che contiene sia il numero di mezzi per provincia, che il numero di abitanti.
 
 ![](./imgs/22_join.png)
 
 Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente calcolare il numero macchine per persona, in questo modo:
 
-- si va nella colonna `Popolazione` e si fa click su `#` per impostarla come numero intero;
-- si fa click su `=` (per creare una nuova colonna con valori frutto di un'espressione);
+- si va nella colonna `Popolazione` e si preme `#` per impostarla come numero intero;
+- si pigia `=` (per creare una nuova colonna con valori frutto di un'espressione);
 - si scrive poi nel _prompt_ `count/Popolazione` (c'è l'autocompletamento con `TAB` dei nomi delle colonne);
 - e si ottiene un risultato come quello di sotto.
 
@@ -495,8 +495,8 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 
 Ecco ad esempio come creare quella che da conto del numero di mezzi per marca, suddivisi per provincia:
 
-- si va nella colonna `marca` e si imposta come colonna chiave, facendo click su `!`;
-- si va poi nella colonna `provincia_residenza` e si fa click su `Shift+w`;
+- si va nella colonna `marca` e si imposta come colonna chiave, premendo `!`;
+- si va poi nella colonna `provincia_residenza` e si pigia `Shift+w`;
 - si ottiene la tabella pivot desiderata.
 
 ![](./imgs/24_pivot.png)
@@ -514,14 +514,14 @@ Poi si salva il file e si fa partire VisiData.
 Se ad esempio si vuole fare un'analisi sulla data di immatricolazione per mese a partire dalla colonna `data_immatricolazione` e si volesse sfruttare il modulo `datetime`, si può procedere in questo modo:
 
 - si va nella colonna `data_immatricolazione`;
-- si fa click su `=`;
-- si scrive nel prompt `datetime.strptime(data_immatricolazione, '%Y-%m-%d %H:%M:%S').month` e si fa click su `Invio`.
+- si preme `=`;
+- si scrive nel prompt `datetime.strptime(data_immatricolazione, '%Y-%m-%d %H:%M:%S').month` e si pigia `Invio`.
 
 Si ottiene qualcosa come quella di sotto:
 
 ![](./imgs/26_moduli.png)
 
-E a questo punto si può rinominare la colonna facendo click su `^`, scrivendo "mese" e poi premendo `Invio`. E poi creare il foglio delle frequenze della colonna `mese`, facendo click su `Shift+f` e scoprire che in Abruzzo si immatricola soprattutto a gennaio.
+E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e poi premendo `Invio`. E poi creare il foglio delle frequenze della colonna `mese`, pigiando `Shift+f` e scoprire che in Abruzzo si immatricola soprattutto a gennaio.
 
 ![](./imgs/27_moduli.png)
 
