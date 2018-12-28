@@ -37,6 +37,7 @@
     - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
     - [Tabelle Pivot](#tabelle-pivot)
     - [Moduli Python](#moduli-python)
+    - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
     - [Note finali](#note-finali)
     - [URL consigliati](#url-consigliati)
 
@@ -526,6 +527,10 @@ E a questo punto si può rinominare la colonna facendo click su `^`, scrivendo "
 
 **NOTA BENE**: le funzioni del modulo `datetime` sono disponibili in modo nativo per le colonne già impostate (come tipo) a data. Quanto scritto sopra vale soprattutto come guida al come precaricare e utilizzare un modulo Python in VisiData.
 
+## Fare proposte e/o Chiedere supporto
+
+Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
+
 ## Note finali
 
 Il grande **Jeremy Singer Vine** lo usa da molto più tempo di me e ha creato la migliore guida introduttiva dedicata in inglese [https://jsvine.github.io/intro-to-visidata/](https://jsvine.github.io/intro-to-visidata/), di cui sono felice di essere nei [ringraziamenti](https://jsvine.github.io/intro-to-visidata/#acknowledgments). Ne ho attinto a piene mani per scrivere questo post e colgo l'occasione per **ringraziarlo di cuore** pubblicamente.
@@ -539,8 +544,7 @@ Lo sviluppatore principale e chi collabora con lui sono molto attenti alle richi
 
 A breve gli proporrò l'integrazione in lettura e scrittura dei [`datapackage`](https://frictionlessdata.io/specs/data-package/), in modo da estendere la qualità e le modalità di lavoro su dati ben descritti e strutturati.
 
-Siamo a fine anno e questo lungo testo ha per me un duplice valore. Il primo è quello di poter dire di aver fatto anche io un post della serie "I migliori telefonini del 2018". VisiData infatti è per me **uno dei due strumenti più sorprendenti**, **ben fatti** e **utili** del **2018**.<br>
-Il secondo è il mio augurio di **buon 2019**, con questo testo come "regalo" simbolico.
+Qui vorremmo aggiornare e arricchire nel tempo i testi e si accettano anche proposte di integrazioni, correzioni e modifiche.
 
 ---
 
