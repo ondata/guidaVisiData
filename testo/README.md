@@ -12,7 +12,7 @@
         - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
         - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
         - [Spostare righe](#spostare-righe)
-        - [Modicare il contenuto](#modicare-il-contenuto)
+        - [Modificare il contenuto](#modificare-il-contenuto)
     - [Lavorare sulle colonne](#lavorare-sulle-colonne)
         - [Il foglio delle colonne](#il-foglio-delle-colonne)
         - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
@@ -186,7 +186,7 @@ Se ad esempio:
 
 ### Selezioni di righe tramite espressioni Python
 
-È possibile fare una selezione di righe tramite un'espressione di Python ([qui](https://docs.python.org/3/tutorial/introduction.html) per approfondire sui concentti di base delle espressioni).
+È possibile fare una selezione di righe tramite un'espressione di Python ([qui](https://docs.python.org/3/tutorial/introduction.html) per approfondire sui concetti di base delle espressioni).
 
 I comandi da tastiera sono:
 
@@ -200,7 +200,7 @@ Ad esempio seguendo questi step:
 - scrivendo `provincia_residenza == "PESCARA" and sesso == "F"`;
 - e facendo click su `Invio`.
 
-... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "M".
+... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "F".
 
 ### Spostare righe
 
@@ -209,7 +209,7 @@ Si fa con queste combinazioni:
 - `Shift-j`, per spostare la riga corrente verso il basso;
 - `Shift-k`, per spostare la riga corrente verso l'alto.
 
-### Modicare il contenuto
+### Modificare il contenuto
 
 Questi i comandi di base:
 
@@ -240,11 +240,11 @@ A partire dalla visualizzazione di una tabella, si apre con `Shift+c`.
 
 ### Impostare il tipo di campo
 
-Come impostazione predefinita VisiData imposta imposta a "testo" la tipologia di tutti i campi (che è quello che faccio di solito anche io alla prima apertura sia in un foglio elettronico che in Pandas).<br>
-Per definire il tipo di campo di una colonna (per fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.) di una tabella che si sta visualizzando, si deve navigare sino alla colonna su cui si vuole intervenire e poi fare click su:
+Come impostazione predefinita VisiData imposta a "testo" la tipologia di tutti i campi (che è quello che faccio di solito anche io alla prima apertura sia in un foglio elettronico che in Pandas).<br>
+Per definire il tipo di campo di una colonna della tabella che si sta visualizzando (cosa che consente di fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.), si deve navigare sino alla colonna su cui si vuole intervenire e poi fare click su:
 
-- `#`, per definire un campo con numeri intero (0, -1, 5000000)
-- `%`, per definire un campo con numeri decimale (0.5, -3.14, 23.45557)
+- `#`, per definire un campo con numeri interi (0, -1, 5000000)
+- `%`, per definire un campo con numeri decimali (0.5, -3.14, 23.45557)
 - `$`, per definire un campo con monete ($4.99, €20)
 - `@`, per definire un campo con date (2018-04-06, April 6, 2018, 04/06/2018)
 - `~`, per definire un campo di testo (qualsiasi cosa!)
@@ -261,8 +261,8 @@ Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 
 Questi gli shortcut:
 
-- `_`, per espandere la larghezza della colonna corrente, alla larghezza massima del testo contenuto nella stessa per le righe visualizzate a schermo;
-- `g_`, per espandere la larghezza di tutte le colonne, alla larghezza massima del testo contenuto nelle righe visualizzate a schermo;
+- `_`, per espandere la larghezza della colonna corrente, alla larghezza massima del testo contenuto nella stessa, tenendo conto delle righe visualizzate a schermo;
+- `g_`, per espandere la larghezza di tutte le colonne, alla larghezza massima del testo contenuto, tenendo conto delle righe visualizzate a schermo;
 - `z_ + n`, per	impostare la larghezza della colonna corrente a `n` caratteri;
 - `-`, per nascondere la colonna corrente (viene impostata a 0 la sua larghezza);
 - `gv`, per	scoprire tutte le colonne nascoste;
