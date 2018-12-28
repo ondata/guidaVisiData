@@ -55,7 +55,7 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' P
 
 - È **rapido**, apre quasi istantaneamente file di diverse decine di **megabyte**;
 - è **agile**, rende semplice la **ricerca**, il **filtraggio**, l'**ordinamento**,il _**join**_ e la ristrutturazione  di dati tabellari;
-- consente di **avere in pochi passaggi** un **visione di insieme dei dataset** su cui si vuole lavorare;
+- consente di **avere in pochi passaggi** una **visione di insieme dei dataset** su cui si vuole lavorare;
 - apre **molti** dei **formati** **tipici** di testo strutturato (csv, tsv,  xlsx , xls, json, xml, sqlite, shp, html, hdf5, xpt, sas7bdat, sav, dta)
 - si utilizza **soltanto da tastiera**, ed è possibile dimenticarsi del mouse;
 - è free ed _**open source**_.
