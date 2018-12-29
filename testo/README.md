@@ -518,7 +518,7 @@ Ecco ad esempio come creare quella che da conto del numero di mezzi per marca, s
 
 ![](./imgs/24_pivot.png)
 
-Se invece conteggio delle occorrenze si calcolare un altro dato aggregato, come ad esempio l'età media per marca e provincia, si potrà procedere in questo modo:
+Se invece conteggio delle occorrenze si vuole calcolare un altro dato aggregato a partire da un altro campo, come ad esempio l'età media per marca e provincia, si potrà procedere in questo modo:
 
 - si va nella colonna `eta_intestatario` e si imposta a numero intero, pigiando su `#`;
 - si preme `+`, poi in basso a sinistra nel _prompt_ si scrive `avg` e infine si dà `Invio`;
