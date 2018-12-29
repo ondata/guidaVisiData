@@ -35,6 +35,7 @@
         - [Il riepilogo globale](#il-riepilogo-globale)
     - [Salvare un foglio](#salvare-un-foglio)
     - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
+    - [Concatenare tabelle](#concatenare-tabelle)
     - [Tabelle Pivot](#tabelle-pivot)
     - [Moduli Python](#moduli-python)
     - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
@@ -491,6 +492,21 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 - e si ottiene un risultato come quello di sotto.
 
 ![](./imgs/23_join.png)
+
+## Concatenare tabelle
+
+La concatenazione tra due o più tabelle con la stessa struttura si attiva tramite `&`. Ad esempio, a partire dai due file `inputFileOne.csv` e `inputFileTwo.csv`, presenti [qui](https://github.com/ondata/guidaVisiData/tree/master/dati) si procede in questo modo:
+
+- si apre la shell e si va nella cartella che contiene i file da concatenare;
+- si scrive `vd` e si preme `Invio`;
+- si selezionano con `s` i due file;
+- si preme `g+Invio` per aprirli entrambi;
+- si apre il foglio dei fogli con `Shift+s`;
+- si selezionano  `inputFileOne.csv` e `inputFileTwo.csv` con `s`;
+- si preme `&` per attivare la concatenazione;
+- si scrive `append` e poi si preme `Invio`.
+
+Si avrà a video l'unione dei due file di input (in [questo video](http://youtu.be/NJ8FBYI-WGE?hd=1) una replica di quanto descritto).
 
 ## Tabelle Pivot
 
