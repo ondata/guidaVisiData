@@ -518,6 +518,16 @@ Ecco ad esempio come creare quella che da conto del numero di mezzi per marca, s
 
 ![](./imgs/24_pivot.png)
 
+Se invece conteggio delle occorrenze si calcolare un altro dato aggregato, come ad esempio l'età media per marca e provincia, si potrà procedere in questo modo:
+
+- si va nella colonna `eta_intestatario` e si imposta a numero intero, pigiando su `#`;
+- si preme `+`, poi in basso a sinistra nel _prompt_ si scrive `avg` e infine si dà `Invio`;
+si va di nuovo nella colonna `provincia_residenza` e si pigia `Shift+w`.
+
+In output, per ogni provincia, si avrà quindi la media desiderata.
+
+![](./imgs/27_pivot.png)
+
 ## Moduli Python
 
 VisiData è un foglio elettronico basato su Python 3. Questo consente di utilizzare al suo interno la galassia dei moduli disponibili per Python.
@@ -565,7 +575,7 @@ Non sostituisce R o Pandas, ma li può certamente affiancare e spesso precedere 
 
 Lo sviluppatore principale e chi collabora con lui sono molto attenti alle richieste e alle proposte che vengono dall'esterno, in una bella mescolanza di sensibilità "tecnologica" e umana. <br>In queste settimane ho aperto diverse _issue_ a cui è stato dato sempre riscontro. Alcune erano richieste da uomo primitivo, altre erano buone: confesso di essere **orgoglioso** di avere avuto degli effetti nel rilascio dell'ultima versione (la 1.5.1) e di essere citato più volte nelle [note di rilascio](https://github.com/saulpw/visidata/releases/tag/v1.5.1). Ringrazio molto [**Saul Pwanson**](http://saul.pw/) e [**Anja Kefala**](https://github.com/anjakefala).
 
-~~A breve gli proporrò l'integrazione in lettura e scrittura dei [`datapackage`](https://frictionlessdata.io/specs/data-package/), in modo da estendere la qualità e le modalità di lavoro su dati ben descritti e strutturati.~~ [https://github.com/saulpw/visidata/issues/237](https://github.com/saulpw/visidata/issues/237)
+~~A breve gli proporrò l'integrazione in lettura e scrittura dei [`datapackage`](https://frictionlessdata.io/specs/data-package/), in modo da estendere la qualità e le modalità di lavoro su dati ben descritti e strutturati.~~ ([fatto](https://github.com/saulpw/visidata/issues/237))
 
 Qui vorremmo **aggiornare** e **arricchire** nel tempo i testi e si accettano anche **proposte** di **integrazioni**, **correzioni** e **modifiche**.
 
