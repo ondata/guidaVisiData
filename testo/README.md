@@ -500,7 +500,7 @@ La concatenazione tra due o più tabelle con la stessa struttura si attiva trami
 - si apre la shell e si va nella cartella che contiene i file da concatenare;
 - si scrive `vd` e si preme `Invio`;
 - si selezionano con `s` i due file;
-- si preme `g+Invio` per aprirli entrambi;
+- si preme `g Invio` per aprirli entrambi;
 - si apre il foglio dei fogli con `Shift+s`;
 - si selezionano  `inputFileOne.csv` e `inputFileTwo.csv` con `s`;
 - si preme `&` per attivare la concatenazione;
