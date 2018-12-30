@@ -282,7 +282,7 @@ Ecco come farlo:
 
 Per ogni foglio è possibile definire una o più colonne chiave. Hanno due funzioni principali:
 
-- rimangono fissate sul lato sinistra, quando si naviga orizzontalmente sulla tabella;
+- rimangono fissate sul lato sinistro, quando si naviga orizzontalmente sulla tabella;
 - hanno una funzione speciale quando si fanno certe operazioni (come quelle di _JOIN_, per alcuni conteggi, ecc.).
 
 Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di interesse e si pigia `!`.
