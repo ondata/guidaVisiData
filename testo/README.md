@@ -155,7 +155,7 @@ Il foglio correntemente aperto si chiude con `q`.
 
 ## Lavorare sulle righe
 
-La cosa più importante da comprendere è come selezionarle e deselezionarle, perché molte delle operazioni nativamente vengono  eseguite soltanto su quelle attive.
+La cosa più importante da comprendere è come selezionarle e deselezionarle, perché molte delle operazioni vengono  eseguite proprio su quelle selezionate.
 
 I tasti principali di selezione sono:
 
