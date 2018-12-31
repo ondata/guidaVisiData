@@ -12,6 +12,7 @@
         - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
         - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
         - [Spostare righe](#spostare-righe)
+        - [Cancellare righe](#cancellare-righe)
         - [Modificare il contenuto](#modificare-il-contenuto)
     - [Lavorare sulle colonne](#lavorare-sulle-colonne)
         - [Il foglio delle colonne](#il-foglio-delle-colonne)
@@ -211,6 +212,11 @@ Si fa con queste combinazioni:
 
 - `Shift-j`, per spostare la riga corrente verso il basso;
 - `Shift-k`, per spostare la riga corrente verso l'alto.
+
+### Cancellare righe
+
+- `d` per cancellare la riga corrente;
+- `gd` per cancellare le righe selezionate.
 
 ### Modificare il contenuto
 
