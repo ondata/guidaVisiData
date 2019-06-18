@@ -63,6 +63,8 @@ La presentazione ufficiale fa un'ottima sintesi, ma non evidenzia la cosa che mi
 
 Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' Python, sarà possibile usarlo in modo ancora più sorprendente.
 
+[torna su](#indice)
+
 ## Perché usarlo
 
 - È **rapido**, apre quasi istantaneamente file di diverse decine di **megabyte**;
@@ -73,6 +75,8 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' P
 - è free ed _**open source**_.
 
 Apprezzo molto la sua rapidità e come offra in modo agile una visione di insieme sui dati. Questo, affiancato all'utilizzo da tastiera, lo rende un prodotto che dà una marcia in più a chi lo usa.
+
+[torna su](#indice)
 
 ## Supportarne lo sviluppo
 
