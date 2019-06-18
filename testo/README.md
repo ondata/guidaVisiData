@@ -766,7 +766,7 @@ sheet	col	row	longname	input	keystrokes	comment
 
 [`torna su`](#indice)
 
-Il file di sopra è un file di log di VisiData (vedi [sezione dedicata](./#Salvare-un-flusso-di-lavoro)). Tutte le operazioni fatte in VisiData finiscono in un log che può essere visualizzato e salvato. Quindi è possibile salvare la visualizzazione dell'elenco delle tabelle e poi l'apertura di quella di interesse.
+Il file di sopra è un file di log di VisiData (vedi [sezione dedicata](#Salvare-un-flusso-di-lavoro)). Tutte le operazioni fatte in VisiData finiscono in un log che può essere visualizzato e salvato. Quindi è possibile salvare la visualizzazione dell'elenco delle tabelle e poi l'apertura di quella di interesse.
 
 Per creare questo di sopra:
 
