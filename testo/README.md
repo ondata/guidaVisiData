@@ -670,7 +670,7 @@ Note:
 - `-b` è per eseguire VisiData senza interfaccia;
 - `-p dive.vd` per eseguire dei comandi (qui semplicemente l'apertura della tabella a partire dalla finestra iniziale di sopra).
 
-Nel file `dive.vd` c'è il seguente contenuto.
+Nel file [`dive.vd`](./dati/dive.vd) c'è il seguente contenuto.
 
 ```
 sheet	col	row	longname	input	keystrokes	comment
