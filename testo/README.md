@@ -566,6 +566,44 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 
 Per salvare questo file si preme `CTRL+d`, poi si digita il nome del file (di solito con estensione `.vd`) e si preme `Invio`. Per ripetere i comandi salvati nel file il comando da digitare è `vd -p nomeFile.vd`.
 
+## Soluzione piccoli problemi
+
+### Riga attiva di colore nero
+
+Quando si usa VisiData su Windows Subsystem for Linux, la riga attiva risulta invisibile perché tutta nera.
+
+Per fare in modo che torni "visibile" bisogna modificare il file di configurazione di VisiData. Questo file di _default_ non esiste: si deve trovare nella home dell'utente (quindi in `~`) e si deve nominare come `.visidatarc`.
+
+Questi i passi:
+
+```bash
+# vai nella cartella home dell'utente
+cd ~
+# nano è un editor di testo, si installa con "sudo apt-get install nano.
+# Si può esare usare qualsiasi editor per modificare il file
+nano .visidatarc
+```
+
+Si aprirà il file `.visidatarc` a cui bisognerà aggiungere le stringhe sottostanti e poi salvare il file.
+
+```
+options.color_key_col=''
+options.color_selected_row='yellow'
+options.color_note_type='yellow'
+options.color_graph_hidden='blue'
+options.color_column_sep='blue'
+options.null_value=""
+options.color_key_col="blue"
+```
+
+### Caratteri non leggibili Windows Subsystem for Linux
+
+Se si usa VisiData in Windows Subsystem for Linux, alcuni caratteri possono risultare non leggibili. Questo dipende dal font usato.
+
+Bisogna modificarlo come sotto:
+
+![](./imgs/caratteriNonLeggibili.png)
+
 ## Fare proposte e/o Chiedere supporto
 
 Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
@@ -574,7 +612,7 @@ Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/iss
 
 Il grande **Jeremy Singer Vine** lo usa da molto più tempo di me e ha creato la migliore guida introduttiva dedicata in inglese [https://jsvine.github.io/intro-to-visidata/](https://jsvine.github.io/intro-to-visidata/), di cui sono felice di essere nei [ringraziamenti](https://jsvine.github.io/intro-to-visidata/#acknowledgments). Ne ho attinto a piene mani per scrivere questo post e colgo l'occasione per **ringraziarlo di cuore** pubblicamente.
 
-È un'applicazione molto bella, che probabilmente per alcuni diverrà (come è adesso per me) di uso quotidiano. 
+È un'applicazione molto bella, che probabilmente per alcuni diverrà (come è adesso per me) di uso quotidiano.
 <br>[Jeremy](https://jsvine.github.io/intro-to-visidata/the-big-picture/what-is-visidata/#why-not-use-visidata) afferma che per analisi complesse, analisi geospaziali, _data literature_ è meglio usare altro. Mi sembra sensato.
 
 Non sostituisce R o Pandas, ma li può certamente affiancare e spesso precedere nel workflow di lavoro sui dati. È un altro strumento che consiglio di aggiungere nella cassetta degli attrezzi.
