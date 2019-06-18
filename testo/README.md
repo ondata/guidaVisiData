@@ -40,7 +40,7 @@
   - [Tabelle Pivot](#Tabelle-Pivot)
   - [Moduli Python](#Moduli-Python)
   - [Salvare un flusso di lavoro](#Salvare-un-flusso-di-lavoro)
-  - [Soluzione piccoli problemi](#Soluzione-piccoli-problemi)
+  - [Soluzione problemi](#Soluzione-problemi)
     - [Riga attiva di colore nero](#Riga-attiva-di-colore-nero)
     - [Caratteri non leggibili in Windows Subsystem for Linux](#Caratteri-non-leggibili-in-Windows-Subsystem-for-Linux)
   - [Ricette](#Ricette)
@@ -571,7 +571,7 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 
 Per salvare questo file si preme `CTRL+d`, poi si digita il nome del file (di solito con estensione `.vd`) e si preme `Invio`. Per ripetere i comandi salvati nel file il comando da digitare è `vd -p nomeFile.vd`.
 
-## Soluzione piccoli problemi
+## Soluzione problemi
 
 ### Riga attiva di colore nero
 
