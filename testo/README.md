@@ -63,7 +63,7 @@ La presentazione ufficiale fa un'ottima sintesi, ma non evidenzia la cosa che mi
 
 Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' Python, sarà possibile usarlo in modo ancora più sorprendente.
 
-[torna su](#indice)
+[`torna su`](#indice)
 
 ## Perché usarlo
 
@@ -76,7 +76,7 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' P
 
 Apprezzo molto la sua rapidità e come offra in modo agile una visione di insieme sui dati. Questo, affiancato all'utilizzo da tastiera, lo rende un prodotto che dà una marcia in più a chi lo usa.
 
-[torna su](#indice)
+[`torna su`](#indice)
 
 ## Supportarne lo sviluppo
 
@@ -93,6 +93,8 @@ Per gli sviluppatori, per chi usa la riga di comando, [è molto facile](http://v
 Per tutti gli altri, bisogna prima installare _Python 3_, poi aprire il terminale e lanciare il comando di sopra.<br>
 Su Windows non c'è ancora un supporto diretto. È però utilizzabile da chi ha Windows 10: c'è da installare il Windows Linux Subsystem ([decine di guide per farlo](https://www.google.it/search?q=installare+bash+su+windows+10&rlz=1C1GGRV_itIT742IT742&source=lnt&tbs=qdr:y&sa=X&ved=0ahUKEwj3xd7p5rrfAhVJ-6QKHarKC90QpwUIJg&biw=1680&bih=907)), poi installare _Python 3_ nel sistema Linux e infine dare il comando di sopra dal terminale di Linux.
 
+[`torna su`](#indice)
+
 ## Come si usa
 
 VisiData è un **foglio elettronico a riga di comando**. Potrebbe suonare come una contraddizione, perché si accosta qualcosa con interfaccia ricca (come un foglio elettronico) a qualcosa di visualmente molto minimale. In realtà questa è **una delle idee forti** di questa applicazione, che prende il meglio di questi due mondi: l'approccio a griglia e multi tabella del primo, e la rapidità, l'immediatezza, l'essere _easy_ e "subito pronto" di un terminale.
@@ -103,6 +105,8 @@ Di base quindi bisogna prima aprire il terminale. Poi per aprire un file basta s
     vd nomeFile.csv
 
 A seguire soltanto un piccolo estratto sul come usarlo. Per approfondire ho creato un elenco di [URL consigliati](#url-consigliati).
+
+[`torna su`](#indice)
 
 ### Un esempio di apertura di un file grande
 
@@ -123,6 +127,8 @@ Ribadisco però ancora un volta che il "grande" e la valutazione del tempo dipen
 Per chiudere la tabella aperta e Visidata si pigia `q` sulla tastiera.
 
 **NOTA BENE**: questo file con i dati sul "Parco Circolante dei veicoli" in Abruzzo, verrà usato in questa guida come dataset di base. Ne ho pertanto creato una copia di backup [qui](../dati/parco_circolante_Abruzzo.zip).
+
+[`torna su`](#indice)
 
 ### Navigare tra i dati
 
@@ -150,6 +156,8 @@ Con `n` e `N` si va avanti e indietro rispetto agli elementi di _output_ del ris
 
 Infine per saltare a una determinata riga o colonna, rispettivamente `zr` e `zc` seguito dal numero di riga e colonna (la numerazione inizia da zero).
 
+[`torna su`](#indice)
+
 ## I fogli
 
 In VisiData ci sono tre tipi di fogli:
@@ -165,6 +173,8 @@ Il "foglio dei fogli" si apre con `Shift + s` e fornisce le elenco (e alcune inf
 Per rinominarne uno dal "foglio dei fogli", basta selezionarlo, premere `e` e inserire il nuovo nome e poi dare `Invio`. O in alternativa, se si è davanti al foglio che si vuole rinominare, premere la `barra spaziatrice`, scrivere `rename-sheet`, digitare il nuovo nome e infine pigiare su `Invio`.
 
 Il foglio correntemente aperto si chiude con `q`.
+
+[`torna su`](#indice)
 
 ## Lavorare sulle righe
 
@@ -201,6 +211,8 @@ Se ad esempio:
 
 ![](./imgs/04_selezione.png)
 
+[`torna su`](#indice)
+
 ### Selezioni di righe tramite espressioni Python
 
 È possibile fare una selezione di righe tramite un'espressione di Python ([qui](https://docs.python.org/3/tutorial/introduction.html) per approfondire sui concetti di base delle espressioni).
@@ -218,6 +230,8 @@ Ad esempio seguendo questi step:
 - e pigiando su `Invio`.
 
 ... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "F".
+
+[`torna su`](#indice)
 
 ### Spostare righe
 
@@ -241,6 +255,8 @@ Questi i comandi di base:
 - `Control-a`, per andare a inizio linea;
 - `Control-e`, per andare a fine linea;
 - `Control-k`, per cancellare il contenuto a partire dalla posizione del cursore.
+
+[`torna su`](#indice)
 
 ## Lavorare sulle colonne
 
@@ -271,6 +287,8 @@ Per definire il tipo di campo di una colonna della tabella che si sta visualizza
 - `@`, per definire un campo con date (2018-04-06, April 6, 2018, 04/06/2018)
 - `~`, per definire un campo di testo (qualsiasi cosa!)
 
+[`torna su`](#indice)
+
 ### Rinominare le colonne
 
 Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
@@ -290,6 +308,8 @@ Questi gli shortcut:
 - `gv`, per	scoprire tutte le colonne nascoste;
 - `z-`, per	ridurre la larghezza della colonna corrente alla sua metà.
 
+[`torna su`](#indice)
+
 ### Spostare una colonna
 
 Ecco come farlo:
@@ -306,6 +326,8 @@ Per ogni foglio è possibile definire una o più colonne chiave. Hanno due funzi
 
 Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di interesse e si pigia `!`.
 
+[`torna su`](#indice)
+
 ### Manipolare le colonne dal foglio delle colonne
 
 Il foglio delle colonne oltre a dare una visione di insieme, consente di fare delle rapide modifiche in blocco. È possibile spostare le colonne con `Shift-J` e `Shift-K`, rinominarle con `e`, impostare il tipo per tutte quelle selezionate, impostare la larghezza per tutte quelle selezionate.
@@ -321,6 +343,8 @@ Se si vuole impostare a "numero intero" le colonne `progressivo` e `eta_intestat
 Poi premere `g#`.
 
 ![](./imgs/08_foglioColonne.png)
+
+[`torna su`](#indice)
 
 ### Creare una nuova colonna
 
@@ -342,6 +366,8 @@ Ad esempio potrebbe essere utile creare una colonna vero/falso, per tutte le aut
 
 In output qualcosa come quella di sotto, con la nuova colonna risultato di un'espressione Python.
 
+[`torna su`](#indice)
+
 ![](./imgs/15_nuoveColonne.png)
 
 #### Nuove colonne come risultato di splitting
@@ -357,6 +383,8 @@ Se si vuole suddividerla in due colonne (data e orario), si può procedere in qu
 Come output si avrà qualcosa come quella di sotto: due colonne frutto della divisione in più colonne, sfruttando come separatore lo spazio.
 
 ![](./imgs/16_nuoveColonne.png)
+
+[`torna su`](#indice)
 
 #### Nuove colonne come risultato di cattura e estrazione
 
@@ -375,6 +403,8 @@ E si ottiene qualcosa come quella di sotto:
 
 ![](./imgs/17_nuoveColonne.png)
 
+[`torna su`](#indice)
+
 ### Trasformare una colonna tramite espressione regolare
 
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalla colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
@@ -388,6 +418,8 @@ Il risultato sarà qualcosa come quella di sotto:
 
 ![](./imgs/25_trasforma.png)
 
+[`torna su`](#indice)
+
 ### Il foglio delle frequenze
 
 Questa è una delle funzioni che uso di più ed è un'altra gran bell'idea. A partire da una colonna (o dalla combinazione di più d'una) è possibile - con `Shift+f` - aprire un foglio derivato, che contiene dei dati relativi al conteggio per valori distinti di quanto contenuto in quella colonna.
@@ -397,6 +429,8 @@ Se per esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, si voles
 ![](./imgs/09_tabellaFrequenze.png)
 
 I dati sono ordinati per conteggio ed emerge subito come una famosa marca nazionale da sola faccia 1/4 del campione. Così come emerge che c'è un 5% di elementi in cui la marca non è definita e anche questa è un'informazione che ci potrebbe consentire da subito di prendere delle decisioni. <br>Molto comoda anche la colonna `histogram` che da visivamente in modo molto diretto un'idea del rapporto tra i numeri descritti in tabella.
+
+[`torna su`](#indice)
 
 ## Ordinare e filtrare
 
@@ -426,6 +460,8 @@ Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 - si chiude il foglio delle frequenze con `q` e si torna al foglio dati;
 - si pigia `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
 
+[`torna su`](#indice)
+
 ## Riepilogo dei dati
 
 Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qui](#il-foglio-delle-frequenze)).
@@ -433,6 +469,8 @@ Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qu
 È possibile generare un foglio delle frequenze anche basato su più colonne. Per farlo si impostano come colonne chiave ([qui](#come-definire-una-colonna-chiave) come fare) quelle che si vogliono trasformare in "foglio delle frequenze", e poi si pigia `g+Shift+f`. Qui sotto ad esempio un riepilogo per le coppie univoche di `destinazione/alimentazione`.
 
 ![](./imgs/13_riepilogo.png)
+
+[`torna su`](#indice)
 
 ### Aggiunta di aggregatori
 
@@ -450,6 +488,8 @@ Per aggiungere l'aggregatore `q4` al foglio delle frequenze, bisogna seguire que
 
 Inizierà da subito il calcolo (che non è immediato, sono più di un milione di righe) e alla fine si avrà qualcosa come l'immagine di sopra (non è fico VisiData?).
 
+[`torna su`](#indice)
+
 ### Il riepilogo globale
 
 Per avere una visione a "volo d'uccello" sull'intera tabella esiste il comando `Shift+i`, che restituisce un riepilogo statistico per tutte le colonne.<br>
@@ -458,6 +498,8 @@ Se prima di lanciarlo si definiscono correttamente i campi (ad esempio i numeric
 ![](./imgs/14_riepilogo.png)
 
 Questa è un'altra _feature_ di grande comodità (presente in molte applicazione e ambienti per analisi dati), che verrà usata molto da chi lavorerà con VisiData.
+
+[`torna su`](#indice)
 
 ## Salvare un foglio
 
@@ -512,6 +554,8 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 
 ![](./imgs/23_join.png)
 
+[`torna su`](#indice)
+
 ## Concatenare tabelle
 
 La concatenazione tra due o più tabelle con la stessa struttura si attiva tramite `&`. Ad esempio, a partire dai due file `inputFileOne.csv` e `inputFileTwo.csv`, presenti [qui](https://github.com/ondata/guidaVisiData/tree/master/dati) si procede in questo modo:
@@ -526,6 +570,8 @@ La concatenazione tra due o più tabelle con la stessa struttura si attiva trami
 - si scrive `append` e poi si preme `Invio`.
 
 Si avrà a video l'unione dei due file di input (in [questo video](http://youtu.be/NJ8FBYI-WGE?hd=1) una replica di quanto descritto).
+
+[`torna su`](#indice)
 
 ## Tabelle Pivot
 
@@ -546,6 +592,8 @@ si va di nuovo nella colonna `provincia_residenza` e si pigia `Shift+w`.
 In output, per ogni provincia, si avrà quindi la media desiderata.
 
 ![](./imgs/27_pivot.png)
+
+[`torna su`](#indice)
 
 ## Creare un grafico di dispersione (scatter plot)
 
@@ -570,6 +618,8 @@ Per generare il grafico basterà seguire i seguenti passi:
 In output si avrà qualcosa come quella di sotto
 
 ![](./imgs/scatterPlot.png)
+
+[`torna su`](#indice)
 
 ## Moduli Python
 
@@ -596,6 +646,8 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 ![](./imgs/27_moduli.png)
 
 **NOTA BENE**: le funzioni del modulo `datetime` sono disponibili in modo nativo per le colonne già impostate (come tipo) a data. Quanto scritto sopra vale soprattutto come guida al come precaricare e utilizzare un modulo Python in VisiData.
+
+[`torna su`](#indice)
 
 ## Salvare un flusso di lavoro
 
@@ -632,6 +684,8 @@ options.color_column_sep='blue'
 options.null_value=""
 options.color_key_col="blue"
 ```
+
+[`torna su`](#indice)
 
 ### Caratteri non leggibili in Windows Subsystem for Linux
 
@@ -710,6 +764,8 @@ sheet	col	row	longname	input	keystrokes	comment
 -		0	dive-row		^J
 ```
 
+[`torna su`](#indice)
+
 Il file di sopra è un file di log di VisiData (vedi [sezione dedicata](./#Salvare-un-flusso-di-lavoro)). Tutte le operazioni fatte in VisiData finiscono in un log che può essere visualizzato e salvato. Quindi è possibile salvare la visualizzazione dell'elenco delle tabelle e poi l'apertura di quella di interesse.
 
 Per creare questo di sopra:
@@ -738,6 +794,8 @@ Lo sviluppatore principale e chi collabora con lui sono molto attenti alle richi
 
 Qui vorremmo **aggiornare** e **arricchire** nel tempo i testi e si accettano anche **proposte** di **integrazioni**, **correzioni** e **modifiche**.
 
+[`torna su`](#indice)
+
 ---
 
 ## URL consigliati
@@ -747,3 +805,5 @@ Qui vorremmo **aggiornare** e **arricchire** nel tempo i testi e si accettano an
 - la documentazione ufficiale [http://visidata.org/man/](http://visidata.org/man/);
 - la playlist YouTube a cura dell'autore [https://www.youtube.com/playlist?list=PLxu7QdBkC7drrAGfYzatPGVHIpv4Et46W](https://www.youtube.com/playlist?list=PLxu7QdBkC7drrAGfYzatPGVHIpv4Et46W);
 - la lista visuale degli shortcut da tastiera [http://visidata.org/docs/kblayout/](http://visidata.org/docs/kblayout/).
+
+[`torna su`](#indice)
