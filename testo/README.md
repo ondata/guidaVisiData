@@ -42,7 +42,7 @@
   - [Salvare un flusso di lavoro](#Salvare-un-flusso-di-lavoro)
   - [Soluzione piccoli problemi](#Soluzione-piccoli-problemi)
     - [Riga attiva di colore nero](#Riga-attiva-di-colore-nero)
-    - [Caratteri non leggibili Windows Subsystem for Linux](#Caratteri-non-leggibili-Windows-Subsystem-for-Linux)
+    - [Caratteri non leggibili in Windows Subsystem for Linux](#Caratteri-non-leggibili-in-Windows-Subsystem-for-Linux)
   - [Ricette](#Ricette)
     - [Salvare una tabella HTML in CSV, a partire da una pagina web](#Salvare-una-tabella-HTML-in-CSV-a-partire-da-una-pagina-web)
   - [Fare proposte e/o Chiedere supporto](#Fare-proposte-eo-Chiedere-supporto)
@@ -601,7 +601,7 @@ options.null_value=""
 options.color_key_col="blue"
 ```
 
-### Caratteri non leggibili Windows Subsystem for Linux
+### Caratteri non leggibili in Windows Subsystem for Linux
 
 Se si usa VisiData in Windows Subsystem for Linux, alcuni caratteri possono risultare non leggibili. Questo dipende dal font usato.
 
