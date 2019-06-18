@@ -605,7 +605,14 @@ options.color_key_col="blue"
 
 Se si usa VisiData in Windows Subsystem for Linux, alcuni caratteri possono risultare non leggibili. Questo dipende dal font usato.
 
-Bisogna modificarlo come sotto:
+Per cambiarlo:
+
+1. click con il destro del mouse sulla barra;
+2. e scegliere Proprietà.
+
+![](./imgs/cambiareCarattere.png)
+
+Infine si consiglia il font di sotto:
 
 ![](./imgs/caratteriNonLeggibili.png)
 
