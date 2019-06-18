@@ -1,5 +1,8 @@
+# Indice
+
 <!-- TOC -->
 
+- [Indice](#Indice)
 - [VisiData: il coltellino svizzero per i dati, che probabilmente non conosci](#VisiData-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci)
   - [Perché usarlo](#Perch%C3%A9-usarlo)
   - [Supportarne lo sviluppo](#Supportarne-lo-sviluppo)
