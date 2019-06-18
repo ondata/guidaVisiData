@@ -43,9 +43,9 @@
   - [Soluzione piccoli problemi](#Soluzione-piccoli-problemi)
     - [Riga attiva di colore nero](#Riga-attiva-di-colore-nero)
     - [Caratteri non leggibili Windows Subsystem for Linux](#Caratteri-non-leggibili-Windows-Subsystem-for-Linux)
-  - [Fare proposte e/o Chiedere supporto](#Fare-proposte-eo-Chiedere-supporto)
   - [Ricette](#Ricette)
     - [Salvare una tabella HTML in CSV, a partire da una pagina web](#Salvare-una-tabella-HTML-in-CSV-a-partire-da-una-pagina-web)
+  - [Fare proposte e/o Chiedere supporto](#Fare-proposte-eo-Chiedere-supporto)
   - [Note finali](#Note-finali)
   - [URL consigliati](#URL-consigliati)
 
@@ -609,10 +609,6 @@ Bisogna modificarlo come sotto:
 
 ![](./imgs/caratteriNonLeggibili.png)
 
-## Fare proposte e/o Chiedere supporto
-
-Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
-
 ## Ricette
 
 ### Salvare una tabella HTML in CSV, a partire da una pagina web
@@ -683,6 +679,10 @@ Per creare questo di sopra:
 - digitare `INVIO`;
 - digitate `SHIFT + d` per visualizzare il log dei comandi;
 - e infine `CTRL + s` per salvare il file `dive.vd`.
+
+## Fare proposte e/o Chiedere supporto
+
+Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
 
 ## Note finali
 
