@@ -237,8 +237,8 @@ Ad esempio seguendo questi step:
 
 Si fa con queste combinazioni:
 
-- `Shift-j`, per spostare la riga corrente verso il basso;
-- `Shift-k`, per spostare la riga corrente verso l'alto.
+- `Shift+j`, per spostare la riga corrente verso il basso;
+- `Shift+k`, per spostare la riga corrente verso l'alto.
 
 ### Cancellare righe
 
@@ -251,10 +251,10 @@ Questi i comandi di base:
 
 - `e`, per modificare la cella corrente;
 - `Enter`, per chiudere la modifica;
-- `Control-c`, per cancellare la modifica;
-- `Control-a`, per andare a inizio linea;
-- `Control-e`, per andare a fine linea;
-- `Control-k`, per cancellare il contenuto a partire dalla posizione del cursore.
+- `Control+c`, per cancellare la modifica;
+- `Control+a`, per andare a inizio linea;
+- `Control+e`, per andare a fine linea;
+- `Control+k`, per cancellare il contenuto a partire dalla posizione del cursore.
 
 [`torna su`](#indice)
 
