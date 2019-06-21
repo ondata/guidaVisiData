@@ -20,6 +20,7 @@
   - [Lavorare sulle colonne](#Lavorare-sulle-colonne)
     - [Il foglio delle colonne](#Il-foglio-delle-colonne)
     - [Impostare il tipo di campo](#Impostare-il-tipo-di-campo)
+      - [Impostare numero di decimali in un campo floating](#Impostare-numero-di-decimali-in-un-campo-floating)
     - [Rinominare le colonne](#Rinominare-le-colonne)
     - [Come espandere, ridurre e rimuovere colonne](#Come-espandere-ridurre-e-rimuovere-colonne)
     - [Spostare una colonna](#Spostare-una-colonna)
@@ -286,6 +287,25 @@ Per definire il tipo di campo di una colonna della tabella che si sta visualizza
 - `$`, per definire un campo con monete ($4.99, €20)
 - `@`, per definire un campo con date (2018-04-06, April 6, 2018, 04/06/2018)
 - `~`, per definire un campo di testo (qualsiasi cosa!)
+
+[`torna su`](#indice)
+
+#### Impostare numero di decimali in un campo floating
+
+Di *default* i campi floating sono renderizzati con due decimali (la formattazione è impostata come `%.02f`).
+
+Per modificare la cosa si può aprire il foglio delle colonne (`SHIFT+c`) e modificare il valore di formattazione delle colonna `fmtstr` (vedi sotto).
+
+![](./imgs/formatFloating.png)
+
+Per passare a tre decimali per un campo, basterà ad esempio modificare la cella della colonna di interesse da `%.02f` a `%.03f` (in edit di cella si va con il tasto `e`).<br>
+Se si vuole fare su più colonne:
+
+- si apre sempre il foglio delle colonne;
+- si selezionano le colonne di cui si vuole cambiare la formattazione;
+- si va sulla colonna `fmtstr`;
+- si va in modifica globale con `ge` e si inserisce il valore di formattazione desiderato;
+- si preme `INVIO` per applicare la modifica.
 
 [`torna su`](#indice)
 
