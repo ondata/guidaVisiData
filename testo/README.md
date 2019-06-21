@@ -334,8 +334,8 @@ Questi gli shortcut:
 
 Ecco come farlo:
 
-- `Shift-h`, sposta la colonna corrente di una posizione a sinistra;
-- `Shift-l`, sposta la colonna corrente di una posizione a destra.
+- `Shift+h`, sposta la colonna corrente di una posizione a sinistra;
+- `Shift+l`, sposta la colonna corrente di una posizione a destra.
 
 ### Come definire una colonna chiave
 
@@ -350,7 +350,7 @@ Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di in
 
 ### Manipolare le colonne dal foglio delle colonne
 
-Il foglio delle colonne oltre a dare una visione di insieme, consente di fare delle rapide modifiche in blocco. È possibile spostare le colonne con `Shift-J` e `Shift-K`, rinominarle con `e`, impostare il tipo per tutte quelle selezionate, impostare la larghezza per tutte quelle selezionate.
+Il foglio delle colonne oltre a dare una visione di insieme, consente di fare delle rapide modifiche in blocco. È possibile spostare le colonne con `Shift+j` e `Shift+k`, rinominarle con `e`, impostare il tipo per tutte quelle selezionate, impostare la larghezza per tutte quelle selezionate.
 
 Ad esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, il foglio colonne (`Shift+c`) appare in questo modo.
 
