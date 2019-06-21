@@ -167,7 +167,7 @@ In VisiData ci sono tre tipi di fogli:
 - i fogli derivati, come quelli derivanti da filtraggio o la tabelle con le frequenze (vedi sotto);
 - i metafogli, che descrivono e definiscono i dataset caricati (come quello che descrive ad esempio le colonne di una tabella, o il "foglio dei fogli").
 
-Il "foglio dei fogli" si apre con `Shift + s` e fornisce le elenco (e alcune informazioni correlate) di tutti i fogli aperti. Selezionandone uno e pigiando `Invio`, quest'ultimo si aprirà.
+Il "foglio dei fogli" si apre con `Shift + s` e fornisce l'elenco (e alcune informazioni correlate) di tutti i fogli aperti. Selezionandone uno e pigiando `Invio`, quest'ultimo si aprirà.
 
 ![](./imgs/02_foglioDeiFogli.png)
 
