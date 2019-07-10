@@ -7,6 +7,7 @@
   - [Perché usarlo](#Perch%C3%A9-usarlo)
   - [Supportarne lo sviluppo](#Supportarne-lo-sviluppo)
   - [Come si installa](#Come-si-installa)
+  - [Cheat-sheet](#Cheat-sheet)
   - [Come si usa](#Come-si-usa)
     - [Un esempio di apertura di un file grande](#Un-esempio-di-apertura-di-un-file-grande)
     - [Navigare tra i dati](#Navigare-tra-i-dati)
@@ -95,6 +96,13 @@ Per tutti gli altri, bisogna prima installare _Python 3_, poi aprire il terminal
 Su Windows non c'è ancora un supporto diretto. È però utilizzabile da chi ha Windows 10: c'è da installare il Windows Linux Subsystem ([decine di guide per farlo](https://www.google.it/search?q=installare+bash+su+windows+10&rlz=1C1GGRV_itIT742IT742&source=lnt&tbs=qdr:y&sa=X&ved=0ahUKEwj3xd7p5rrfAhVJ-6QKHarKC90QpwUIJg&biw=1680&bih=907)), poi installare _Python 3_ nel sistema Linux e infine dare il comando di sopra dal terminale di Linux.
 
 [`torna su`](#indice)
+
+## Cheat-sheet
+
+Abbiamo tradotto in italiano il *cheat-sheet* di VisiData, creato da Jeremy Singer Vine, disponibile in [HTML](https://jsvine.github.io/visidata-cheat-sheet/it/) e [PDF](https://jsvine.github.io/visidata-cheat-sheet/downloads/visidata-cheat-sheet.it.pdf).
+
+[![](./imgs/cheatSheetVisiData.png)](https://jsvine.github.io/visidata-cheat-sheet/it/)
+
 
 ## Come si usa
 
