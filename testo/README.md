@@ -122,7 +122,7 @@ Di base quindi bisogna prima aprire il terminale. Poi per aprire un file basta s
 
 A seguire soltanto un piccolo estratto sul come usarlo. Per approfondire ho creato un elenco di [URL consigliati](#url-consigliati).
 
-VisiData si usa al 99% con la tastiera, quindi è bene che il <kbd>Caps Lock</kbd> non sia attivo: gli *shortcut* da tastiera non funzionerebbeo correttamente (grazie [Salvatore Fiandaca](https://twitter.com/totofiandaca) per la nota).
+VisiData si usa al 99% con la tastiera, quindi è bene che il <kbd>Caps Lock</kbd> non sia attivo: gli *shortcut* da tastiera non funzionerebbero correttamente (grazie [Salvatore Fiandaca](https://twitter.com/totofiandaca) per la nota).
 
 [`torna su`](#indice)
 
