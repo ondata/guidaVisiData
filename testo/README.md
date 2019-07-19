@@ -479,6 +479,8 @@ Digitare <kbd>gz*</kbd> e poi scrivere `stringa da trovare`/`stringa da sostitui
 
 Se ad esempio volessi sostituire la stringa `pal` con `mis`, dovrei scrivere `pal/mis`.
 
+È possibile usare anche le espressioni regolari.
+
 ## Ordinare e filtrare
 
 ### Ordinare righe
