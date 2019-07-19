@@ -34,6 +34,8 @@
       - [Nuove colonne come risultato di cattura e estrazione](#Nuove-colonne-come-risultato-di-cattura-e-estrazione)
     - [Trasformare una colonna tramite espressione regolare](#Trasformare-una-colonna-tramite-espressione-regolare)
     - [Il foglio delle frequenze](#Il-foglio-delle-frequenze)
+  - [Lavorare sulle celle](#Lavorare-sulle-celle)
+    - [Fare un trova e sostituisci globale](#Fare-un-trova-e-sostituisci-globale)
   - [Ordinare e filtrare](#Ordinare-e-filtrare)
     - [Ordinare righe](#Ordinare-righe)
     - [Filtrare righe](#Filtrare-righe)
@@ -468,6 +470,14 @@ Se per esempio a partire dal Parco Circolante dei veicoli dell'Abruzzo, si voles
 I dati sono ordinati per conteggio ed emerge subito come una famosa marca nazionale da sola faccia 1/4 del campione. Così come emerge che c'è un 5% di elementi in cui la marca non è definita e anche questa è un'informazione che ci potrebbe consentire da subito di prendere delle decisioni. <br>Molto comoda anche la colonna `histogram` che da visivamente in modo molto diretto un'idea del rapporto tra i numeri descritti in tabella.
 
 [`torna su`](#indice)
+
+## Lavorare sulle celle
+
+### Fare un trova e sostituisci globale
+
+Digitare <kbd>gz*</kbd> e poi scrivere `stringa da trovare`/`stringa da sostituire` e dare <kbd>INVIO</kbd>.
+
+Se ad esempio volessi sostituire la stringa `pal` con `mis`, dovrei scrivere `pal/mis`.
 
 ## Ordinare e filtrare
 
