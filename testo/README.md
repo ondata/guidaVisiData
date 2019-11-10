@@ -2,61 +2,61 @@
 
 <!-- TOC -->
 
-- [Indice](#Indice)
-- [VisiData: il coltellino svizzero per i dati, che probabilmente non conosci](#VisiData-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci)
-  - [Perché usarlo](#Perch%C3%A9-usarlo)
-  - [Supportarne lo sviluppo](#Supportarne-lo-sviluppo)
-  - [Come si installa](#Come-si-installa)
-  - [Cheat-sheet](#Cheat-sheet)
-    - [La versione fronte retro a cura di Gianni Vitrano](#La-versione-fronte-retro-a-cura-di-Gianni-Vitrano)
-  - [Come si usa](#Come-si-usa)
-    - [Un esempio di apertura di un file grande](#Un-esempio-di-apertura-di-un-file-grande)
-    - [Navigare tra i dati](#Navigare-tra-i-dati)
-  - [I fogli](#I-fogli)
-  - [Lavorare sulle righe](#Lavorare-sulle-righe)
-    - [Selezioni di righe tramite espressione regolare](#Selezioni-di-righe-tramite-espressione-regolare)
-    - [Selezioni di righe tramite espressioni Python](#Selezioni-di-righe-tramite-espressioni-Python)
-    - [Spostare righe](#Spostare-righe)
-    - [Cancellare righe](#Cancellare-righe)
-    - [Modificare il contenuto](#Modificare-il-contenuto)
-  - [Lavorare sulle colonne](#Lavorare-sulle-colonne)
-    - [Il foglio delle colonne](#Il-foglio-delle-colonne)
-    - [Impostare il tipo di campo](#Impostare-il-tipo-di-campo)
-      - [Impostare numero di decimali in un campo floating](#Impostare-numero-di-decimali-in-un-campo-floating)
-    - [Rinominare le colonne](#Rinominare-le-colonne)
-    - [Come espandere, ridurre e rimuovere colonne](#Come-espandere-ridurre-e-rimuovere-colonne)
-    - [Spostare una colonna](#Spostare-una-colonna)
-    - [Come definire una colonna chiave](#Come-definire-una-colonna-chiave)
-    - [Manipolare le colonne dal foglio delle colonne](#Manipolare-le-colonne-dal-foglio-delle-colonne)
-    - [Creare una nuova colonna](#Creare-una-nuova-colonna)
-      - [Nuova colonna tramite espressione](#Nuova-colonna-tramite-espressione)
-      - [Nuove colonne come risultato di splitting](#Nuove-colonne-come-risultato-di-splitting)
-      - [Nuove colonne come risultato di cattura e estrazione](#Nuove-colonne-come-risultato-di-cattura-e-estrazione)
-    - [Trasformare una colonna tramite espressione regolare](#Trasformare-una-colonna-tramite-espressione-regolare)
-    - [Il foglio delle frequenze](#Il-foglio-delle-frequenze)
-  - [Lavorare sulle celle](#Lavorare-sulle-celle)
-    - [Fare un trova e sostituisci globale](#Fare-un-trova-e-sostituisci-globale)
-  - [Ordinare e filtrare](#Ordinare-e-filtrare)
-    - [Ordinare righe](#Ordinare-righe)
-    - [Filtrare righe](#Filtrare-righe)
-  - [Riepilogo dei dati](#Riepilogo-dei-dati)
-    - [Aggiunta di aggregatori](#Aggiunta-di-aggregatori)
-    - [Il riepilogo globale](#Il-riepilogo-globale)
-  - [Salvare un foglio](#Salvare-un-foglio)
-  - [Fare JOIN tra tabelle](#Fare-JOIN-tra-tabelle)
-  - [Concatenare tabelle](#Concatenare-tabelle)
-  - [Tabelle Pivot](#Tabelle-Pivot)
-  - [Creare un grafico di dispersione (scatter plot)](#Creare-un-grafico-di-dispersione-scatter-plot)
-  - [Moduli Python](#Moduli-Python)
-  - [Salvare un flusso di lavoro](#Salvare-un-flusso-di-lavoro)
-  - [Soluzione problemi](#Soluzione-problemi)
-    - [Riga attiva di colore nero](#Riga-attiva-di-colore-nero)
-    - [Caratteri non leggibili in Windows Subsystem for Linux](#Caratteri-non-leggibili-in-Windows-Subsystem-for-Linux)
-  - [Ricette](#Ricette)
-    - [Salvare una tabella HTML in CSV, a partire da una pagina web](#Salvare-una-tabella-HTML-in-CSV-a-partire-da-una-pagina-web)
-  - [Fare proposte e/o Chiedere supporto](#Fare-proposte-eo-Chiedere-supporto)
-  - [Note finali](#Note-finali)
-  - [URL consigliati](#URL-consigliati)
+- [Indice](#indice)
+- [VisiData: il coltellino svizzero per i dati, che probabilmente non conosci](#visidata-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci)
+  - [Perché usarlo](#perché-usarlo)
+  - [Supportarne lo sviluppo](#supportarne-lo-sviluppo)
+  - [Come si installa](#come-si-installa)
+  - [Cheat-sheet](#cheat-sheet)
+    - [La versione fronte retro a cura di Gianni Vitrano](#la-versione-fronte-retro-a-cura-di-gianni-vitrano)
+  - [Come si usa](#come-si-usa)
+    - [Un esempio di apertura di un file grande](#un-esempio-di-apertura-di-un-file-grande)
+    - [Navigare tra i dati](#navigare-tra-i-dati)
+  - [I fogli](#i-fogli)
+  - [Lavorare sulle righe](#lavorare-sulle-righe)
+    - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
+    - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
+    - [Spostare righe](#spostare-righe)
+    - [Cancellare righe](#cancellare-righe)
+    - [Modificare il contenuto](#modificare-il-contenuto)
+  - [Lavorare sulle colonne](#lavorare-sulle-colonne)
+    - [Il foglio delle colonne](#il-foglio-delle-colonne)
+    - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
+      - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
+    - [Rinominare le colonne](#rinominare-le-colonne)
+    - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
+    - [Spostare una colonna](#spostare-una-colonna)
+    - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
+    - [Manipolare le colonne dal foglio delle colonne](#manipolare-le-colonne-dal-foglio-delle-colonne)
+    - [Creare una nuova colonna](#creare-una-nuova-colonna)
+      - [Nuova colonna tramite espressione](#nuova-colonna-tramite-espressione)
+      - [Nuove colonne come risultato di splitting](#nuove-colonne-come-risultato-di-splitting)
+      - [Nuove colonne come risultato di cattura e estrazione](#nuove-colonne-come-risultato-di-cattura-e-estrazione)
+    - [Trasformare una colonna tramite espressione regolare](#trasformare-una-colonna-tramite-espressione-regolare)
+    - [Il foglio delle frequenze](#il-foglio-delle-frequenze)
+  - [Lavorare sulle celle](#lavorare-sulle-celle)
+    - [Fare un trova e sostituisci globale](#fare-un-trova-e-sostituisci-globale)
+  - [Ordinare e filtrare](#ordinare-e-filtrare)
+    - [Ordinare righe](#ordinare-righe)
+    - [Filtrare righe](#filtrare-righe)
+  - [Riepilogo dei dati](#riepilogo-dei-dati)
+    - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
+    - [Il riepilogo globale](#il-riepilogo-globale)
+  - [Salvare un foglio](#salvare-un-foglio)
+  - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
+  - [Concatenare tabelle](#concatenare-tabelle)
+  - [Tabelle Pivot](#tabelle-pivot)
+  - [Creare un grafico di dispersione (scatter plot)](#creare-un-grafico-di-dispersione-scatter-plot)
+  - [Moduli Python](#moduli-python)
+  - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
+  - [Soluzione problemi](#soluzione-problemi)
+    - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
+    - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
+  - [Ricette](#ricette)
+    - [Salvare una tabella HTML in CSV, a partire da una pagina web](#salvare-una-tabella-html-in-csv-a-partire-da-una-pagina-web)
+  - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
+  - [Note finali](#note-finali)
+  - [URL consigliati](#url-consigliati)
 
 <!-- /TOC -->
 
@@ -508,6 +508,26 @@ Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 - si selezionano ad esempio tre marche, pigiando `s` per ognuna;
 - si chiude il foglio delle frequenze con `q` e si torna al foglio dati;
 - si pigia `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
+
+Infine è possibile **filtrare** tramite un'**`espressione` Python** ([qui](https://docs.python.org/3/reference/expressions.html) la documentazione ufficiale e [qui](https://realpython.com/python-operators-expressions/) una guida che consiglio).
+Se ad esempio dalla tabella di sotto si volessero soltanto le province con più di 350.000 abitanti
+
+![](./imgs/28_filtro.png)
+
+basterebbe:
+
+- per prima cosa impostare il campo `Popolazione` come numerico, pigiando <kbd>#</kbd>;
+- pigiare `z|` per attivare il filtro tramite espressione Python;
+- scrivere l'espressione basata sulla colonna, che qui è `Popolazione>350000` e poi premere <kbd>INVIO</kbd>.
+
+In output si avrà la selezione di tutte le righe che risolvono l'espressione scritta.
+
+![](./imgs/29_filtro.png)
+
+Note:
+
+- nel filtro per espressione c'è l'autocompletamento del nome colonna, quinsi se si scrive ad esempio `Pop` e poi si fa click su <kbd>TAB</kbd>, viene restituito a schermo `Popolazione`;
+- è possibile scrivere espressioni complesse, che fanno riferimento a più colonne.
 
 [`torna su`](#indice)
 
