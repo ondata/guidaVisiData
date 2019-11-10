@@ -531,7 +531,7 @@ In output si avrà la selezione di tutte le righe che risolvono l'espressione sc
 
 Note:
 
-- nel filtro per espressione c'è l'autocompletamento del nome colonna, quinsi se si scrive ad esempio `Pop` e poi si fa click su <kbd>TAB</kbd>, viene restituito a schermo `Popolazione`;
+- nel filtro per espressione c'è l'autocompletamento del nome colonna, quindi se si scrive ad esempio `Pop` e poi si fa click su <kbd>TAB</kbd>, viene restituito a schermo `Popolazione`;
 - è possibile scrivere espressioni complesse, che fanno riferimento a più colonne.
 
 [`torna su`](#indice)
