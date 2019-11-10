@@ -39,6 +39,7 @@
   - [Ordinare e filtrare](#ordinare-e-filtrare)
     - [Ordinare righe](#ordinare-righe)
     - [Filtrare righe](#filtrare-righe)
+      - [Filtro tramite espressione Python](#filtro-tramite-espressione-python)
   - [Riepilogo dei dati](#riepilogo-dei-dati)
     - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
     - [Il riepilogo globale](#il-riepilogo-globale)
@@ -509,7 +510,11 @@ Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 - si chiude il foglio delle frequenze con `q` e si torna al foglio dati;
 - si pigia `"` e si ottiene una tabella filtrata con i dati relativi alle sole tre marche selezionate prima.
 
-Infine è possibile **filtrare** tramite un'**`espressione` Python** ([qui](https://docs.python.org/3/reference/expressions.html) la documentazione ufficiale e [qui](https://realpython.com/python-operators-expressions/) una guida che consiglio).
+[`torna su`](#indice)
+
+#### Filtro tramite espressione Python
+
+È possibile **filtrare** righe tramite un'**`espressione` Python** ([qui](https://docs.python.org/3/reference/expressions.html) la documentazione ufficiale e [qui](https://realpython.com/python-operators-expressions/) una guida che consiglio).
 Se ad esempio dalla tabella di sotto si volessero soltanto le province con più di 350.000 abitanti
 
 ![](./imgs/28_filtro.png)
