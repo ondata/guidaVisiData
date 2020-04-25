@@ -447,8 +447,9 @@ E si ottiene qualcosa come quella di sotto:
 
 ### Trasformare una colonna tramite espressione regolare
 
-Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalla colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
+Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalle celle della colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
+- si selezionano le righe su cui si vuole fare questa trasformazione (se sono tutte il comando è `gs`);
 - si va nella colonna `data_immatricolazione`;
 - si pigia su `g*`;
 - si scrive nel prompt ` .*$/`. Il simbolo `/` in VisiData separa ciò che si cerca, da ciò con cui si vuole sostituire. Qui si cerca uno spazio (` `), seguito da qualsiasi carattere sino a fine cella (`.*$`), e si vuole sostituire con nulla;
@@ -457,6 +458,8 @@ Su ogni colonna è possibile fare delle trasformazioni basate su espressioni reg
 Il risultato sarà qualcosa come quella di sotto:
 
 ![](./imgs/25_trasforma.png)
+
+Questo è un "trova e sostituisci" per colonna.
 
 [`torna su`](#indice)
 
