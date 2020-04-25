@@ -345,7 +345,7 @@ Può essere utile ad esempio anteporre dei caratteri a tutte le colonne che iniz
 Questi i passi:
 
 - si apre il foglio colonne con `shift + c`;
-- si va nella colonna con il nome delle colonne;
+- si va nella colonna con il nome delle colonne (è la prima);
 - si digita `|`, si scrive `^t` e si pigia `INVIO` (saranno selezionate tutte le colonne che iniziano con il carattere `t`);
 - si pigia `g*`, per attivare il trova e sostituisci via *regex*;
 - si scrive `^(t.+)/TR_\1` e poi `INVIO`.
