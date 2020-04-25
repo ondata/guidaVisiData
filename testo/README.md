@@ -350,7 +350,7 @@ Questi i passi:
 - si pigia `g*`, per attivare il trova e sostituisci via *regex*;
 - si scrive `^(t.+)/TR_\1` e poi `INVIO`.
 
-Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al precedente, con `TR_` come prefisso. La colonna `tabacco`, diventerà ad esempio `TR_tabacco`.
+Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al precedente, con `TR_` come prefisso. La colonna `tabacco`, diventerebbe ad esempio `TR_tabacco`.
 
 ### Come espandere, ridurre e rimuovere colonne
 
