@@ -352,6 +352,8 @@ Questi i passi:
 
 Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al precedente, con `TR_` come prefisso. La colonna `tabacco`, diventerebbe ad esempio `TR_tabacco`.
 
+[`torna su`](#indice)
+
 ### Come espandere, ridurre e rimuovere colonne
 
 Questi gli shortcut:
