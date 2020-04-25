@@ -24,6 +24,7 @@
     - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
       - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
     - [Rinominare le colonne](#rinominare-le-colonne)
+    - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
     - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
     - [Spostare una colonna](#spostare-una-colonna)
     - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
@@ -336,6 +337,20 @@ Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 - si pigia `^`;
 - si digita il nome che si vuole assegnare;
 - si pigia `Invio`.
+
+### Rinominare le colonne in blocco
+
+Può essere utile ad esempio anteporre dei caratteri a tutte le colonne che iniziano per `t`.
+
+Questi i passi:
+
+- si apre il foglio colonne con `shift + c`;
+- si va nella colonna con il nome delle colonne;
+- si digita `|`, si scrive `^t` e si pigia `INVIO` (saranno selezionate tutte le colonne che iniziano con il carattere `t`);
+- si pigia `g*`, per attivare il trova e sostituisci via *regex*;
+- si scrive `^(t.+)/TR_\1` e poi `INVIO`.
+
+Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al precedente, con `TR_` come prefisso. La colonna `tabacco`, diventare ad esempio `TR_tabacco`.
 
 ### Come espandere, ridurre e rimuovere colonne
 
