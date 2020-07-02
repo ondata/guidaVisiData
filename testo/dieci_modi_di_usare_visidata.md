@@ -1,6 +1,14 @@
 
 ![](https://pigrecoinfinito.files.wordpress.com/2019/07/vdlogo.png)
 
+<br>
+
+**NOTA BENE**: Questa pagina si deve a [**Salvatore Fiandaca**](https://twitter.com/totofiandaca), che ha tradotto in italiano [10 Ways to Use VisiData](https://www.visidata.org/blog/2020/ten/. Grazie
+)
+
+[`torna alla guida`](./README.md)
+
+
 # 10 Modi di usare Visidata
 
 ## 1. esplora i set di dati senza sforzo, indipendentemente dal formato
@@ -77,6 +85,8 @@ Modifica i nomi dei file ([documentazione sui comandi di modifica](https://www.v
 ## 10. vedi tutte le opzioni e i comandi disponibili
 
 Esistono molti altri modi per utilizzare **VisiData!** Per saperne di più, premi <kbd>Ctrl H</kbd> per vedere la [manpage](https://www.visidata.org/man) o <kbd>z Ctrl+H</kbd> per vedere l'elenco completo dei comandi disponibili sul foglio corrente.
+
+[`torna alla guida`](./README.md)
 
 **[scritto da Saul Pwanson 2020-05-01]**
 

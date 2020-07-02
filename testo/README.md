@@ -1,64 +1,64 @@
-# Indice
+## Indice
 
 <!-- TOC -->
 
-- [Indice](#indice)
 - [VisiData: il coltellino svizzero per i dati, che probabilmente non conosci](#visidata-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci)
   - [Perché usarlo](#perché-usarlo)
   - [Supportarne lo sviluppo](#supportarne-lo-sviluppo)
   - [Come si installa](#come-si-installa)
   - [Cheat-sheet](#cheat-sheet)
     - [La versione fronte retro a cura di Gianni Vitrano](#la-versione-fronte-retro-a-cura-di-gianni-vitrano)
-  - [Come si usa](#come-si-usa)
-    - [Un esempio di apertura di un file grande](#un-esempio-di-apertura-di-un-file-grande)
-    - [Navigare tra i dati](#navigare-tra-i-dati)
-  - [I fogli](#i-fogli)
-  - [Lavorare sulle righe](#lavorare-sulle-righe)
-    - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
-    - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
-    - [Spostare righe](#spostare-righe)
-    - [Cancellare righe](#cancellare-righe)
-    - [Modificare il contenuto](#modificare-il-contenuto)
-  - [Lavorare sulle colonne](#lavorare-sulle-colonne)
-    - [Il foglio delle colonne](#il-foglio-delle-colonne)
-    - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
-      - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
-    - [Rinominare le colonne](#rinominare-le-colonne)
-    - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
-    - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
-    - [Spostare una colonna](#spostare-una-colonna)
-    - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
-    - [Manipolare le colonne dal foglio delle colonne](#manipolare-le-colonne-dal-foglio-delle-colonne)
-    - [Creare una nuova colonna](#creare-una-nuova-colonna)
-      - [Nuova colonna tramite espressione](#nuova-colonna-tramite-espressione)
-      - [Nuove colonne come risultato di splitting](#nuove-colonne-come-risultato-di-splitting)
-      - [Nuove colonne come risultato di cattura e estrazione](#nuove-colonne-come-risultato-di-cattura-e-estrazione)
-    - [Trasformare una colonna tramite espressione regolare](#trasformare-una-colonna-tramite-espressione-regolare)
-    - [Il foglio delle frequenze](#il-foglio-delle-frequenze)
-  - [Lavorare sulle celle](#lavorare-sulle-celle)
-    - [Fare un trova e sostituisci globale](#fare-un-trova-e-sostituisci-globale)
-  - [Ordinare e filtrare](#ordinare-e-filtrare)
-    - [Ordinare righe](#ordinare-righe)
-    - [Filtrare righe](#filtrare-righe)
-      - [Filtro tramite espressione Python](#filtro-tramite-espressione-python)
-  - [Riepilogo dei dati](#riepilogo-dei-dati)
-    - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
-    - [Il riepilogo globale](#il-riepilogo-globale)
-  - [Salvare un foglio](#salvare-un-foglio)
-  - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
-  - [Concatenare tabelle](#concatenare-tabelle)
-  - [Tabelle Pivot](#tabelle-pivot)
-  - [Creare un grafico di dispersione (scatter plot)](#creare-un-grafico-di-dispersione-scatter-plot)
-  - [Moduli Python](#moduli-python)
-  - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
-  - [Soluzione problemi](#soluzione-problemi)
-    - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
-    - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
-  - [Ricette](#ricette)
-    - [Salvare una tabella HTML in CSV, a partire da una pagina web](#salvare-una-tabella-html-in-csv-a-partire-da-una-pagina-web)
-  - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
-  - [Note finali](#note-finali)
-  - [URL consigliati](#url-consigliati)
+  - [10 Modi di usare Visidata](#10-modi-di-usare-visidata)
+  - [La guida](#la-guida)
+      - [Un esempio di apertura di un file grande](#un-esempio-di-apertura-di-un-file-grande)
+      - [Navigare tra i dati](#navigare-tra-i-dati)
+    - [I fogli](#i-fogli)
+    - [Lavorare sulle righe](#lavorare-sulle-righe)
+      - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
+      - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
+      - [Spostare righe](#spostare-righe)
+      - [Cancellare righe](#cancellare-righe)
+      - [Modificare il contenuto](#modificare-il-contenuto)
+    - [Lavorare sulle colonne](#lavorare-sulle-colonne)
+      - [Il foglio delle colonne](#il-foglio-delle-colonne)
+      - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
+        - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
+      - [Rinominare le colonne](#rinominare-le-colonne)
+      - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
+      - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
+      - [Spostare una colonna](#spostare-una-colonna)
+      - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
+      - [Manipolare le colonne dal foglio delle colonne](#manipolare-le-colonne-dal-foglio-delle-colonne)
+      - [Creare una nuova colonna](#creare-una-nuova-colonna)
+        - [Nuova colonna tramite espressione](#nuova-colonna-tramite-espressione)
+        - [Nuove colonne come risultato di splitting](#nuove-colonne-come-risultato-di-splitting)
+        - [Nuove colonne come risultato di cattura e estrazione](#nuove-colonne-come-risultato-di-cattura-e-estrazione)
+      - [Trasformare una colonna tramite espressione regolare](#trasformare-una-colonna-tramite-espressione-regolare)
+      - [Il foglio delle frequenze](#il-foglio-delle-frequenze)
+    - [Lavorare sulle celle](#lavorare-sulle-celle)
+      - [Fare un trova e sostituisci globale](#fare-un-trova-e-sostituisci-globale)
+    - [Ordinare e filtrare](#ordinare-e-filtrare)
+      - [Ordinare righe](#ordinare-righe)
+      - [Filtrare righe](#filtrare-righe)
+        - [Filtro tramite espressione Python](#filtro-tramite-espressione-python)
+    - [Riepilogo dei dati](#riepilogo-dei-dati)
+      - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
+      - [Il riepilogo globale](#il-riepilogo-globale)
+    - [Salvare un foglio](#salvare-un-foglio)
+    - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
+    - [Concatenare tabelle](#concatenare-tabelle)
+    - [Tabelle Pivot](#tabelle-pivot)
+    - [Creare un grafico di dispersione (scatter plot)](#creare-un-grafico-di-dispersione-scatter-plot)
+    - [Moduli Python](#moduli-python)
+    - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
+    - [Soluzione problemi](#soluzione-problemi)
+      - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
+      - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
+    - [Ricette](#ricette)
+      - [Salvare una tabella HTML in CSV, a partire da una pagina web](#salvare-una-tabella-html-in-csv-a-partire-da-una-pagina-web)
+    - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
+    - [Note finali](#note-finali)
+    - [URL consigliati](#url-consigliati)
 
 <!-- /TOC -->
 
@@ -114,8 +114,11 @@ Abbiamo tradotto in italiano il *cheat-sheet* di VisiData, creato da Jeremy Sing
 
 [`torna su`](#indice)
 
+## 10 Modi di usare Visidata
 
-## Come si usa
+[**Dieci esempi rapidi**](./dieci_modi_di_usare_visidata.md), che mostrano cosa è possibile fare con VisiData. È una sezione a cura di [**Salvatore Fiandaca**](https://twitter.com/totofiandaca) (grazie).
+
+## La guida
 
 VisiData è un **foglio elettronico a riga di comando**. Potrebbe suonare come una contraddizione, perché si accosta qualcosa con interfaccia ricca (come un foglio elettronico) a qualcosa di visualmente molto minimale. In realtà questa è **una delle idee forti** di questa applicazione, che prende il meglio di questi due mondi: l'approccio a griglia e multi tabella del primo, e la rapidità, l'immediatezza, l'essere _easy_ e "subito pronto" di un terminale.
 
@@ -130,7 +133,7 @@ VisiData si usa al 99% con la tastiera, quindi è bene che il <kbd>Caps Lock</kb
 
 [`torna su`](#indice)
 
-### Un esempio di apertura di un file grande
+#### Un esempio di apertura di un file grande
 
 "Grande" in informatica non vuol dire niente, è come "salato" con un piatto di pasta.
 
@@ -152,7 +155,7 @@ Per chiudere la tabella aperta e Visidata si pigia `q` sulla tastiera.
 
 [`torna su`](#indice)
 
-### Navigare tra i dati
+#### Navigare tra i dati
 
 Per muoversi tra le celle si usano le 4 frecce direzionali dalla tastiera o (come vim, da cui nell'uso da tastiera VisiData prende molta ispirazione) `h`,`j`,`k`,`l`.
 
@@ -180,7 +183,7 @@ Infine per saltare a una determinata riga o colonna, rispettivamente `zr` e `zc`
 
 [`torna su`](#indice)
 
-## I fogli
+### I fogli
 
 In VisiData ci sono tre tipi di fogli:
 
@@ -198,7 +201,7 @@ Il foglio correntemente aperto si chiude con `q`.
 
 [`torna su`](#indice)
 
-## Lavorare sulle righe
+### Lavorare sulle righe
 
 La cosa più importante da comprendere è come selezionarle e deselezionarle, perché molte delle operazioni vengono  eseguite proprio su quelle selezionate.
 
@@ -213,7 +216,7 @@ I tasti principali di selezione sono:
 
 ![](./imgs/03_selezione.png)
 
-### Selezioni di righe tramite espressione regolare
+#### Selezioni di righe tramite espressione regolare
 
 - `| + termine da ricercare`, seleziona tutte le righe in cui c'è corrispondenza per la colonna corrente;
 - `\ + termine da ricercare`, deseleziona tutte le righe in cui c'è corrispondenza per la colonna corrente;
@@ -235,7 +238,7 @@ Se ad esempio:
 
 [`torna su`](#indice)
 
-### Selezioni di righe tramite espressioni Python
+#### Selezioni di righe tramite espressioni Python
 
 È possibile fare una selezione di righe tramite un'espressione di Python ([qui](https://docs.python.org/3/tutorial/introduction.html) per approfondire sui concetti di base delle espressioni).
 
@@ -255,19 +258,19 @@ Ad esempio seguendo questi step:
 
 [`torna su`](#indice)
 
-### Spostare righe
+#### Spostare righe
 
 Si fa con queste combinazioni:
 
 - `Shift+j`, per spostare la riga corrente verso il basso;
 - `Shift+k`, per spostare la riga corrente verso l'alto.
 
-### Cancellare righe
+#### Cancellare righe
 
 - `d` per cancellare la riga corrente;
 - `gd` per cancellare le righe selezionate.
 
-### Modificare il contenuto
+#### Modificare il contenuto
 
 Questi i comandi di base:
 
@@ -280,7 +283,7 @@ Questi i comandi di base:
 
 [`torna su`](#indice)
 
-## Lavorare sulle colonne
+### Lavorare sulle colonne
 
 Ogni colonna in VisiData ha 3 attributi principali:
 
@@ -288,7 +291,7 @@ Ogni colonna in VisiData ha 3 attributi principali:
 - `Width`, la larghezza a schermo della colonna (se impostata a 0, la colonna diventa invisibile);
 - `Type`, per definire se contiene testi, numeri interi, numeri decimali, monete o date.
 
-### Il foglio delle colonne
+#### Il foglio delle colonne
 
 In VisiData esistono i cosiddetti meta-fogli (vedi [sopra](#i-fogli)): uno di questi è il foglio delle colonne, che elenca tutte le colonne e i relativi attributi di una tabella.
 
@@ -298,7 +301,7 @@ A partire dalla visualizzazione di una tabella, si apre con `Shift+c`.
 
 È una delle caratteristiche di VisiData che consente una rapida prima lettura del dato, che personalmente uso anche ad esempio per costruire brevi relazioni che contengono schema dati.
 
-### Impostare il tipo di campo
+#### Impostare il tipo di campo
 
 Come impostazione predefinita VisiData imposta a "testo" la tipologia di tutti i campi (che è quello che faccio di solito anche io alla prima apertura sia in un foglio elettronico che in Pandas).<br>
 Per definire il tipo di campo di una colonna della tabella che si sta visualizzando (cosa che consente di fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.), si deve navigare sino alla colonna su cui si vuole intervenire e poi pigiare:
@@ -311,7 +314,7 @@ Per definire il tipo di campo di una colonna della tabella che si sta visualizza
 
 [`torna su`](#indice)
 
-#### Impostare numero di decimali in un campo floating
+##### Impostare numero di decimali in un campo floating
 
 Di *default* i campi floating sono renderizzati con due decimali (la formattazione è impostata come `%.02f`).
 
@@ -330,7 +333,7 @@ Se si vuole fare su più colonne:
 
 [`torna su`](#indice)
 
-### Rinominare le colonne
+#### Rinominare le colonne
 
 Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 
@@ -338,7 +341,7 @@ Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 - si digita il nome che si vuole assegnare;
 - si pigia `Invio`.
 
-### Rinominare le colonne in blocco
+#### Rinominare le colonne in blocco
 
 Può essere utile ad esempio anteporre dei caratteri a tutte le colonne che iniziano per `t`.
 
@@ -354,7 +357,7 @@ Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al p
 
 [`torna su`](#indice)
 
-### Come espandere, ridurre e rimuovere colonne
+#### Come espandere, ridurre e rimuovere colonne
 
 Questi gli shortcut:
 
@@ -367,14 +370,14 @@ Questi gli shortcut:
 
 [`torna su`](#indice)
 
-### Spostare una colonna
+#### Spostare una colonna
 
 Ecco come farlo:
 
 - `Shift+h`, sposta la colonna corrente di una posizione a sinistra;
 - `Shift+l`, sposta la colonna corrente di una posizione a destra.
 
-### Come definire una colonna chiave
+#### Come definire una colonna chiave
 
 Per ogni foglio è possibile definire una o più colonne chiave. Hanno due funzioni principali:
 
@@ -385,7 +388,7 @@ Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di in
 
 [`torna su`](#indice)
 
-### Manipolare le colonne dal foglio delle colonne
+#### Manipolare le colonne dal foglio delle colonne
 
 Il foglio delle colonne oltre a dare una visione di insieme, consente di fare delle rapide modifiche in blocco. È possibile spostare le colonne con `Shift+j` e `Shift+k`, rinominarle con `e`, impostare il tipo per tutte quelle selezionate, impostare la larghezza per tutte quelle selezionate.
 
@@ -403,7 +406,7 @@ Poi premere `g#`.
 
 [`torna su`](#indice)
 
-### Creare una nuova colonna
+#### Creare una nuova colonna
 
 Sono tre le modalità più comode:
 
@@ -411,7 +414,7 @@ Sono tre le modalità più comode:
 - come risultato di un comando di _split_;
 - come risultato di estrazione di una porzione di testo da una colonna.
 
-#### Nuova colonna tramite espressione
+##### Nuova colonna tramite espressione
 
 Ad esempio potrebbe essere utile creare una colonna vero/falso, per tutte le auto del Parco Circolante dei veicoli dell'Abruzzo, con cilindrata maggiore ai 643 (è un numero a caso). Per farlo:
 
@@ -427,7 +430,7 @@ In output qualcosa come quella di sotto, con la nuova colonna risultato di un'es
 
 ![](./imgs/15_nuoveColonne.png)
 
-#### Nuove colonne come risultato di splitting
+##### Nuove colonne come risultato di splitting
 
 Si possono creare nuove colonne, come risultato di una suddivisione di una già esistente. Ad esempio nel campo `data_immatricolazione` è contenuta sia la data che l'orario, separati da spazio (i.e. `1995-04-03 00:00:00`). <br>
 Se si vuole suddividerla in due colonne (data e orario), si può procedere in questo modo:
@@ -443,7 +446,7 @@ Come output si avrà qualcosa come quella di sotto: due colonne frutto della div
 
 [`torna su`](#indice)
 
-#### Nuove colonne come risultato di cattura e estrazione
+##### Nuove colonne come risultato di cattura e estrazione
 
 Per farlo ci vogliono delle conoscenze di base sulle espressioni regolari (che sono una conoscenza propedeutica per chiunque lavori con i dati).
 
@@ -462,7 +465,7 @@ E si ottiene qualcosa come quella di sotto:
 
 [`torna su`](#indice)
 
-### Trasformare una colonna tramite espressione regolare
+#### Trasformare una colonna tramite espressione regolare
 
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalle celle della colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
@@ -480,7 +483,7 @@ Questo è un "trova e sostituisci" per colonna.
 
 [`torna su`](#indice)
 
-### Il foglio delle frequenze
+#### Il foglio delle frequenze
 
 Questa è una delle funzioni che uso di più ed è un'altra gran bell'idea. A partire da una colonna (o dalla combinazione di più d'una) è possibile - con `Shift+f` - aprire un foglio derivato, che contiene dei dati relativi al conteggio per valori distinti di quanto contenuto in quella colonna.
 
@@ -492,9 +495,9 @@ I dati sono ordinati per conteggio ed emerge subito come una famosa marca nazion
 
 [`torna su`](#indice)
 
-## Lavorare sulle celle
+### Lavorare sulle celle
 
-### Fare un trova e sostituisci globale
+#### Fare un trova e sostituisci globale
 
 Digitare <kbd>gz*</kbd> e poi scrivere `stringa da trovare`/`stringa da sostituire` e dare <kbd>INVIO</kbd>.
 
@@ -502,13 +505,13 @@ Se ad esempio volessi sostituire la stringa `pal` con `mis`, dovrei scrivere `pa
 
 È possibile usare anche le espressioni regolari.
 
-## Ordinare e filtrare
+### Ordinare e filtrare
 
-### Ordinare righe
+#### Ordinare righe
 
 I tasti `[` e `]` ordinano i dati rispettivamente in modo crescente e decrescente, a partire dalla colonna attiva.
 
-### Filtrare righe
+#### Filtrare righe
 
 È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi pigiare `"`. Ad esempio si naviga sino alla colonna `marca`, si preme `|`, si scrive `chevr`, si pigia `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si preme `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
 
@@ -532,7 +535,7 @@ Dal foglio delle frequenze è possibile filtrare su più di un elemento:
 
 [`torna su`](#indice)
 
-#### Filtro tramite espressione Python
+##### Filtro tramite espressione Python
 
 È possibile **filtrare** righe tramite un'**`espressione` Python** ([qui](https://docs.python.org/3/reference/expressions.html) la documentazione ufficiale e [qui](https://realpython.com/python-operators-expressions/) una guida che consiglio).
 Se ad esempio dalla tabella di sotto si volessero soltanto le province con più di 350.000 abitanti
@@ -556,7 +559,7 @@ Note:
 
 [`torna su`](#indice)
 
-## Riepilogo dei dati
+### Riepilogo dei dati
 
 Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qui](#il-foglio-delle-frequenze)).
 
@@ -566,7 +569,7 @@ Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qu
 
 [`torna su`](#indice)
 
-### Aggiunta di aggregatori
+#### Aggiunta di aggregatori
 
 I fogli di frequenza, oltre al conteggio per valori distinti, possono contenere altri calcoli. Gli "aggregatori" possibili sono `min`, `max`, `avg / mean`, `median`, `q3/q4/q5/q10` (terzili/quartili/quintili/decili), `sum`, `distinct`, `count` e `keymax`.
 
@@ -584,7 +587,7 @@ Inizierà da subito il calcolo (che non è immediato, sono più di un milione di
 
 [`torna su`](#indice)
 
-### Il riepilogo globale
+#### Il riepilogo globale
 
 Per avere una visione a "volo d'uccello" sull'intera tabella esiste il comando `Shift+i`, che restituisce un riepilogo statistico per tutte le colonne.<br>
 Se prima di lanciarlo si definiscono correttamente i campi (ad esempio i numerici, come numerici), verranno eseguiti correttamente anche i calcoli per `min`, `max`, `median`, `mean`, `stdev`.
@@ -595,11 +598,11 @@ Questa è un'altra _feature_ di grande comodità (presente in molte applicazione
 
 [`torna su`](#indice)
 
-## Salvare un foglio
+### Salvare un foglio
 
 Per salvare un foglio si preme `CTRL+s`, poi si scrive il nome del file con estensione (`nomeEsempio.csv`) e infine si pigia `Invio`.
 
-## Fare JOIN tra tabelle
+### Fare JOIN tra tabelle
 
 Se ad esempio si volesse calcolare il rapporto tra numero di mezzi e popolazione, sarebbe utile fare un JOIN con una tabella con i dati della popolazione residente.
 
@@ -650,7 +653,7 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 
 [`torna su`](#indice)
 
-## Concatenare tabelle
+### Concatenare tabelle
 
 La concatenazione tra due o più tabelle con la stessa struttura si attiva tramite `&`. Ad esempio, a partire dai due file `inputFileOne.csv` e `inputFileTwo.csv`, presenti [qui](https://github.com/ondata/guidaVisiData/tree/master/dati) si procede in questo modo:
 
@@ -667,7 +670,7 @@ Si avrà a video l'unione dei due file di input (in [questo video](http://youtu.
 
 [`torna su`](#indice)
 
-## Tabelle Pivot
+### Tabelle Pivot
 
 Ecco ad esempio come creare quella che da conto del numero di mezzi per marca, suddivisi per provincia:
 
@@ -689,7 +692,7 @@ In output, per ogni provincia, si avrà quindi la media desiderata.
 
 [`torna su`](#indice)
 
-## Creare un grafico di dispersione (scatter plot)
+### Creare un grafico di dispersione (scatter plot)
 
 VisiData può stampare a schermo anche dei grafici XY. Non è un suo punto di forza, ma può essere utile per avere una prima e grezza visualizzazione spaziale dell'insieme dei dati.
 
@@ -715,7 +718,7 @@ In output si avrà qualcosa come quella di sotto
 
 [`torna su`](#indice)
 
-## Moduli Python
+### Moduli Python
 
 VisiData è un foglio elettronico basato su Python 3. Questo consente di utilizzare al suo interno la galassia dei moduli disponibili per Python.
 
@@ -743,15 +746,15 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 
 [`torna su`](#indice)
 
-## Salvare un flusso di lavoro
+### Salvare un flusso di lavoro
 
 È possibile salvare in un file l'elenco delle operazioni fatte su una o più tabelle, per poi riutilizzarlo successivamente e replicare le operazioni fatte. Questo consente ad esempio di continuare oggi, quanto fatto sino a ieri.
 
 Per salvare questo file si preme `CTRL+d`, poi si digita il nome del file (di solito con estensione `.vd`) e si preme `Invio`. Per ripetere i comandi salvati nel file il comando da digitare è `vd -p nomeFile.vd`.
 
-## Soluzione problemi
+### Soluzione problemi
 
-### Riga attiva di colore nero
+#### Riga attiva di colore nero
 
 Quando si usa VisiData su Windows Subsystem for Linux, la riga attiva risulta invisibile perché tutta nera.
 
@@ -760,10 +763,10 @@ Per fare in modo che torni "visibile" bisogna modificare il file di configurazio
 Questi i passi:
 
 ```bash
-# vai nella cartella home dell'utente
+## vai nella cartella home dell'utente
 cd ~
-# nano è un editor di testo, si installa con "sudo apt-get install nano.
-# Si può esare usare qualsiasi editor per modificare il file
+## nano è un editor di testo, si installa con "sudo apt-get install nano.
+## Si può esare usare qualsiasi editor per modificare il file
 nano .visidatarc
 ```
 
@@ -781,7 +784,7 @@ options.color_key_col="blue"
 
 [`torna su`](#indice)
 
-### Caratteri non leggibili in Windows Subsystem for Linux
+#### Caratteri non leggibili in Windows Subsystem for Linux
 
 Se si usa VisiData in Windows Subsystem for Linux, alcuni caratteri possono risultare non leggibili. Questo dipende dal font usato.
 
@@ -796,9 +799,9 @@ Infine si consiglia il font di sotto:
 
 ![](./imgs/caratteriNonLeggibili.png)
 
-## Ricette
+### Ricette
 
-### Salvare una tabella HTML in CSV, a partire da una pagina web
+#### Salvare una tabella HTML in CSV, a partire da una pagina web
 
 In questo esempio il presupposto è che si voglia trasformare in CSV una tabella HTML presente in una pagina web, in cui ci sono più tabelle. Il punto di partenza è quello di estrarre dalla pagina sorgente, una pagina HTML che contiene soltanto la tabella di interesse.
 
@@ -869,11 +872,11 @@ Per creare questo di sopra:
 - digitate `SHIFT + d` per visualizzare il log dei comandi;
 - e infine `CTRL + s` per salvare il file `dive.vd`.
 
-## Fare proposte e/o Chiedere supporto
+### Fare proposte e/o Chiedere supporto
 
 Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
 
-## Note finali
+### Note finali
 
 Il grande **Jeremy Singer Vine** lo usa da molto più tempo di me e ha creato la migliore guida introduttiva dedicata in inglese [https://jsvine.github.io/intro-to-visidata/](https://jsvine.github.io/intro-to-visidata/), di cui sono felice di essere nei [ringraziamenti](https://jsvine.github.io/intro-to-visidata/#acknowledgments). Ne ho attinto a piene mani per scrivere questo post e colgo l'occasione per **ringraziarlo di cuore** pubblicamente.
 
@@ -892,7 +895,7 @@ Qui vorremmo **aggiornare** e **arricchire** nel tempo i testi e si accettano an
 
 ---
 
-## URL consigliati
+### URL consigliati
 
 - la guida di **Jeremy Singer Vine** [https://jsvine.github.io/intro-to-visidata/](https://jsvine.github.io/intro-to-visidata/)
 - le ricette sul sito ufficiale [http://visidata.org/docs/](http://visidata.org/docs/);
