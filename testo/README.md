@@ -33,7 +33,7 @@
         - [Nuova colonna tramite espressione](#nuova-colonna-tramite-espressione)
         - [Nuove colonne come risultato di splitting](#nuove-colonne-come-risultato-di-splitting)
         - [Nuove colonne come risultato di cattura e estrazione](#nuove-colonne-come-risultato-di-cattura-e-estrazione)
-      - [Trasformare una colonna tramite espressione regolare](#trasformare-una-colonna-tramite-espressione-regolare)
+      - [Trasformare una colonna tramite espressione regolare (trova e sostituisci)](#trasformare-una-colonna-tramite-espressione-regolare-trova-e-sostituisci)
       - [Il foglio delle frequenze](#il-foglio-delle-frequenze)
     - [Lavorare sulle celle](#lavorare-sulle-celle)
       - [Fare un trova e sostituisci globale](#fare-un-trova-e-sostituisci-globale)
@@ -465,7 +465,7 @@ E si ottiene qualcosa come quella di sotto:
 
 [`torna su`](#indice)
 
-#### Trasformare una colonna tramite espressione regolare
+#### Trasformare una colonna tramite espressione regolare (trova e sostituisci)
 
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalle celle della colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
