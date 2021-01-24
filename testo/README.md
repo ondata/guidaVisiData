@@ -16,7 +16,7 @@
     - [Lavorare sulle righe](#lavorare-sulle-righe)
       - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
       - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
-    - [Selezionare un numero random di righe](#selezionare-un-numero-random-di-righe)
+      - [Selezionare un numero random di righe](#selezionare-un-numero-random-di-righe)
       - [Spostare righe](#spostare-righe)
       - [Cancellare righe](#cancellare-righe)
       - [Modificare il contenuto](#modificare-il-contenuto)
@@ -261,7 +261,7 @@ Ad esempio seguendo questi step:
 
 [`torna su`](#indice)
 
-### Selezionare un numero random di righe
+#### Selezionare un numero random di righe
 
 - aprire una tabella;
 - fare click sulla barra spaziatrice;
