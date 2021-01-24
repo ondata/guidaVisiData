@@ -16,6 +16,7 @@
     - [Lavorare sulle righe](#lavorare-sulle-righe)
       - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
       - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
+    - [Selezionare un numero random di righe](#selezionare-un-numero-random-di-righe)
       - [Spostare righe](#spostare-righe)
       - [Cancellare righe](#cancellare-righe)
       - [Modificare il contenuto](#modificare-il-contenuto)
@@ -257,6 +258,15 @@ Ad esempio seguendo questi step:
 - e pigiando su `Invio`.
 
 ... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "F".
+
+[`torna su`](#indice)
+
+### Selezionare un numero random di righe
+
+- aprire una tabella;
+- fare click sulla barra spaziatrice;
+- scrivere `random-rows` (si può scrivere anche soltanto ad esempio `ran` e autocompletare con `TAB`);
+- scrivere il numero di righe random che si vogliono selezionare.
 
 [`torna su`](#indice)
 
