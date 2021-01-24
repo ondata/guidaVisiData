@@ -265,7 +265,7 @@ Ad esempio seguendo questi step:
 
 - aprire una tabella;
 - fare click sulla barra spaziatrice;
-- scrivere `random-rows` (si può scrivere anche soltanto ad esempio `ran` e autocompletare con `TAB`);
+- scrivere `random-rows` (si può scrivere anche soltanto ad esempio `ran` e autocompletare con `TAB`) e premere `INVIO`;
 - scrivere il numero di righe random che si vogliono selezionare.
 
 [`torna su`](#indice)
