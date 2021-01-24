@@ -14,8 +14,8 @@
       - [Navigare tra i dati](#navigare-tra-i-dati)
     - [I fogli](#i-fogli)
     - [Lavorare sulle righe](#lavorare-sulle-righe)
-      - [Selezioni di righe tramite espressione regolare](#selezioni-di-righe-tramite-espressione-regolare)
-      - [Selezioni di righe tramite espressioni Python](#selezioni-di-righe-tramite-espressioni-python)
+      - [Selezione di righe tramite espressione regolare](#selezione-di-righe-tramite-espressione-regolare)
+      - [Selezione di righe tramite espressioni Python](#selezione-di-righe-tramite-espressioni-python)
       - [Selezionare un numero random di righe](#selezionare-un-numero-random-di-righe)
       - [Spostare righe](#spostare-righe)
       - [Cancellare righe](#cancellare-righe)
@@ -219,7 +219,7 @@ I tasti principali di selezione sono:
 
 ![](./imgs/03_selezione.png)
 
-#### Selezioni di righe tramite espressione regolare
+#### Selezione di righe tramite espressione regolare
 
 - `| + termine da ricercare`, seleziona tutte le righe in cui c'è corrispondenza per la colonna corrente;
 - `\ + termine da ricercare`, deseleziona tutte le righe in cui c'è corrispondenza per la colonna corrente;
@@ -241,7 +241,7 @@ Se ad esempio:
 
 [`torna su`](#indice)
 
-#### Selezioni di righe tramite espressioni Python
+#### Selezione di righe tramite espressioni Python
 
 È possibile fare una selezione di righe tramite un'espressione di Python ([qui](https://docs.python.org/3/tutorial/introduction.html) per approfondire sui concetti di base delle espressioni).
 
