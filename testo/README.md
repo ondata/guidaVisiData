@@ -28,6 +28,7 @@
       - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
       - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
       - [Spostare una colonna](#spostare-una-colonna)
+      - [Calcoli per colonna](#calcoli-per-colonna)
       - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
       - [Manipolare le colonne dal foglio delle colonne](#manipolare-le-colonne-dal-foglio-delle-colonne)
       - [Creare una nuova colonna](#creare-una-nuova-colonna)
@@ -388,6 +389,20 @@ Ecco come farlo:
 
 - `Shift+h`, sposta la colonna corrente di una posizione a sinistra;
 - `Shift+l`, sposta la colonna corrente di una posizione a destra.
+
+#### Calcoli per colonna
+
+È possibile avere restituito, per una colonna, il risultato di uno dei calcoli di aggregazione disponibili:
+
+![](./imgs/operatoriAggregazione.png)
+
+Ad esempio per avere la somma dei valori di una colonna con numeri interi:
+
+- si imposta il tipo di colonna a numero intero (con `#`);
+- si digita `z+` e poi `INVIO`;
+- si digita `sum` e poi `INVIO`.
+
+In basso, si leggerà il valore risultante.
 
 #### Come definire una colonna chiave
 
