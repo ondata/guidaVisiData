@@ -1,11 +1,11 @@
-- [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
+- [Come salvare un insieme di operazioni e applicarle come modello ad altri file](#come-salvare-un-insieme-di-operazioni-e-applicarle-come-modello-ad-altri-file)
 	- [Introduzione](#introduzione)
-	- [Applicare lo stesso flusso a un file diverso, ma omologo](#applicare-lo-stesso-flusso-a-un-file-diverso-ma-omologo)
+	- [Applicare le stesse procedure a un file diverso, ma omologo](#applicare-le-stesse-procedure-a-un-file-diverso-ma-omologo)
 	- [Nota sul file di log](#nota-sul-file-di-log)
 
-### Salvare un flusso di lavoro
+# Come salvare un insieme di operazioni e applicarle come modello ad altri file
 
-#### Introduzione
+## Introduzione
 
 In **VisiData** è possibile salvare il [log delle operazione fatte](https://www.visidata.org/docs/save-restore/) e riutilizzarlo per applicarle nuovamente al file di input.
 
@@ -73,7 +73,7 @@ saving 1 sheets to output.csv as csv
 replay complete
 ```
 
-#### Applicare lo stesso flusso a un file diverso, ma omologo
+## Applicare le stesse procedure a un file diverso, ma omologo
 
 Spesso si ha la necessità di **applicare una stessa procedura ad altri file**, con la **stessa struttura**, ma con **contenuti differenti**.<br>
 Per utilizzare il file di log creato con un file diverso da `input.csv`, bisognerà modificare il file di log (si modifica con qualsiasi editor di testo):
@@ -106,7 +106,7 @@ vd -y -b -p cancella_le_a.vd input_nuovo.csv -o output_nuovo.csv
 ```
 
 
-#### Nota sul file di log
+## Nota sul file di log
 
 Si tratta di un TSV, quindi è possibile leggerlo con un client dedicato. Quello di sopra ad esempio è:
 
