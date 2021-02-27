@@ -888,14 +888,9 @@ vd -y -b -p cancella_le_a.vd input_nuovo.csv -o output_nuovo.csv
 
 #### Nota sul file di log
 
-Si tratta di un TSV, quindi è possibile leggerlo con un client dedicato. Quello di sopra ad esempio è:
+Si tratta di un TSV, quindi **è possibile leggerlo e modificarlo proprio con VisiData**:
 
-| sheet | col | row | longname | input | keystrokes | comment |
-| --- | --- | --- | --- | --- | --- | --- |
-| global |  | null_value | set-option |  |  |  |
-|  | field1 |  | select-col-regex | ^a$ | | | select rows matching regex in current column |
-|  |  |  | delete-selected |  | gd | delete (cut) selected rows and move them to clipboard |
-|  |  |  | save-sheet | output.csv | ^S | save current sheet to filename in format determined by extension (default .tsv) |
+![](risorse/vd_log.gif)
 
 [`torna su`](#indice)
 
