@@ -53,6 +53,9 @@
     - [Creare un grafico di dispersione (scatter plot)](#creare-un-grafico-di-dispersione-scatter-plot)
     - [Moduli Python](#moduli-python)
     - [Salvare un flusso di lavoro](#salvare-un-flusso-di-lavoro)
+      - [Introduzione](#introduzione)
+      - [Applicare lo stesso flusso a un file diverso, ma omologo](#applicare-lo-stesso-flusso-a-un-file-diverso-ma-omologo)
+      - [Nota sul file di log](#nota-sul-file-di-log)
     - [Soluzione problemi](#soluzione-problemi)
       - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
       - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
@@ -779,9 +782,122 @@ E a questo punto si può rinominare la colonna premendo `^`, scrivendo "mese" e 
 
 ### Salvare un flusso di lavoro
 
-È possibile salvare in un file l'elenco delle operazioni fatte su una o più tabelle, per poi riutilizzarlo successivamente e replicare le operazioni fatte. Questo consente ad esempio di continuare oggi, quanto fatto sino a ieri.
+#### Introduzione
 
-Per salvare questo file si preme `CTRL+d`, poi si digita il nome del file (di solito con estensione `.vd`) e si preme `Invio`. Per ripetere i comandi salvati nel file il comando da digitare è `vd -p nomeFile.vd`.
+In **VisiData** è possibile salvare il [log delle operazione fatte](https://www.visidata.org/docs/save-restore/) e riutilizzarlo per applicarle nuovamente al file di input.
+
+Se ad esempio a partire da [questo file `CSV`](risorse/input.csv) (sotto l'anteprima) si volessero cancellare tutte le righe che contengono il solo carattere `a` e infine salvare l'*output*, la procedura è:
+
+- `vd input.csv`;
+- posizionarsi nella prima colonna e pigiare <kbd>|</kbd> per attivare la selezione tramite espressione regolare, scrivere `^a$` e premere <kbd>INVIO</kbd>. Verrà fatta la selezione descritta;
+- pigiare in sequenza <kbd>g</kbd> e <kbd>d</kbd> per cancellare le righe selezionate;
+- poi <kbd>CTRL+s</kbd>;
+- e infine scegliere un nome di output (ad esempio `output.csv`) e pigiare <kbd>INVIO</kbd> per salvare il file.
+
+| field1 | field2 |
+| --- | --- |
+| a | 0 |
+| b | 3 |
+| a | 4 |
+| c | 5 |
+
+Per salvare la procedura di sopra in un file di log, bisognerà premere <kbd>CTRL+d</kbd>, scegliere un nome per salvare il file (ad esempio `cancella_le_a.vd`) e pigiare <kbd>INVIO</kbd>.
+
+Il file di log salvato avrà un contenuto come quello sottostante ([è un file `TSV`](#nota-sul-file-di-log)), in cui sono "mappate" tutte le operazioni fatte:
+
+```
+sheet	col	row	longname	input	keystrokes	comment
+global		null_value	set-option
+			open-file	input.csv	o
+input	field1		select-col-regex	^a$	|	select rows matching regex in current column
+input			delete-selected		gd	delete (cut) selected rows and move them to clipboard
+input			save-sheet	output.csv	^S	save current sheet to filename in format determined by extension (default .tsv)
+```
+
+Per riapplicare la stessa procedura al file, senza interagire con lo schermo, il comando da lanciare è:
+
+```
+vd -b -p cancella_le_a.vd
+```
+
+- `-b` per eseguire VisiData senza attivarne l'interfaccia;
+- `-p` per replicare un file di log.
+
+Se questo comando si lancia dopo avere già creato il file di *output*, si avrà un messaggio di errore, che avvisa che il file esiste già e non può essere sovrascritto.<br>
+Per fare in modo che venga sovrascritto bisognerà aggiungere l'opzione `-y`:
+
+```
+vd -y -b -p cancella_le_a.vd
+```
+
+A schermo verrà restituito l'elenco delle operazione svolte:
+
+```
+opening cancella_le_a.vd as vd
+"input.csv"
+opening input.csv as csv
+select rows matching regex in current column
+"^a$"
+search wrapped
+2 matches for /^a$/
+selected 2 rows
+delete (cut) selected rows and move them to clipboard
+copied 2 rows to clipboard
+deleted 2 rows
+save current sheet to filename in format determined by extension (default .tsv)
+"output.csv"
+saving 1 sheets to output.csv as csv
+replay complete
+```
+
+[`torna su`](#indice)
+
+#### Applicare lo stesso flusso a un file diverso, ma omologo
+
+Spesso si ha la necessità di **applicare una stessa procedura ad altri file**, con la **stessa struttura**, ma con **contenuti differenti**.<br>
+Per utilizzare il file di log creato con un file diverso da `input.csv`, bisognerà modificare il file di log (si modifica con qualsiasi editor di testo):
+
+- rimuovere la riga con il riferimento a `input.csv`
+- rimuovere il riferimento al nome del foglio (qui è `input`, come il nome del file).
+
+Diventerà quindi:
+
+```
+sheet	col	row	longname	input	keystrokes	comment
+global		null_value	set-option
+	field1		select-col-regex	^a$	|	select rows matching regex in current column
+			delete-selected		gd	delete (cut) selected rows and move them to clipboard
+			save-sheet	output.csv	^S	save current sheet to filename in format determined by extension (default .tsv)
+```
+
+Fatto questo, il comando da usare con un nuovo file denominato ad esempio `input_nuovo.csv` sarà:
+
+```
+vd -y -b -p cancella_le_a.vd input_nuovo.csv
+```
+
+In output verrà creato il file `output.csv`.
+
+Se si vuole creare un file di output con nome diverso, si deve cancellare dal file di log la riga in cui si fa riferimento a `output.csv` e lanciare il comando:
+
+```
+vd -y -b -p cancella_le_a.vd input_nuovo.csv -o output_nuovo.csv
+```
+
+[`torna su`](#indice)
+
+#### Nota sul file di log
+
+Si tratta di un TSV, quindi è possibile leggerlo con un client dedicato. Quello di sopra ad esempio è:
+
+| sheet | col | row | longname | input | keystrokes | comment |
+| --- | --- | --- | --- | --- | --- | --- |
+| global |  | null_value | set-option |  |  |  |
+|  | field1 |  | select-col-regex | ^a$ | | | select rows matching regex in current column |
+|  |  |  | delete-selected |  | gd | delete (cut) selected rows and move them to clipboard |
+|  |  |  | save-sheet | output.csv | ^S | save current sheet to filename in format determined by extension (default .tsv) |
+
+[`torna su`](#indice)
 
 ### Soluzione problemi
 
