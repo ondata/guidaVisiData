@@ -12,10 +12,10 @@ In **VisiData** è possibile salvare il [log delle operazione fatte](https://www
 Se ad esempio a partire da [questo file `CSV`](risorse/input.csv) (sotto l'anteprima) si volessero cancellare tutte le righe che contengono il solo carattere `a` e infine salvare l'*output*, la procedura è:
 
 - `vd input.csv`;
-- posizionarsi nella prima colonna e pigiare <kbd>|</kbd> per attivare la selezione tramite espressione regolare, scrivere `^a$` e premere <kbd>INVIO</kbd>. Verrà fatta la selezione descritta;
-- pigiare in sequenza <kbd>g</kbd> e <kbd>d</kbd> per cancellare le righe selezionate;
-- poi <kbd>CTRL+s</kbd>;
-- e infine scegliere un nome di output (ad esempio `output.csv`) e pigiare <kbd>INVIO</kbd> per salvare il file.
+- posizionarsi nella prima colonna e pigiare `|` per attivare la selezione tramite espressione regolare, scrivere `^a$` e premere `INVIO`. Verrà fatta la selezione descritta;
+- pigiare in sequenza `g` e `d` per cancellare le righe selezionate;
+- poi `CTRL+s`;
+- e infine scegliere un nome di output (ad esempio `output.csv`) e pigiare `INVIO` per salvare il file.
 
 | field1 | field2 |
 | --- | --- |
@@ -24,7 +24,7 @@ Se ad esempio a partire da [questo file `CSV`](risorse/input.csv) (sotto l'antep
 | a | 4 |
 | c | 5 |
 
-Per salvare la procedura di sopra in un file di log, bisognerà premere <kbd>CTRL+d</kbd>, scegliere un nome per salvare il file (ad esempio `cancella_le_a.vd`) e pigiare <kbd>INVIO</kbd>.
+Per salvare la procedura di sopra in un file di log, bisognerà premere `CTRL+d`, scegliere un nome per salvare il file (ad esempio `cancella_le_a.vd`) e pigiare `INVIO`.
 
 Il file di log salvato avrà un contenuto come quello sottostante ([è un file `TSV`](#nota-sul-file-di-log)), in cui sono "mappate" tutte le operazioni fatte:
 
