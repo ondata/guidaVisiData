@@ -805,14 +805,15 @@ Per salvare la procedura di sopra in un file di log, bisognerà premere <kbd>CTR
 
 Il file di log salvato avrà un contenuto come quello sottostante ([è un file `TSV`](#nota-sul-file-di-log)), in cui sono "mappate" tutte le operazioni fatte:
 
-```
-sheet	col	row	longname	input	keystrokes	comment
-global		null_value	set-option
-			open-file	input.csv	o
-input	field1		select-col-regex	^a$	|	select rows matching regex in current column
-input			delete-selected		gd	delete (cut) selected rows and move them to clipboard
-input			save-sheet	output.csv	^S	save current sheet to filename in format determined by extension (default .tsv)
-```
+
+| sheet | col | row | longname | input | keystrokes | comment |
+| --- | --- | --- | --- | --- | --- | --- |
+| global |  | null_value | set-option |  |  |  |
+|  |  |  | open-file | input.csv | o |  |
+| input | field1 |  | select-col-regex | ^a$ | | | select rows matching regex in current column |
+| input |  |  | delete-selected |  | gd | delete (cut) selected rows and move them to clipboard |
+| input |  |  | save-sheet | output.csv | ^S | save current sheet to filename in format determined by extension (default .tsv) |
+
 
 Per riapplicare la stessa procedura al file, senza interagire con lo schermo, il comando da lanciare è:
 
@@ -862,13 +863,14 @@ Per utilizzare il file di log creato con un file diverso da `input.csv`, bisogne
 
 Diventerà quindi:
 
-```
-sheet	col	row	longname	input	keystrokes	comment
-global		null_value	set-option
-	field1		select-col-regex	^a$	|	select rows matching regex in current column
-			delete-selected		gd	delete (cut) selected rows and move them to clipboard
-			save-sheet	output.csv	^S	save current sheet to filename in format determined by extension (default .tsv)
-```
+
+| sheet | col | row | longname | input | keystrokes | comment |
+| --- | --- | --- | --- | --- | --- | --- |
+| global |  | null_value | set-option |  |  |  |
+|  | field1 |  | select-col-regex | ^a$ | | | select rows matching regex in current column |
+|  |  |  | delete-selected |  | gd | delete (cut) selected rows and move them to clipboard |
+|  |  |  | save-sheet | output.csv | ^S | save current sheet to filename in format determined by extension (default .tsv) |
+
 
 Fatto questo, il comando da usare con un nuovo file denominato ad esempio `input_nuovo.csv` sarà:
 
