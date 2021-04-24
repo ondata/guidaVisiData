@@ -28,6 +28,7 @@
       - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
       - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
       - [Spostare una colonna](#spostare-una-colonna)
+      - [Modificare una colonna tramite un'espressione Python](#modificare-una-colonna-tramite-unespressione-python)
       - [Calcoli per colonna](#calcoli-per-colonna)
       - [Come definire una colonna chiave](#come-definire-una-colonna-chiave)
       - [Manipolare le colonne dal foglio delle colonne](#manipolare-le-colonne-dal-foglio-delle-colonne)
@@ -392,6 +393,24 @@ Ecco come farlo:
 
 - `Shift+h`, sposta la colonna corrente di una posizione a sinistra;
 - `Shift+l`, sposta la colonna corrente di una posizione a destra.
+
+#### Modificare una colonna tramite un'espressione Python
+
+Da questa tabella si vuole assegnare a `FieldA` il valore di `FieldB`, tutte le volte che `FieldA` è vuoto.
+
+| FieldA | FieldB |
+| --- | --- |
+| 1 |  |
+|  | 3 |
+| 1 | 12 |
+
+Questa la procedura:
+
+- `gs` per selezionare tutte le righe;
+- `g=` per scrivere l'espressione Python;
+- aggiungere come espressione `FieldB if FieldA=="" else FieldA`.
+
+Ovvero (`FieldA`) è uguale `FieldB` se `FieldA` non contiene nulla, altrimenti è uguale a se stesso (rimane invariato).
 
 #### Calcoli per colonna
 
