@@ -396,7 +396,7 @@ Ecco come farlo:
 
 #### Modificare una colonna tramite un'espressione Python
 
-Da questa tabella si vuole assegnare a `FieldA` il valore di `FieldB`, tutte le volte che `FieldA` è vuoto.
+A questa tabella si vuole assegnare al campo `FieldA` il valore di `FieldB`, tutte le volte che `FieldA` è vuoto.
 
 | FieldA | FieldB |
 | --- | --- |
