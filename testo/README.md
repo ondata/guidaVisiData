@@ -16,6 +16,7 @@
     - [Lavorare sulle righe](#lavorare-sulle-righe)
       - [Selezione di righe tramite espressione regolare](#selezione-di-righe-tramite-espressione-regolare)
       - [Selezione di righe tramite espressioni Python](#selezione-di-righe-tramite-espressioni-python)
+      - [Selezione di righe tramite espressioni Python e regex](#selezione-di-righe-tramite-espressioni-python-e-regex)
       - [Selezionare un numero random di righe](#selezionare-un-numero-random-di-righe)
       - [Spostare righe](#spostare-righe)
       - [Cancellare righe](#cancellare-righe)
@@ -265,6 +266,12 @@ Ad esempio seguendo questi step:
 ... verranno selezionati tutti gli elementi in cui la provincia è "Pescara" ed il sesso è "F".
 
 [`torna su`](#indice)
+
+
+#### Selezione di righe tramite espressioni Python e regex
+
+- si digita `z|`;
+- si scrive l'espressione, come ad esempio `re.search("^1", FieldB) and re.search("^2", FieldA)`, ovvero tutte le righe in cui il campo `FieldB` inizia per `1` e il campo `FieldA` per `2`.
 
 #### Selezionare un numero random di righe
 
