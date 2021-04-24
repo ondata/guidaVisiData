@@ -412,6 +412,8 @@ Questa la procedura:
 
 Ovvero (`FieldA`) è uguale `FieldB` se `FieldA` non contiene nulla, altrimenti è uguale a se stesso (rimane invariato).
 
+[`torna su`](#indice)
+
 #### Calcoli per colonna
 
 È possibile avere restituito, per una colonna, il risultato di uno dei calcoli di aggregazione disponibili:
