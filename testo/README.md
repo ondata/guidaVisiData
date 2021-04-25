@@ -690,13 +690,16 @@ Si può fare in questo modo:
 
 ![](./imgs/19_join.png)
 
-- si va nella colonna `Popolazione` e si preme `!` per impostarla come colonna chiave. Il JOIN in VisiData viene fatto tra colonne chiave;
+- si va nella colonna `Provincia` e si preme `!` per impostarla come colonna chiave. Il JOIN in VisiData viene fatto tra colonne chiave;
 - si apre il "foglio dei fogli" con `Shift+s` e si visualizzerà qualcosa come;
 
 ![](./imgs/20_join.png)
 
-- si seleziona con `s` la riga che contiene `popolazioneAbruzzo` e si ripete per quella che contiene `mezziProvincia` (che diventano gialle, perché selezionate);
-- si pigia `&` che è il comando di JOIN e in basso a sinistra ci viene chiesto quale tipo si vuole applicare;
+- si va nella riga che contiene lo *sheet* `popolazioneAbruzzo` e si pigia <kbd>INVIO</kbd>;
+- si va di nuovo nella colonna `Provincia` e si preme `!` per impostarla come colonna chiave;
+- si apre il "foglio dei fogli" con `Shift+s`;
+- si selezionano con `s` le due tabelle `mezziProvincia` e `popolazioneAbruzzo`;
+- si pigia `&` che è il comando di JOIN e in basso a sinistra ci viene chiesto quale tipo si vuole applicare (**nota bene**: con VisiData >2.0 si deve premere `CTRL + x` e scegliere il tipo di `JOIN`);
 
 ![](./imgs/21_join.png)
 
