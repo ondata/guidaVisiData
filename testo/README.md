@@ -641,6 +641,8 @@ In output si avrà la selezione di tutte le righe che risolvono l'espressione sc
 
 Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour` 
 
+[`torna su`](#indice)
+
 ### Riepilogo dei dati
 
 Uno dei modi per avere un riepilogo è usare il foglio delle frequenze (vedi [qui](#il-foglio-delle-frequenze)).
