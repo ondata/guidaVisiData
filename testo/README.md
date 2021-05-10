@@ -638,7 +638,10 @@ In output si avrà la selezione di tutte le righe che risolvono l'espressione sc
 
 ![](./imgs/30_filtro_datetime_02.png)
 
+
 Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour`
+
+Se si vogliono ad esempio selezionare soltanto righe con date nel futuro, l'espressione sarà `data > datetime.datetime.now()`.
 
 [`torna su`](#indice)
 
