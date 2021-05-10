@@ -644,7 +644,7 @@ Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour`
 
 ##### Filtri tramite espressioni python, basati su più colonne
 
-Si vogliono ad esempio selezionare tutte le righe in cui il domicilio non è né a Palermo, né a Ragusa, ma la cui residenzà è in una di queste due città.
+Si vogliono ad esempio selezionare tutte le righe in cui il domicilio non è né a Palermo, né a Ragusa, ma la cui residenza è in una di queste due città.
 
 A partire ad esempio da:
 
