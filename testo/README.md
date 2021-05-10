@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+    - [Indice](#indice)
 - [VisiData: il coltellino svizzero per i dati, che probabilmente non conosci](#visidata-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci)
   - [Perché usarlo](#perché-usarlo)
   - [Supportarne lo sviluppo](#supportarne-lo-sviluppo)
@@ -45,6 +46,7 @@
       - [Ordinare righe](#ordinare-righe)
       - [Filtrare righe](#filtrare-righe)
         - [Filtro tramite espressione Python](#filtro-tramite-espressione-python)
+        - [Filtro tramite espressione Python su campo datetime](#filtro-tramite-espressione-python-su-campo-datetime)
     - [Riepilogo dei dati](#riepilogo-dei-dati)
       - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
       - [Il riepilogo globale](#il-riepilogo-globale)
@@ -618,6 +620,26 @@ Note:
 
 - nel filtro per espressione c'è l'autocompletamento del nome colonna, quindi se si scrive ad esempio `Pop` e poi si fa click su <kbd>TAB</kbd>, viene restituito a schermo `Popolazione`;
 - è possibile scrivere espressioni complesse, che fanno riferimento a più colonne.
+
+[`torna su`](#indice)
+
+##### Filtro tramite espressione Python su campo datetime
+
+È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime` dopo averle impostare come data. Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)). (Se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
+
+![](./imgs/30_filtro_datetime_01.png)
+
+basterebbe:
+
+- per prima cosa impostare il campo `data` come data, pigiando <kbd>@</kbd>;
+- pigiare `z|` per attivare il filtro tramite espressione Python;
+- scrivere l'espressione basata sulla colonna, che qui è `data.day == 29` e poi premere <kbd>INVIO</kbd>.
+
+In output si avrà la selezione di tutte le righe che risolvono l'espressione scritta.
+
+![](./imgs/30_filtro_datetime_02.png)
+
+Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour` 
 
 [`torna su`](#indice)
 
