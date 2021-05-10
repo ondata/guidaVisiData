@@ -47,6 +47,7 @@
       - [Filtrare righe](#filtrare-righe)
         - [Filtro tramite espressione Python](#filtro-tramite-espressione-python)
         - [Filtro tramite espressione Python su campo datetime](#filtro-tramite-espressione-python-su-campo-datetime)
+        - [Filtri tramite espressioni python, basati su più colonne](#filtri-tramite-espressioni-python-basati-su-più-colonne)
     - [Riepilogo dei dati](#riepilogo-dei-dati)
       - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
       - [Il riepilogo globale](#il-riepilogo-globale)
@@ -639,7 +640,35 @@ In output si avrà la selezione di tutte le righe che risolvono l'espressione sc
 
 ![](./imgs/30_filtro_datetime_02.png)
 
-Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour` 
+Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour`
+
+[`torna su`](#indice)
+
+##### Filtri tramite espressioni python, basati su più colonne
+
+Si vogliono ad esempio selezionare tutte le righe in cui il domicilio non è né a Palermo, né a Ragusa, ma la cui residenzà è in una di queste due città.
+
+A partire ad esempio da:
+
+| domicilio | residenza |
+| --- | --- |
+| PA | PA |
+| RG | RG |
+| TO | TO |
+| VE | PA |
+
+Questa la procedura:
+
+- pigiare `z|` per selezionare tramite espressione Python;
+- scrivere `re.search("^(?!PA|RG).*", domicilio) and re.search("(PA|RG)", residenza)`.
+
+La prima è una speciale condizione di `regex`, che cerca al negativo.
+
+Sarà selezionata soltanto la riga seguente:
+
+| domicilio | residenza |
+| --- | --- |
+| VE | PA |
 
 [`torna su`](#indice)
 
