@@ -624,7 +624,9 @@ Note:
 
 ##### Filtro tramite espressione Python su campo datetime
 
-È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime` dopo averle impostare come data. Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)). (Se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
+È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime`, dopo averli impostare come data.
+
+Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)), se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
 
 ![](./imgs/30_filtro_datetime_01.png)
 
@@ -661,7 +663,8 @@ A partire ad esempio da:
 Questa la procedura:
 
 - pigiare `z|` per selezionare tramite espressione Python;
-- scrivere `re.search("^(?!PA|RG).*", domicilio) and re.search("(PA|RG)", residenza)`.
+- scrivere `re.search("^(?!PA|RG).*", domicilio) and re.search("(PA|RG)", residenza)`;
+- premere <kbd>INVIO</kbd>.
 
 La prima è una speciale condizione di `regex`, che cerca al negativo.
 
