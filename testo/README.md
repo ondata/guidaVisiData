@@ -25,6 +25,7 @@ Indice
       - [Il foglio delle colonne](#il-foglio-delle-colonne)
       - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
         - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
+        - [Impostare formato data personalizzato](#impostare-formato-data-personalizzato)
       - [Rinominare le colonne](#rinominare-le-colonne)
       - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
       - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
@@ -359,6 +360,20 @@ Se si vuole fare su più colonne:
 
 [`torna su`](#indice)
 
+##### Impostare formato data personalizzato
+
+Se una cella contiene ad esempio la data `06/11/2020` (qui come 6 novembre 2020), e imposto la colonna come data con il tasto `@`, visidata la interpreta come `2020-06-11`, ovvero come 11 giugno.
+
+Per impostarla correttamente bisogna impostare un formato data personalizzato:
+
+- si va sulla colonna con le date;
+- si digita `z@` e si preme <kbd>INVIO</kbd>;
+- si imposta il formato - in questo caso `%d/%m/%Y` - e si preme <kbd>INVIO</kbd>.
+
+In output si avrà `2020-11-06`.
+
+[`torna su`](#indice)
+
 #### Rinominare le colonne
 
 Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
@@ -625,7 +640,9 @@ Note:
 
 ##### Filtro tramite espressione Python su campo datetime
 
-È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime` dopo averle impostare come data. Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)). (Se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
+È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime`, dopo averli impostare come data.
+
+Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)), se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
 
 ![](./imgs/30_filtro_datetime_01.png)
 
@@ -662,7 +679,8 @@ A partire ad esempio da:
 Questa la procedura:
 
 - pigiare `z|` per selezionare tramite espressione Python;
-- scrivere `re.search("^(?!PA|RG).*", domicilio) and re.search("(PA|RG)", residenza)`.
+- scrivere `re.search("^(?!PA|RG).*", domicilio) and re.search("(PA|RG)", residenza)`;
+- premere <kbd>INVIO</kbd>.
 
 La prima è una speciale condizione di `regex`, che cerca al negativo.
 
