@@ -24,6 +24,7 @@
       - [Il foglio delle colonne](#il-foglio-delle-colonne)
       - [Impostare il tipo di campo](#impostare-il-tipo-di-campo)
         - [Impostare numero di decimali in un campo floating](#impostare-numero-di-decimali-in-un-campo-floating)
+        - [Impostare formato data personalizzato](#impostare-formato-data-personalizzato)
       - [Rinominare le colonne](#rinominare-le-colonne)
       - [Rinominare le colonne in blocco](#rinominare-le-colonne-in-blocco)
       - [Come espandere, ridurre e rimuovere colonne](#come-espandere-ridurre-e-rimuovere-colonne)
@@ -355,6 +356,20 @@ Se si vuole fare su più colonne:
 - si va sulla colonna `fmtstr`;
 - si va in modifica globale con `ge` e si inserisce il valore di formattazione desiderato;
 - si preme `INVIO` per applicare la modifica.
+
+[`torna su`](#indice)
+
+##### Impostare formato data personalizzato
+
+Se una cella contiene ad esempio la data `06/11/2020` (qui come 6 novembre 2020), e imposto la colonna come data con il tasto `@`, visidata la interpreta come `2020-06-11`, ovvero come 11 giugno.
+
+Per impostarla correttamente bisogna impostare un formato data personalizzato:
+
+- si va sulla colonna con le date;
+- si digita `z@` e si preme <kbd>INVIO</kbd>;
+- si imposta il formato - in questo caso `%d/%m/%Y` - e si preme <kbd>INVIO</kbd>.
+
+In output si avrà `2020-11-06`.
 
 [`torna su`](#indice)
 
