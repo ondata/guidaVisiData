@@ -52,6 +52,7 @@ Indice
       - [Aggiunta di aggregatori](#aggiunta-di-aggregatori)
       - [Il riepilogo globale](#il-riepilogo-globale)
     - [Salvare un foglio](#salvare-un-foglio)
+    - [Fare il redirect dell'output verso lo stdout](#fare-il-redirect-delloutput-verso-lo-stdout)
     - [Fare JOIN tra tabelle](#fare-join-tra-tabelle)
     - [Concatenare tabelle](#concatenare-tabelle)
     - [Tabelle Pivot](#tabelle-pivot)
@@ -734,6 +735,16 @@ Questa è un'altra _feature_ di grande comodità (presente in molte applicazione
 ### Salvare un foglio
 
 Per salvare un foglio si preme `CTRL+s`, poi si scrive il nome del file con estensione (`nomeEsempio.csv`) e infine si pigia `Invio`.
+
+### Fare il redirect dell'output verso lo stdout
+
+Il comando
+
+```
+vd input.csv -b --save-filetype json | jq .
+```
+
+invierà ad esempio a `jq` un *output* `JSON` a partire dal CSV di *input*.
 
 ### Fare JOIN tra tabelle
 
