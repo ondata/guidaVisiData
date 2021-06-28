@@ -1,6 +1,11 @@
 site_name: Guida VisiData
 site_url: https://example.com/
 
+
+repo_url: https://github.com/ondata/guidaVisiData
+repo_name: guidaVisiData
+edit_uri: edit/master/docs/
+
 theme:
   name: material
   palette:
