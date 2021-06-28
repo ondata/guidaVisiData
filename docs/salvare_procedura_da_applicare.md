@@ -1,8 +1,3 @@
-- [Come salvare un insieme di operazioni e applicarle come modello ad altri file](#come-salvare-un-insieme-di-operazioni-e-applicarle-come-modello-ad-altri-file)
-	- [Introduzione](#introduzione)
-	- [Applicare le stesse procedure a un file diverso, ma omologo](#applicare-le-stesse-procedure-a-un-file-diverso-ma-omologo)
-	- [Nota sul file di log](#nota-sul-file-di-log)
-
 # Come salvare un insieme di operazioni e applicarle come modello ad altri file
 
 ## Introduzione
