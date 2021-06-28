@@ -1,5 +1,3 @@
-Indice
-
 ![](imgs/adesivi.jpeg)
 
 # VisiData: il coltellino svizzero per i dati, che probabilmente non conosci
