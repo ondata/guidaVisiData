@@ -1,0 +1,32 @@
+site_name: Guida VisiData
+site_url: https://example.com/
+
+theme:
+  name: material
+  palette:
+    scheme: preference
+  language: it
+  features:
+    - navigation.top
+
+plugins:
+- search
+- mkdocstrings
+
+markdown_extensions:
+- mkdocs-click
+- pymdownx.highlight
+- pymdownx.superfences
+- pymdownx.tabbed
+- pymdownx.critic:
+      mode: view
+- pymdownx.betterem:
+      smart_enable: all
+- pymdownx.caret
+- pymdownx.mark
+- pymdownx.tilde
+- pymdownx.smartsymbols
+- admonition
+- pymdownx.details
+- pymdownx.tasklist:
+      clickable_checkbox: true
