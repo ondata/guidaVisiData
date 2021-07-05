@@ -17,6 +17,7 @@ theme:
 plugins:
 - search
 - mkdocstrings
+- tags
 
 markdown_extensions:
 - mkdocs-click
