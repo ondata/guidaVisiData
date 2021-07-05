@@ -1,3 +1,10 @@
+---
+tags:
+  - ricette
+  - tutorial
+---
+
+
 ![](https://pigrecoinfinito.files.wordpress.com/2019/07/vdlogo.png)
 
 <br>
