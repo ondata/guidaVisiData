@@ -36,3 +36,4 @@ markdown_extensions:
 - pymdownx.details
 - pymdownx.tasklist:
       clickable_checkbox: true
+- meta
