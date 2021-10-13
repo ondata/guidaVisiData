@@ -1071,7 +1071,7 @@ Infine si consiglia il font di sotto:
 
 #### Filtrare un campo con delle date
 
-Si ha a disposizione un file come quello di sotto e si vogliono estrarre soltanto le righe per date comprese tra i giorni 8 agosto 2020 e 2 maggio 2023. Nota bene, il campo `data` ha una struttura `YYYY-MM-DD` che consente di usare le funzioni sulle date in modo "nativo".
+Si ha a disposizione un file come quello di sotto, da cui si vogliono estrarre soltanto le righe che contengono date comprese tra i giorni 8 agosto 2020 e 2 maggio 2023. Nota bene, il campo `data` di questo CSV ha una struttura `YYYY-MM-DD`, che consente di usare in modo "nativo" le funzioni Python sulle date.
 
 ```
 id,data
@@ -1083,9 +1083,9 @@ id,data
 Questi i passi da eseguire:
 
 - si va sulla colonna `data`;
-- si imposta il tipo di campo, come campo che contiene date, facendo click su `@`;
+- si imposta per questa il tipo di campo, indicando che è un campo che contiene date, facendo click su `@`;
 - si fa click su `z|` per applicare un'espressione Python (vedi sotto);
-- si scrive l'espressione coerente con gli obiettivi e si fa click su <kbd>INVIO</kbd>.
+- si scrive un'espressione coerente con gli obiettivi e si fa *click* su <kbd>INVIO</kbd>.
 
 L'espressione per applicare il filtro descritto sopra è:
 
