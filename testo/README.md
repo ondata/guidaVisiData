@@ -66,6 +66,7 @@
       - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
       - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
     - [Ricette](#ricette)
+      - [Filtrare un campo con delle date](#filtrare-un-campo-con-delle-date)
       - [Salvare una tabella HTML in CSV, a partire da una pagina web](#salvare-una-tabella-html-in-csv-a-partire-da-una-pagina-web)
     - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
     - [Note finali](#note-finali)
@@ -1067,6 +1068,32 @@ Infine si consiglia il font di sotto:
 ![](./imgs/caratteriNonLeggibili.png)
 
 ### Ricette
+
+#### Filtrare un campo con delle date
+
+Si ha a disposizione un file come quello di sotto e si vogliono estrarre soltanto le righe per date comprese tra i giorni 8 agosto 2020 e 2 maggio 2023. Nota bene, il campo `data` ha una struttura `YYYY-MM-DD` che consente di usare le funzioni sulle date in modo "nativo".
+
+```
+id,data
+1,2020-12-05
+2,2020-07-08
+3,2024-12-05
+```
+
+Questi i passi da eseguire:
+
+- si va sulla colonna `data`;
+- si imposta come campo che contiene data, facendo click su `@`;
+- si fa click su `z|` per applicare un'espressione Python (vedi sotto);
+- si scrive l'espressione coerente con gli obiettivi e si fa click su <kbd>INVIO</kbd>.
+
+L'espressione per applicare il filtro descritto sopra è:
+
+```python
+data > datetime.date(2020,8,8) and data < datetime.date(2023,5,2)
+```
+
+Sarà selezionata soltanto la riga `1,2020-12-05`.
 
 #### Salvare una tabella HTML in CSV, a partire da una pagina web
 
