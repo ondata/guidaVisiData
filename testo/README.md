@@ -1083,7 +1083,7 @@ id,data
 Questi i passi da eseguire:
 
 - si va sulla colonna `data`;
-- si imposta come campo che contiene data, facendo click su `@`;
+- si imposta il tipo di campo, come campo che contiene date, facendo click su `@`;
 - si fa click su `z|` per applicare un'espressione Python (vedi sotto);
 - si scrive l'espressione coerente con gli obiettivi e si fa click su <kbd>INVIO</kbd>.
 
