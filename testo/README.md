@@ -1024,6 +1024,8 @@ Si tratta di un TSV, quindi **è possibile leggerlo e modificarlo proprio con Vi
 
 #### Riga attiva di colore nero
 
+**Nota bene**: questo paragrafo risolve un problema per una vecchissima versione di VisiData.
+
 Quando si usa VisiData su Windows Subsystem for Linux, la riga attiva risulta invisibile perché tutta nera.
 
 Per fare in modo che torni "visibile" bisogna modificare il file di configurazione di VisiData. Questo file di _default_ non esiste: si deve trovare nella home dell'utente (quindi in `~`) e si deve nominare come `.visidatarc`.
