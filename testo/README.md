@@ -68,6 +68,7 @@
     - [Ricette](#ricette)
       - [Filtrare un campo con delle date](#filtrare-un-campo-con-delle-date)
       - [Salvare una tabella HTML in CSV, a partire da una pagina web](#salvare-una-tabella-html-in-csv-a-partire-da-una-pagina-web)
+      - [Salvare in blocco tutte le tabelle di una pagina web](#salvare-in-blocco-tutte-le-tabelle-di-una-pagina-web)
     - [Fare proposte e/o Chiedere supporto](#fare-proposte-eo-chiedere-supporto)
     - [Note finali](#note-finali)
     - [URL consigliati](#url-consigliati)
@@ -1157,7 +1158,6 @@ sheet	col	row	longname	input	keystrokes	comment
 -		0	dive-row		^J
 ```
 
-[`torna su`](#indice)
 
 Il file di sopra è un file di log di VisiData (vedi [sezione dedicata](#Salvare-un-flusso-di-lavoro)). Tutte le operazioni fatte in VisiData finiscono in un log che può essere visualizzato e salvato. Quindi è possibile salvare la visualizzazione dell'elenco delle tabelle e poi l'apertura di quella di interesse.
 
@@ -1167,6 +1167,32 @@ Per creare questo di sopra:
 - digitare `INVIO`;
 - digitate `SHIFT + d` per visualizzare il log dei comandi;
 - e infine `CTRL + s` per salvare il file `dive.vd`.
+
+[`torna su`](#indice)
+
+#### Salvare in blocco tutte le tabelle di una pagina web
+
+Alle volte in una pagina HTML ci sono più tabelle. Ad esempio quelle della pagina sul rapporto "[Ecosistema urbano di Legambiente e Ambiente Italia](https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php)".
+
+[![](./imgs/salvareTabelleHtmlBlocco.png)](https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php)
+
+Per scaricarle e salvarle tutte, questi i passi da seguire:
+
+- aprire la pagina, specificando con `--save-filetype=csv` quale sarà il formato in cui si vorranno salvare le tabelle
+
+```
+vd https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php --save-filetype=csv
+```
+- una volta aperto VisiData, rimanere nelle prima colonna e selezionare tutto con `gs`;
+- la prima colonna contiene il nome delle tabelle. In questo caso sono una ventina e hanno tutte lo stesso nome. Per poterle salvare, senza sovrascriversi a vicenda (hanno tutte lo stesso nome), rinominarle con `gi` che creerà in quella colonna - per ogni cella - un progressivo numerico a partire da `1`;
+
+![](./imgs/salvareTabelleHtmlBloccoRinomare.png)
+
+- lanciare il comando per salvare tutte le tabelle (che sono già selezionate), ovverto `g+CTRL+s`;
+- indicare come output la cartella corrente `./` (occhio quindi, verificare che non ci sia nulla di importante dentro) e dare INVIO;
+- verrà chiesto il permesso di sovrascrivere; rispondere con `yes`.
+
+Nella cartella di lavoro saranno disponibili tutte le tabelle, in formato `CSV`.
 
 ### Fare proposte e/o Chiedere supporto
 
