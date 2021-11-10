@@ -1194,6 +1194,8 @@ vd https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php --save-filetype=cs
 
 Nella cartella di lavoro saranno disponibili tutte le tabelle, in formato `CSV`.
 
+Nota bene: la ricetta è stata stimolata da [questa domanda](https://github.com/ondata/guidaVisiData/discussions/26#discussion-3676008).
+
 ### Fare proposte e/o Chiedere supporto
 
 Il luogo dove farlo è senz'altro questo [https://github.com/saulpw/visidata/issues](https://github.com/saulpw/visidata/issues). È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
