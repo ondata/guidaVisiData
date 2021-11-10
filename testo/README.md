@@ -1178,7 +1178,7 @@ Alle volte in una pagina HTML ci sono più tabelle. Ad esempio quelle della pagi
 
 Per scaricarle e salvarle tutte, questi i passi da seguire:
 
-- aprire la pagina, specificando con `--save-filetype=csv` quale sarà il formato in cui si vorranno salvare le tabelle
+- aprire la pagina, specificando con `--save-filetype=csv` quale sarà il formato in cui si vorranno salvare le tabelle;
 
 ```
 vd https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php --save-filetype=csv
@@ -1188,7 +1188,7 @@ vd https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php --save-filetype=cs
 
 ![](./imgs/salvareTabelleHtmlBloccoRinomare.png)
 
-- lanciare il comando per salvare tutte le tabelle (che sono già selezionate), ovverto `g+CTRL+s`;
+- lanciare il comando per salvare tutte le tabelle (che sono già selezionate), ovvero `g+CTRL+s`;
 - indicare come output la cartella corrente `./` (occhio quindi, verificare che non ci sia nulla di importante dentro) e dare INVIO;
 - verrà chiesto il permesso di sovrascrivere; rispondere con `yes`.
 
