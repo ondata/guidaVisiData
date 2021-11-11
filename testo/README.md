@@ -62,6 +62,8 @@
       - [Introduzione](#introduzione)
       - [Applicare lo stesso flusso a un file diverso, ma omologo](#applicare-lo-stesso-flusso-a-un-file-diverso-ma-omologo)
       - [Nota sul file di log](#nota-sul-file-di-log)
+    - [Personalizzare la configurazione](#personalizzare-la-configurazione)
+      - [Attivare contatore di righe e colonne](#attivare-contatore-di-righe-e-colonne)
     - [Soluzione problemi](#soluzione-problemi)
       - [Riga attiva di colore nero](#riga-attiva-di-colore-nero)
       - [Caratteri non leggibili in Windows Subsystem for Linux](#caratteri-non-leggibili-in-windows-subsystem-for-linux)
@@ -1020,6 +1022,33 @@ Si tratta di un TSV, quindi **è possibile leggerlo e modificarlo proprio con Vi
 ![](risorse/vd_log.gif)
 
 [`torna su`](#indice)
+
+### Personalizzare la configurazione
+
+#### Attivare contatore di righe e colonne
+
+È molto comodo, ma non è disponibile *by default*, poter aver nell'interfaccia di VisiData un'indicazione con (vedi figura sotto):
+
+1. riga corrente;
+2. righe totali;
+3. numero di righe selezionate;
+4. colonna corrente;
+5. colonne totali.
+
+![](./imgs/contatoreRigheColonne_02.png)
+
+Per attivare la cosa bisogna aprire il file di configurazione di VisiData (che di default è `~/.visidatarc`) e aggiungere il seguente odice:
+
+```python
+@Sheet.property
+def cursorRowIndex1(sheet):
+    return sheet.cursorRowIndex+1
+@Sheet.property
+def cursorVisibleColIndex1(sheet):
+    return sheet.cursorVisibleColIndex+1
+
+Sheet.class_options.disp_rstatus_fmt = ' R:{sheet.cursorRowIndex1}/{sheet.nRows}[{sheet.nSelectedRows}] C:{sheet.cursorVisibleColIndex1}/{sheet.nVisibleCols} {sheet.rowtype} '
+```
 
 ### Soluzione problemi
 
