@@ -18,29 +18,40 @@ theme:
   language: it
   features:
     - navigation.top
+    - navigation.tabs
+    - navigation.sections
   font:
     text: Montserrat
+
+
+nav:
+    - Home: README.md
+    - Guida:
+      - Installazione: installazione.md
+      - Navigare tra i dati: navigare.md
+      - Primi passi: primiPassi.md
+      - Lavorare sui dati:
+        - sulle righe: lavorareRighe.md
+        - sulle colonne: lavorareColonne.md
+        - sulle celle: lavorareCelle.md
+      - Fogli: fogli.md
+      - Ricette: ricette.md
+      - Configurazione: configurazione.md
+      - Cheat-sheet: cheatsheet.md
+      - 10 modi di usarlo: dieciModi.md
+    - Supporto: supportare.md
+    - Aiuto: aiuto.md
+    - Note: note.md
+
+extra:
+ social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ondatait
+      name: account twitter
 
 # foglio di stile personalizzato
 extra_css:
   - stylesheets/style.css
-
-nav:
-    - Home: README.md
-    - Installazione: installazione.md
-    - Navigare tra i dati: navigare.md
-    - Lavorare sui dati:
-      - sulle righe: lavorareRighe.md
-      - sulle colonne: lavorareColonne.md
-      - sulle celle: lavorareCelle.md
-    - Fogli: fogli.md
-    - Ricette: ricette.md
-    - Configurazione: configurazione.md
-    - Cheat-sheet: cheatsheet.md
-    - 10 modi di usarlo: dieciModi.md
-    - Supportare VisiData: supportare.md
-    - Aiuto: aiuto.md
-    - Note: note.md
 
 plugins:
 - search

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+og_image: cheatSheetVisiData.png
 ---
 
 Abbiamo tradotto in italiano il *cheat-sheet* di VisiData, creato da Jeremy Singer Vine, disponibile in [HTML](https://jsvine.github.io/visidata-cheat-sheet/it/) e [PDF](https://jsvine.github.io/visidata-cheat-sheet/downloads/visidata-cheat-sheet.it.pdf).

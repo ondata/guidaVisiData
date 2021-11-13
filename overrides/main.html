@@ -19,7 +19,7 @@
         <meta property="og:url" content="{{ page.canonical_url }}" />
 
     {% if page and page.meta and page.meta.og_image %}
-        <meta property="og:image:url" content="{{ config.site_url ~ 'img/' ~ page.meta.og_image }}" />
+        <meta property="og:image:url" content="{{ config.site_url ~ 'imgs/' ~ page.meta.og_image }}" />
     {% else %}
         <meta property="og:image:url" content="{{ config.site_url ~ 'imgs/openGraph.png' }}" />
     {% endif %}
@@ -54,7 +54,7 @@
     {% endif %}
 
     {% if page and page.meta and page.meta.og_image %}
-        <meta property="twitter:image" content="{{ config.site_url ~ 'img/' ~ page.meta.og_image }}">
+        <meta property="twitter:image" content="{{ config.site_url ~ 'imgs/' ~ page.meta.og_image }}">
     {% else %}
         <meta property="twitter:image" content="{{ config.site_url ~ 'imgs/openGraph.png' }}">
     {% endif %}

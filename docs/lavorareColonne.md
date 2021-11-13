@@ -10,7 +10,7 @@ Ogni colonna in VisiData ha 3 attributi principali:
 - `Width`, la larghezza a schermo della colonna (se impostata a 0, la colonna diventa invisibile);
 - `Type`, per definire se contiene testi, numeri interi, numeri decimali, monete o date.
 
-#### Il foglio delle colonne
+##Il foglio delle colonne
 
 In VisiData esistono i cosiddetti meta-fogli (vedi [sopra](#i-fogli)): uno di questi è il foglio delle colonne, che elenca tutte le colonne e i relativi attributi di una tabella.
 
@@ -20,7 +20,7 @@ A partire dalla visualizzazione di una tabella, si apre con `Shift+c`.
 
 È una delle caratteristiche di VisiData che consente una rapida prima lettura del dato, che personalmente uso anche ad esempio per costruire brevi relazioni che contengono schema dati.
 
-#### Impostare il tipo di campo
+##Impostare il tipo di campo
 
 Come impostazione predefinita VisiData imposta a "testo" la tipologia di tutti i campi (che è quello che faccio di solito anche io alla prima apertura sia in un foglio elettronico che in Pandas).<br>
 Per definire il tipo di campo di una colonna della tabella che si sta visualizzando (cosa che consente di fare correttamente ad esempio operazioni di ordinamento, matematiche, ecc.), si deve navigare sino alla colonna su cui si vuole intervenire e poi pigiare:
@@ -33,7 +33,7 @@ Per definire il tipo di campo di una colonna della tabella che si sta visualizza
 
 
 
-##### Impostare numero di decimali in un campo floating
+###Impostare numero di decimali in un campo floating
 
 Di *default* i campi floating sono renderizzati con due decimali (la formattazione è impostata come `%.02f`).
 
@@ -52,7 +52,7 @@ Se si vuole fare su più colonne:
 
 
 
-##### Impostare formato data personalizzato
+###Impostare formato data personalizzato
 
 Se una cella contiene ad esempio la data `06/11/2020` (qui come 6 novembre 2020), e imposto la colonna come data con il tasto `@`, visidata la interpreta come `2020-06-11`, ovvero come 11 giugno.
 
@@ -66,7 +66,7 @@ In output si avrà `2020-11-06`.
 
 
 
-#### Rinominare le colonne
+##Rinominare le colonne
 
 Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 
@@ -74,7 +74,7 @@ Per farlo si naviga sino alla colonna che si vuole rinominare e poi:
 - si digita il nome che si vuole assegnare;
 - si pigia `Invio`.
 
-#### Rinominare le colonne in blocco
+##Rinominare le colonne in blocco
 
 Può essere utile ad esempio anteporre dei caratteri a tutte le colonne che iniziano per `t`.
 
@@ -90,7 +90,7 @@ Tutte le colonne che iniziano per `t`, avranno un nuovo nome corrispondente al p
 
 
 
-#### Come espandere, ridurre e rimuovere colonne
+##Come espandere, ridurre e rimuovere colonne
 
 Questi gli shortcut:
 
@@ -103,14 +103,14 @@ Questi gli shortcut:
 
 
 
-#### Spostare una colonna
+##Spostare una colonna
 
 Ecco come farlo:
 
 - `Shift+h`, sposta la colonna corrente di una posizione a sinistra;
 - `Shift+l`, sposta la colonna corrente di una posizione a destra.
 
-#### Modificare una colonna tramite un'espressione Python
+##Modificare una colonna tramite un'espressione Python
 
 A questa tabella si vuole assegnare al campo `FieldA` il valore di `FieldB`, tutte le volte che `FieldA` è vuoto.
 
@@ -130,7 +130,7 @@ Ovvero (`FieldA`) è uguale `FieldB` se `FieldA` non contiene nulla, altrimenti 
 
 
 
-#### Calcoli per colonna
+##Calcoli per colonna
 
 È possibile avere restituito, per una colonna, il risultato di uno dei calcoli di aggregazione disponibili:
 
@@ -146,7 +146,7 @@ In basso, si leggerà il valore risultante.
 
 **NOTA BENE**: se nessuna riga è selezionata si avrà il totale per colonna, altrimenti il calcolo sarà applicato per colonna alle sole righe selezionate.
 
-#### Come definire una colonna chiave
+##Come definire una colonna chiave
 
 Per ogni foglio è possibile definire una o più colonne chiave. Hanno due funzioni principali:
 
@@ -157,7 +157,7 @@ Per definire una colonna chiave (e vice-versa) si naviga sino alla colonna di in
 
 
 
-#### Manipolare le colonne dal foglio delle colonne
+##Manipolare le colonne dal foglio delle colonne
 
 Il foglio delle colonne oltre a dare una visione di insieme, consente di fare delle rapide modifiche in blocco. È possibile spostare le colonne con `Shift+j` e `Shift+k`, rinominarle con `e`, impostare il tipo per tutte quelle selezionate, impostare la larghezza per tutte quelle selezionate.
 
@@ -175,7 +175,7 @@ Poi premere `g#`.
 
 
 
-#### Creare una nuova colonna
+##Creare una nuova colonna
 
 Sono tre le modalità più comode:
 
@@ -183,7 +183,7 @@ Sono tre le modalità più comode:
 - come risultato di un comando di _split_;
 - come risultato di estrazione di una porzione di testo da una colonna.
 
-##### Nuova colonna tramite espressione
+###Nuova colonna tramite espressione
 
 Ad esempio potrebbe essere utile creare una colonna vero/falso, per tutte le auto del Parco Circolante dei veicoli dell'Abruzzo, con cilindrata maggiore ai 643 (è un numero a caso). Per farlo:
 
@@ -199,7 +199,7 @@ In output qualcosa come quella di sotto, con la nuova colonna risultato di un'es
 
 ![](./imgs/15_nuoveColonne.png)
 
-##### Nuove colonne come risultato di splitting
+###Nuove colonne come risultato di splitting
 
 Si possono creare nuove colonne, come risultato di una suddivisione di una già esistente. Ad esempio nel campo `data_immatricolazione` è contenuta sia la data che l'orario, separati da spazio (i.e. `1995-04-03 00:00:00`). <br>
 Se si vuole suddividerla in due colonne (data e orario), si può procedere in questo modo:
@@ -215,7 +215,7 @@ Come output si avrà qualcosa come quella di sotto: due colonne frutto della div
 
 
 
-##### Nuove colonne come risultato di cattura e estrazione
+###Nuove colonne come risultato di cattura e estrazione
 
 Per farlo ci vogliono delle conoscenze di base sulle espressioni regolari (che sono una conoscenza propedeutica per chiunque lavori con i dati).
 
@@ -234,7 +234,7 @@ E si ottiene qualcosa come quella di sotto:
 
 
 
-#### Trasformare una colonna tramite espressione regolare (trova e sostituisci)
+##Trasformare una colonna tramite espressione regolare (trova e sostituisci)
 
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalle celle della colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
