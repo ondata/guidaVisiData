@@ -16,7 +16,9 @@ Per muoversi in modo più esteso:
 - `PageDown` oppure `Control + Shift + f`, una pagina in giù;
 - `PageUp` oppure `Control + Shift + b`, una pagina in alto.
 
-**NOTA BENE**: `g` è il tasto per i comandi "globali".
+!!! attention "Nota bene"
+
+    `g` è il tasto per i comandi "globali".
 
 Per muoversi tramite ricerca testuale, sfruttando le espressioni regolari:
 

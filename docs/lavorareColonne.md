@@ -144,7 +144,10 @@ Ad esempio per avere la somma dei valori di una colonna con numeri interi:
 
 In basso, si leggerà il valore risultante.
 
-**NOTA BENE**: se nessuna riga è selezionata si avrà il totale per colonna, altrimenti il calcolo sarà applicato per colonna alle sole righe selezionate.
+
+!!! attention "Nota bene"
+
+    Se nessuna riga è selezionata si avrà il totale per colonna, altrimenti il calcolo sarà applicato per colonna alle sole righe selezionate.
 
 ##Come definire una colonna chiave
 
