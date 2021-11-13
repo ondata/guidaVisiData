@@ -25,7 +25,7 @@ id,Variable,Value
 2,shape,round
 ```
 
-nella `shell` saranno visualizzati i relativi dati contenuti nel file di output
+nella `shell` saranno visualizzati i relativi dati contenuti in esso
 
 ![](imgs/primiPassi_01.png)
 
