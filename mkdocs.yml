@@ -28,8 +28,8 @@ nav:
     - Home: README.md
     - Guida:
       - Installazione: installazione.md
-      - Navigare tra i dati: navigare.md
       - Primi passi: primiPassi.md
+      - Navigare tra i dati: navigare.md
       - Lavorare sui dati:
         - sulle righe: lavorareRighe.md
         - sulle colonne: lavorareColonne.md
