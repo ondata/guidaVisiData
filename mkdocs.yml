@@ -14,6 +14,23 @@ theme:
   features:
     - navigation.top
 
+nav:
+    - Home: README.md
+    - Installazione: installazione.md
+    - Navigare tra i dati: navigare.md
+    - Lavorare sui dati:
+      - sulle righe: lavorareRighe.md
+      - sulle colonne: lavorareColonne.md
+      - sulle celle: lavorareCelle.md
+    - Fogli: fogli.md
+    - Ricette: ricette.md
+    - Configurazione: configurazione.md
+    - Cheat-sheet: cheatsheet.md
+    - 10 modi di usarlo: dieciModi.md
+    - Supportare VisiData: supportare.md
+    - Aiuto: aiuto.md
+    - Note: note.md
+
 plugins:
 - search
 - mkdocstrings
