@@ -60,7 +60,7 @@ for c in visibleCols:
 Una volta aggiunto, per usarlo in VisiData:
 
 - fare click sulla <kbd>barra spaziatrice</kbd> ;
-- digitare `clean-names'` e premere <kbd>INVIO</kbd> .
+- digitare `clean-names` e premere <kbd>INVIO</kbd> .
 
 ## Un file di configurazione di esempio
 
