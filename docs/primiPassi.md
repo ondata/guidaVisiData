@@ -29,4 +29,16 @@ nella `shell` saranno visualizzati i relativi dati contenuti nel file di output
 
 ![](imgs/primiPassi_01.png)
 
+## Formati file
 
+VisiData supporta [decine di formati](formati.md) di file: tra questi `TSV`,`CSV`,`sqlite`,`JSON`,`XML`,`XLSX`,`html`, ecc.. Il suo **formato** di ***default*** è il **TSV**.
+
+!!! attention "Nota bene"
+
+    Se il file non ha estensione - ad esempio si chiama `input` - e lo apri con `vd input`, VisiData lo interpreterà come un TSV.
+
+
+L'interpretazione del formato viene fatta in due modi:
+
+- se il file ha l'estensione, viene ricavata da questa;
+- forzando il formato con un'opzione in apertura. Se si vuole che il file sia interpretato come un JSON il comando sarà `vd -f json input`.
