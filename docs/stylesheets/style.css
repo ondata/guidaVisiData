@@ -1,0 +1,9 @@
+/*
+link nel footer
+.md-footer-copyright__highlight a {
+  color:#5A72FF !important;
+}
+*/
+
+/* colore righe pari */
+tr:nth-child(even) {background-color: #f2f2f2;}
