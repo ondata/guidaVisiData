@@ -6,7 +6,7 @@ title: Configurazione
 
 In VisiData è possibile utilizzare un file di configurazione, per personalizzare alcune caratteristiche: i colori dell'applicazione, le funzioni disponibili, l'interfaccia, ecc..
 
-Questo file di *default* si chiama `.visidatarc` e si trova nella cartella *home* dell'utente (`~/.visidatarc`). Se non è presente, è da creare.
+Questo file di *default* si chiama `.visidatarc` e VisiData lo cerca nella cartella *home* dell'utente, quindi `~/.visidatarc`. Se non è presente, è da creare e da riempire con le istruzioni di configurazione che si desiderano.
 
 ## Esempi.
 
