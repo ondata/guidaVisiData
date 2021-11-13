@@ -9,8 +9,8 @@ title: Fogli
 In VisiData ci sono tre tipi di fogli:
 
 - i **fogli sorgente**, con i dati che si è scelto di aprire con VisiData;
-- i **fogli derivati**, come quelli derivanti da filtraggio o la tabelle con le frequenze (vedi sotto);
-- i **metafogli**, che descrivono e definiscono i dataset caricati (come quello che descrive ad esempio le colonne di una tabella, o il "foglio dei fogli").
+- i [**fogli derivati**](#fogli-derivati), come quelli derivanti da filtraggio o la tabelle con le frequenze (vedi sotto);
+- i [**metafogli**](#metafogli), che descrivono e definiscono i dataset caricati (come quello che descrive ad esempio le colonne di una tabella, o il "foglio dei fogli").
 
 Il foglio/tabella correntemente aperto si chiude con `q`.
 

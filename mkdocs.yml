@@ -21,6 +21,9 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.sections
+    # - search.suggest
+    # - search.highlight
+    # - search.share
   font:
     text: Montserrat
 
@@ -57,8 +60,9 @@ extra_css:
   - stylesheets/style.css
 
 plugins:
-- search
-- mkdocstrings
+  - search:
+      lang: it
+  - mkdocstrings
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
