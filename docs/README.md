@@ -24,5 +24,5 @@ Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' `
 
 Sorprende la sua rapidità e come offra in modo agile una visione di insieme dei dati. Questo, affiancato all'utilizzo da tastiera, lo rende un prodotto che dà una marcia in più a chi lo usa.
 
-[Leggi la guida](installazione){ .md-button .md-button--primary }
+[Leggi la guida :fontawesome-brands-readme:](installazione){ .md-button .md-button--primary }
 
