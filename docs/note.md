@@ -21,7 +21,7 @@ Lo sviluppatore principale di VD e le persone  che collaborano con lui sono molt
 
 Qui vorremmo **aggiornare** e **arricchire** nel tempo i testi e [si accettano anche **proposte** di **integrazioni**, **correzioni** e **modifiche**](https://github.com/ondata/guidaVisiData/discussions).
 
-Alcuni **grazie**:
+:pray: Alcuni **grazie**:
 
 - a [**Saul Pwanson**](https://www.saul.pw/), per avere inventato VisiData e per essere una persona brillante e generosa;
 - a [**Anja Kefala**](https://github.com/anjakefala), per essere sempre presente e attenta nelle gestione delle issue di progetto e per il contributo allo sviluppo di VisiData;
