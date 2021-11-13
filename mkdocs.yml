@@ -36,9 +36,11 @@ nav:
         - sulle celle: lavorareCelle.md
       - Fogli: fogli.md
       - Ricette: ricette.md
+      - Formati: formati.md
       - Configurazione: configurazione.md
-      - Cheat-sheet: cheatsheet.md
-      - 10 modi di usarlo: dieciModi.md
+      - Aggiunte:
+        - Cheat-sheet: cheatsheet.md
+        - 10 modi di usarlo: dieciModi.md
     - Supporto: supportare.md
     - Aiuto: aiuto.md
     - Note: note.md
