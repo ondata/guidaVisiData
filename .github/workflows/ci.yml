@@ -1,0 +1,17 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material requests_oauthlib click click-plugins click-config-file pytest mkdocs mkdocs-material mkdocstrings mkdocs-click mkdocs-rss-plugin
+      - run: mkdocs gh-deploy --force
