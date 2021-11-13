@@ -40,5 +40,5 @@ VisiData supporta [decine di formati](formati.md) di file: tra questi `TSV`,`CSV
 
 L'interpretazione del formato viene fatta in due modi:
 
-- se il file ha l'estensione, viene ricavata da questa;
+- se il file ha l'estensione, viene ricavato da questa;
 - oppure si può forzare il formato con un'opzione in apertura. Se si vuole ad esempio che il file sia interpretato come un JSON, il comando sarà `vd -f json input`.
