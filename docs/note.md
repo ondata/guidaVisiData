@@ -3,7 +3,7 @@ title: Note
 hide:
   - toc
   - navigation
-og-image: adesivi.jpeg
+og_image: adesivi.jpeg
 ---
 
 # Note personali
