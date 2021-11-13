@@ -22,7 +22,7 @@ Questo file di *default* si chiama `.visidatarc` e VisiData lo cerca nella carte
 
 ![](./imgs/contatoreRigheColonne_02.png)
 
-Per attivare la cosa bisogna aprire il file di configurazione di VisiData (che di default è `~/.visidatarc`) e aggiungere il seguente codice:
+Per attivare la cosa bisogna aprire il file di configurazione di VisiData e aggiungere il seguente codice:
 
 ```python
 @Sheet.property
