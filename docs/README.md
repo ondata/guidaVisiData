@@ -3,8 +3,6 @@ hide: toc
 title: VisiData, il coltellino svizzero per i dati, che probabilmente non conosci
 ---
 
-![](imgs/adesivi.jpeg)
-
 # VisiData: il coltellino svizzero per i dati, che probabilmente non conosci
 
 > **VisiData** è un fantastico strumento _open source_ per esplorare e manipolare dati. Mette insieme la chiarezza di un **foglio di calcolo**, con l'efficienza del **terminale** e la potenza di **Python**, in una _utility_ leggera in grado di gestire milioni di righe con facilità.
