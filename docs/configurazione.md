@@ -61,10 +61,24 @@ Una volta aggiunto, per usarlo in VisiData:
 
 - fare click sulla <kbd>barra spaziatrice</kbd> ;
 - digitare `clean-names` e premere <kbd>INVIO</kbd> .
+### Importare un modulo Python
+
+È possibile importare in VisiData uno o più moduli Python, in modo che sia disponibili ulteriori funzionalità.<br>
+Per farlo c'è da aggiungere nel file di configurazione la "classica" stringa di *import*.
+
+Ad esempio per abilitare il modulo `re`, basterà aggiungere:
+
+```
+import re
+```
 
 ## Un file di configurazione di esempio
 
 ```python
+# Python modules to import
+
+import re
+
 # to set the value to use for null value cells
 options.null_value = ""
 #options.disp_float_fmt = '%.07f'

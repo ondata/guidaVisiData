@@ -6,6 +6,10 @@ title: Primi passi
 
 **VisiData** si utilizza dalla `shell`, quindi il primo passo è aprirla.
 
+!!! info "File di esempio"
+
+    In questa guida, alle volte si fa riferimento a dei file per sviluppare degli esempi. Questi si trovano nel repo di progetto in [questa cartella](https://github.com/ondata/guidaVisiData/tree/master/docs/dati).
+
 ## Aprire un file
 
 Il comando di base è:
@@ -28,6 +32,14 @@ id,Variable,Value
 nella `shell` saranno visualizzati i relativi dati contenuti in esso
 
 ![](imgs/primiPassi_01.png)
+
+### Tramite URL
+
+È possibile aprire un file anche a partire dal suo URL pubblico. Ad esempio:
+
+```bash
+vd "https://raw.githubusercontent.com/ondata/guidaVisiData/master/docs/dati/inputFileOne.csv"
+```
 
 ## Formati file
 

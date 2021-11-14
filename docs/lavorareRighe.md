@@ -26,7 +26,7 @@ I tasti principali di selezione sono:
 - `,`, dato il valore della cella selezionata, seleziona tutte le righe in cui per la colonna corrente c'è corrispondenza;
 - `g,`, seleziona tutte le righe uguali a quelle corrente.
 
-Se ad esempio:
+Ad esempio si apre [questo file](./dati/inputFileOne.csv) con VisiData:
 
 - ci si sposta nella colonna `provincia_residenza`
 - poi si pigia `|`;
@@ -48,7 +48,7 @@ I comandi da tastiera sono:
 - `z|`, per selezionare tutte le righe in cui l'espressione è valida;
 - `z\`, per deselezionare tutte le righe in cui l'espressione è valida.
 
-Ad esempio seguendo questi step:
+Ad esempio se voglio selezionare da [questo file](./dati/inputFileOne.csv) tutte le righe relative a donne, la cui provincia di residenza è "Pescara", questi gli step:
 
 - `gu`, per deselezionare tutto;
 - `z|`, per attivare la selezione tramite espressione Python;
@@ -62,8 +62,13 @@ Ad esempio seguendo questi step:
 
 ## Selezione di righe tramite espressioni Python e regex
 
+
 - si digita `z|`;
 - si scrive l'espressione, come ad esempio `re.search("^1", FieldB) and re.search("^2", FieldA)`, ovvero tutte le righe in cui il campo `FieldB` inizia per `1` e il campo `FieldA` per `2`.
+
+!!! attention "Attenzione"
+
+    Per utilizzare le espressioni regolari all'interno di una *Python expression* bisogna importare il modulo Python `re`. [Qui](./configurazione.md#importare-un-modulo-python) le note per farlo.
 
 ## Selezionare un numero random di righe
 
