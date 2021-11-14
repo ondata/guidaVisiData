@@ -73,8 +73,8 @@ Ad esempio se voglio selezionare da [questo file](./dati/inputFileOne.csv) tutte
 ## Selezionare un numero random di righe
 
 - aprire una tabella;
-- fare click sulla barra spaziatrice;
-- scrivere `random-rows` (si può scrivere anche soltanto ad esempio `ran` e autocompletare con `TAB`) e premere `INVIO`;
+- fare click sulla <kbd>barra spaziatrice</kbd> ;
+- scrivere `random-rows` (si può scrivere anche soltanto ad esempio `ran` e autocompletare con <kbd>TAB</kbd> ) e premere <kbd>INVIO</kbd> ;
 - scrivere il numero di righe random che si vogliono selezionare.
 
 
@@ -88,8 +88,8 @@ Si fa con queste combinazioni:
 
 ## Cancellare righe
 
-- `d` per cancellare la riga corrente;
-- `gd` per cancellare le righe selezionate.
+- <kbd>D</kbd> per cancellare la riga corrente;
+- <kbd>G</kbd> + <kbd>D</kbd> per cancellare le righe selezionate.
 
 ## Modificare il contenuto
 
