@@ -7,3 +7,4 @@ mkdocs
 mkdocs-material
 mkdocstrings
 mkdocs-click
+mkdocs-mermaid2-plugin
