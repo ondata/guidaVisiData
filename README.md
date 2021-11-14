@@ -1,3 +1,5 @@
+<kbd><a href="https://ondata.github.io/guidaVisiData/">APRI LA GUIDA</a></kbd>
+
 ## VisiData: il coltellino svizzero per i dati
 
 > [**VisiData**](http://visidata.org/) è un fantastico strumento _open source_ per esplorare e manipolare dati. Mette insieme la chiarezza di un **foglio di calcolo**, con l'efficienza del **terminale** e la potenza di **Python**, in una _utility_ leggera in grado di gestire milioni di righe con facilità.
@@ -6,7 +8,7 @@ La presentazione ufficiale fa un'ottima sintesi, ma non evidenzia la cosa più i
 
 Per usarlo **non è necessario essere uno sviluppatore**; se si conosce un po' Python, sarà possibile usarlo in modo ancora più comodo ed efficiente.
 
-[**Qui**](./testo/README.md) la prima release di una [**guida introduttiva in italiano**](./testo/README.md) scritta da [Andrea Borruso](https://twitter.com/aborruso).
+[**Qui**](https://ondata.github.io/guidaVisiData/) una [**guida introduttiva in italiano**](https://ondata.github.io/guidaVisiData/) scritta da [Andrea Borruso](https://twitter.com/aborruso).
 
 [**Qui**](https://jsvine.github.io/visidata-cheat-sheet/it/) invece il [***cheat sheet***](https://jsvine.github.io/visidata-cheat-sheet/it/) che abbiamo tradotto in italiano.
 
