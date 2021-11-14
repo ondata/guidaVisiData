@@ -55,6 +55,9 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ondatait
       name: account twitter
+    - icon: fontawesome/brands/paypal
+      link: https://tinyurl.com/sostieniondata
+      name: sostieni onData
 
 # foglio di stile personalizzato
 extra_css:
