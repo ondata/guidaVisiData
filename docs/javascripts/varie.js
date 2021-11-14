@@ -1,3 +1,4 @@
+// to open external links in new window
 function targetBlank() {
   // remove subdomain of current site's url and setup regex
   var internal = location.host.replace("www.", "");
@@ -11,3 +12,5 @@ function targetBlank() {
     }
   }
 };
+
+targetBlank();
