@@ -11,7 +11,7 @@ title: Primi passi
 Il comando di base è:
 
 ```bash
-vd input.csv
+vd nomeFile
 ```
 
 Se il file di input è ad esempio questo CSV
