@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material requests_oauthlib click click-plugins click-config-file pytest mkdocs mkdocs-material mkdocstrings mkdocs-click mkdocs-rss-plugin
+      - run: pip install mkdocs-material requests_oauthlib click click-plugins click-config-file pytest mkdocs mkdocs-material mkdocstrings mkdocs-click mkdocs-rss-plugin mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --force
