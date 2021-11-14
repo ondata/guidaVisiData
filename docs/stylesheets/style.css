@@ -7,3 +7,9 @@ link nel footer
 
 /* colore righe pari */
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* colore background intestazione tabella */
+div.md-typeset__table thead {
+  background-color: #b6c1ff;
+}
+
