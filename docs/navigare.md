@@ -18,7 +18,7 @@ Per muoversi in modo più esteso:
 
 !!! info "Nota bene"
 
-    <kbd>g</kbd> è il tasto per i comandi "globali".
+   ++g++ è il tasto per i comandi "globali".
 
 Per muoversi tramite ricerca testuale, sfruttando le espressioni regolari:
 
@@ -30,4 +30,3 @@ Per muoversi tramite ricerca testuale, sfruttando le espressioni regolari:
 Con `n` e `N` si va avanti e indietro rispetto agli elementi di _output_ del risultato della ricerca.
 
 Infine per saltare a una determinata riga o colonna, rispettivamente `zr` e `zc` seguito dal numero di riga e colonna (la numerazione inizia da zero).
-
