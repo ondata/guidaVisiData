@@ -24,9 +24,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    # - search.suggest
-    # - search.highlight
-    # - search.share
+    - navigation.instant
   font:
     text: Montserrat
 
