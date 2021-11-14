@@ -18,7 +18,7 @@ Per muoversi in modo più esteso:
 
 !!! info "Nota bene"
 
-   ++g++ è il tasto per i comandi "globali".
+    ++g++ è il tasto per i comandi "globali".
 
 Per muoversi tramite ricerca testuale, sfruttando le espressioni regolari:
 
