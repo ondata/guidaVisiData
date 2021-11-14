@@ -76,6 +76,7 @@ markdown_extensions:
 - footnotes
 - meta
 - mkdocs-click
+- pymdownx.keys
 - pymdownx.betterem:
       smart_enable: all
 - pymdownx.caret
@@ -101,3 +102,4 @@ markdown_extensions:
 - toc:
       permalink: true
       toc_depth: 3
+
