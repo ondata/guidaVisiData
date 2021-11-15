@@ -36,19 +36,19 @@ nav:
     - Guida:
       - Installazione: installazione.md
       - Primi passi: primiPassi.md
+      - Configurazione: configurazione.md
       - Navigare tra i dati: navigare.md
       - Lavorare sui dati:
         - sulle righe: lavorareRighe.md
         - sulle colonne: lavorareColonne.md
         - sulle celle: lavorareCelle.md
-      Varie:
+      - Varie:
         - Fogli: fogli.md
         - Ricette: ricette.md
         - Formati: formati.md
-        - Configurazione: configurazione.md
-        - Contributi:
-          - Cheat-sheet: cheatsheet.md
-          - 10 modi di usarlo: dieciModi.md
+      - Contributi:
+        - Cheat-sheet: cheatsheet.md
+        - 10 modi di usarlo: dieciModi.md
     - Supporto: supportare.md
     - Aiuto: aiuto.md
     - Note: note.md
