@@ -9,8 +9,8 @@ Per muoversi tra le celle si usano le 4 frecce direzionali dalla tastiera o (com
 
 Per muoversi in modo più esteso:
 
-- `g + freccia in basso` oppure `gj`, per andare all'ultima riga;
-- `g + freccia in alto` oppure `gk`, per andare alla prima riga;
+- `g + freccia in basso` oppure `gj`, o `End`, per andare all'ultima riga;
+- `g + freccia in alto` oppure `gk`, o `Home`, per andare alla prima riga;
 - `g + freccia a sinistra` oppure `gh`, per andare alla colonna più a sinistra;
 - `g + freccia a destra` oppure `gl`, per andare alla colonna più a destra;
 - `PageDown` oppure `Control + Shift + f`, una pagina in giù;

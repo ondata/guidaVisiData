@@ -36,8 +36,8 @@ nav:
     - Guida:
       - Installazione: installazione.md
       - Primi passi: primiPassi.md
-      - Configurazione: configurazione.md
       - Navigare tra i dati: navigare.md
+      - Configurazione: configurazione.md
       - Lavorare sui dati:
         - sulle righe: lavorareRighe.md
         - sulle colonne: lavorareColonne.md
