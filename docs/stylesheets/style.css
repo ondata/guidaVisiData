@@ -19,5 +19,5 @@ div.md-typeset__table thead {
 /* font per le tabelle */
 
 div.md-typeset__table td {
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Open Sans', sans-serif;
 }
