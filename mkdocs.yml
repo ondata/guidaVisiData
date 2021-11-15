@@ -27,6 +27,8 @@ theme:
     - navigation.instant
   font:
     text: Montserrat
+    #code: Cutive Mono
+    code: Fira Code
 
 
 nav:
