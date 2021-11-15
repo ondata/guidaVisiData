@@ -6,10 +6,18 @@ link nel footer
 */
 
 /* colore righe pari */
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 /* colore background intestazione tabella */
 div.md-typeset__table thead {
   background-color: #b6c1ff;
 }
 
+
+/* font per le tabelle */
+
+div.md-typeset__table td {
+  font-family: Consolas, monaco, monospace;
+}
