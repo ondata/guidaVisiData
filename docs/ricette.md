@@ -115,6 +115,7 @@ Per scaricarle e salvarle tutte, questi i passi da seguire:
 ```
 vd https://lab24.ilsole24ore.com/ecosistema-urbano/indexT.php --save-filetype=csv
 ```
+
 - una volta aperto VisiData, rimanere nelle prima colonna e selezionare tutto con `gs`;
 - la prima colonna contiene il nome delle tabelle. In questo caso sono una ventina e hanno tutte lo stesso nome. Per poterle salvare, senza sovrascriversi a vicenda (hanno tutte lo stesso nome), rinominarle con `gi` che creerà in quella colonna - per ogni cella - un progressivo numerico a partire da `1`;
 
