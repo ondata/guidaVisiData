@@ -7,10 +7,10 @@ hide:
 
 # Aiuto
 
-Due i luoghi principali dove segnalare **bug**, chiedere **aiuto** e fare **proposte**:
+Due i luoghi principali dove chiedere **aiuto**, segnalare **bug**, e fare **proposte**:
 
-- la [pagina delle ***issue***](https://github.com/saulpw/visidata/issues);
-- la [pagina delle **discussioni**](https://github.com/saulpw/visidata/discussions).
+- la [pagina ufficiale delle ***issue***](https://github.com/saulpw/visidata/issues);
+- la [pagina ufficiale delle **discussioni**](https://github.com/saulpw/visidata/discussions).
 
 È bene farlo scrivendo sempre la versione di VisiData utilizzata, allegare i dati per replicare eventuali problemi riscontrati, documentare la procedura che si vuole realizzare.
 
