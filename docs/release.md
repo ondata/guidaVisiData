@@ -1,5 +1,8 @@
 ---
 title: Versioni
+hide:
+  - toc
+  - navigation
 ---
 
 
