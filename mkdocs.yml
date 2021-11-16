@@ -53,7 +53,7 @@ nav:
     - Sostieni: sostieni.md
     - Aiuto: aiuto.md
     - Note: note.md
-    - Versioni: release.md
+#    - Versioni: release.md
 
 extra:
  social:
