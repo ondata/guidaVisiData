@@ -16,6 +16,7 @@ theme:
   favicon: imgs/favicon.ico
   palette:
     scheme: preference
+    accent: orange
   language: it
   features:
     - navigation.top
