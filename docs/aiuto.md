@@ -7,7 +7,7 @@ hide:
 
 # Aiuto
 
-Due i luoghi principali dove chiedere **aiuto**, segnalare **bug**, e fare **proposte**:
+Due i luoghi principali dove chiedere **aiuto**, segnalare **bug**, e fare **proposte** su **VisiData**:
 
 - la [pagina ufficiale delle ***issue***](https://github.com/saulpw/visidata/issues);
 - la [pagina ufficiale delle **discussioni**](https://github.com/saulpw/visidata/discussions).
