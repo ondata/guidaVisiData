@@ -11,6 +11,8 @@ copyright: '<b>Guida VisiData</b> è un progetto dell''<a href="https://twitter.
 
 theme:
   name: material
+  icon:
+    logo: material/table
   highlightjs: true
   custom_dir: overrides
   favicon: imgs/favicon.ico
