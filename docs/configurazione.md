@@ -47,7 +47,7 @@ Questi i passi da seguire:
 
 I nomi dei campi dei file, per essere utilizzati in VisiData all'interno di espressioni Python non devono contenere spazi.
 
-Per avere disponibile un comando che si occupa di "pulire" questi nomi, si può aggiungere questo codice al file di configurazione:
+Per avere disponibile un comando per "pulire" e normalizzare questi nomi, si può aggiungere questo codice al file di configurazione:
 
 ```python
 Sheet.addCommand('', 'clean-names', '''
