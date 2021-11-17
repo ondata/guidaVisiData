@@ -2,7 +2,11 @@
 
 {% block announce %}
   <!-- Add announcement here, including arbitrary HTML -->
-  <p>Iscriviti alla 📧 <b><a style="color:#ff9100 !important;" href="https://www.getrevue.co/profile/ondata">newsletter di onData</a></b></p>
+  <p>Iscriviti alla <b><a style="color:#ff9100 !important;" href="https://www.getrevue.co/profile/ondata">newsletter di onData</a></b>
+    <span class="twemoji">
+        {% include ".icons/material/email.svg" %}
+    </span>
+  </p>
 {% endblock %}
 
 {% block extrahead %}
