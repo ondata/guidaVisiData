@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block announce %}
+  <!-- Add announcement here, including arbitrary HTML -->
+  <p>Iscriviti alla 📧 <b><a style="color:rgb(206, 103, 19) !important;" href="https://www.getrevue.co/profile/ondata">newsletter di onData</a></b></p>
+{% endblock %}
+
 {% block extrahead %}
 <!-- Open Graph / Facebook -->
     {% if page and page.meta and page.meta.og_title %}
