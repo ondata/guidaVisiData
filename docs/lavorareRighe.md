@@ -210,3 +210,7 @@ Sarà selezionata soltanto la riga seguente:
 | domicilio | residenza |
 | --- | --- |
 | VE | PA |
+
+!!! warning "Attenzione"
+
+    Questa espressione sfrutta il modulo `re` di Python, che non è importato *by default* in VisiData. Quindi dovrai aggiungere l'istruzione di `import` nel [file di configurazione](./configurazione.md#importare-un-modulo-python).
