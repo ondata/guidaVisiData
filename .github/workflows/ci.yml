@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - master
-  paths:
-    - 'docs/**'
+    paths:
+      - 'docs/**'
   workflow_dispatch:
 
 jobs:
