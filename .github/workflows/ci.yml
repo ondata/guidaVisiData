@@ -5,6 +5,7 @@ on:
       - master
     paths:
       - 'docs/**'
+      - 'mkdocs.yml'
   workflow_dispatch:
 
 jobs:
