@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
-      - '.github/workflows/ci.yml'
+#    paths:
+#      - 'docs/**'
+#      - 'mkdocs.yml'
+#      - '.github/workflows/ci.yml'
   workflow_dispatch:
 
 jobs:
