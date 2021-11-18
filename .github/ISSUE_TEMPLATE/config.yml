@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Domanda
+  - name: Domande
     url: https://github.com/ondata/guidaVisiData/discussions
-    about: Per favore fai qui le tue domande sulla guida
+    about: Per favore fai qui le tue domande su questa guida. Se invece devi segnalare un problema o fare una proposta per il codice di questo repo, apri una issue (qui sotto il link "Open a blank issue").
