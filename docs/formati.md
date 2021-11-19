@@ -1,6 +1,9 @@
 ---
 title: Formati
+hide:
+   - toc
 ---
+
 
 # Formati
 
