@@ -25,6 +25,13 @@ if [ -f "$folder"/tmp.md ]; then
   rm -f "$folder"/tmp.md
 fi
 
+cat << EOF > "$folder"/tmp.md
+---
+title: Comandi
+---
+
+EOF
+
 mlr <"$folder"/visiDataCommands_it.csv --c2j filter -x -S '$description_it=="" && $section_it==""' then cut -f section_it then uniq -a | jq -r ".section_it" | while read -r sezione; do
   #mlr --csv filter -S '$section_it=="'"$sezione"'"' "$folder"/visiDataCommands_it.csv
 
