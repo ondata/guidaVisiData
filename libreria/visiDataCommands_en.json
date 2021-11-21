@@ -1,0 +1,490 @@
+{ "sheet": "BaseSheet", "longname": "cancel-all", "keystrokes": "gCtrl+C", "description": "abort all secondary threads", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "cancel-sheet", "keystrokes": "Ctrl+C", "description": "abort all threads on current sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "check-version", "keystrokes": "zCtrl+V", "description": "check VisiData version against given version", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "cmdlog-all", "keystrokes": "gShift+D", "description": "open global CommandLog for all commands executed in current session", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "cmdlog-sheet", "keystrokes": "Shift+D", "description": "open current sheet's CommandLog with all other loose ends removed; includes commands from parent sheets", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "cmdlog-sheet-only", "keystrokes": "zShift+D", "description": "open current sheet's CommandLog with parent sheets commands' removed", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "columns-all", "keystrokes": "gShift+C", "description": "open Columns Sheet: edit column properties for all visible columns from all sheets", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "describe-all", "keystrokes": "gShift+I", "description": "open Describe Sheet with description statistics for all visible columns from all sheets", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "error-recent", "keystrokes": "Ctrl+E", "description": "view traceback for most recent error", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "errors-all", "keystrokes": "gCtrl+E", "description": "view traceback for most recent errors", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "exec-longname", "keystrokes": "Space", "description": "execute command by its longname", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "exec-python", "keystrokes": "", "description": "execute Python statement with expression scope", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "guard-sheet", "keystrokes": "", "description": "Set quitguard on current sheet to confirm before quit", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "help-commands", "keystrokes": "zCtrl+H", "description": "view sheet of command longnames and keybindings for current sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "help-commands-all", "keystrokes": "gzCtrl+H", "description": "view sheet of command longnames and keybindings for all sheet types", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "help-search", "keystrokes": "", "description": "search through command longnames with search terms", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "import-python", "keystrokes": "gCtrl+X", "description": "import Python module in the global scope", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-first", "keystrokes": "gCtrl+^", "description": "jump to first sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-prev", "keystrokes": "Ctrl+^", "description": "jump to previous sheet in this pane", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-1", "keystrokes": "Alt+1", "description": "jump to sheet 1", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-10", "keystrokes": "Alt+0", "description": "jump to sheet 10", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-2", "keystrokes": "Alt+2", "description": "jump to sheet 2", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-3", "keystrokes": "Alt+3", "description": "jump to sheet 3", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-4", "keystrokes": "Alt+4", "description": "jump to sheet 4", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-5", "keystrokes": "Alt+5", "description": "jump to sheet 5", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-6", "keystrokes": "Alt+6", "description": "jump to sheet 6", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-7", "keystrokes": "Alt+7", "description": "jump to sheet 7", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-8", "keystrokes": "Alt+8", "description": "jump to sheet 8", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "jump-sheet-9", "keystrokes": "Alt+9", "description": "jump to sheet 9", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-column", "keystrokes": "Alt+c", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-data", "keystrokes": "Alt+d", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-edit", "keystrokes": "Alt+e", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-file", "keystrokes": "Alt+f", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-help", "keystrokes": "Alt+h", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-plot", "keystrokes": "Alt+p", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-row", "keystrokes": "Alt+r", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-system", "keystrokes": "Alt+s", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "menu-view", "keystrokes": "Alt+v", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "mouse-disable", "keystrokes": "", "description": "disable mouse events", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "mouse-enable", "keystrokes": "", "description": "enable mouse events", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "no-op", "keystrokes": "BUTTON1_RELEASED", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-colors", "keystrokes": "", "description": "open Color Sheet with available terminal colors", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-config", "keystrokes": "gShift+O", "description": "open options.config as text sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-dir-current", "keystrokes": "", "description": "open Directory Sheet: browse properties of files in current directory", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-file", "keystrokes": "o", "description": "Open file or URL", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-inputs", "keystrokes": "", "description": "", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-memusage", "keystrokes": "zCtrl+T", "description": "open Memory Usage Sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-new", "keystrokes": "Shift+A", "description": "Open new empty sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-plugins", "keystrokes": "", "description": "Open Plugins Sheet to manage supported plugins", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-source", "keystrokes": "", "description": "jump to the source of this sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-statuses", "keystrokes": "Ctrl+P", "description": "open Status History", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-tutorial-visidata", "keystrokes": "", "description": "open https://jsvine.github.io/intro-to-visidata/", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "open-vd", "keystrokes": "Shift+V", "description": "open VisiData menu: browse list of core sheets", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "options-global", "keystrokes": "Shift+O", "description": "open Options Sheet: edit global options (apply to all sheets)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "options-sheet", "keystrokes": "zShift+O", "description": "open Options Sheet: edit sheet options (apply to current sheet only)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "pyobj-expr", "keystrokes": "Ctrl+X", "description": "evaluate Python expression and open result as Python object", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "pyobj-expr-row", "keystrokes": "zCtrl+X", "description": "evaluate Python expression, in context of current row, and open result as Python object", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "pyobj-sheet", "keystrokes": "gCtrl+Y", "description": "open current sheet as Python object", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "quit-all", "keystrokes": "gq", "description": "quit all sheets (clean exit)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "quit-sheet", "keystrokes": "q", "description": "quit current sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "quit-sheet-free", "keystrokes": "Shift+Q", "description": "discard current sheet and free memory", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "redo-last", "keystrokes": "Shift+R", "description": "Redo the most recent undo (options.undo must be enabled)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "redraw", "keystrokes": "Ctrl+L", "description": "Refresh screen", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "reload-sheet", "keystrokes": "Ctrl+R", "description": "Reload current sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "rename-sheet", "keystrokes": "", "description": "Rename current sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "repeat-input", "keystrokes": "", "description": "run previous command, along with any previous input to that command", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "repeat-last", "keystrokes": "", "description": "run most recent command with an empty, queried input", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "replay-advance", "keystrokes": "Ctrl+N", "description": "execute next row in replaying sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "replay-pause", "keystrokes": "Ctrl+U", "description": "pause/resume replay", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "replay-stop", "keystrokes": "Ctrl+C", "description": "cancel current replay", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "save-all", "keystrokes": "gCtrl+S", "description": "save all sheets to given file or directory)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "save-cmdlog", "keystrokes": "Ctrl+D", "description": "save CommandLog to filename.vd file", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "save-sheet", "keystrokes": "Ctrl+S", "description": "save current sheet to filename in format determined by extension (default .tsv)", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "sheets-all", "keystrokes": "gShift+S", "description": "open Sheets Sheet: join or jump between all sheets from current session", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "sheets-stack", "keystrokes": "Shift+S", "description": "open Sheets Stack: join or jump between the active sheets on the current stack", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "show-status", "keystrokes": "", "description": "show given message on status line", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "show-version", "keystrokes": "Ctrl+V", "description": "Show version and copyright information on status line", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "splitwin-close", "keystrokes": "gShift+Z", "description": "close split screen", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "splitwin-half", "keystrokes": "Shift+Z", "description": "ensure split pane is set and push under sheet onto other pane", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "splitwin-input", "keystrokes": "zShift+Z", "description": "set split pane to specific size", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "splitwin-swap", "keystrokes": "Tab", "description": "jump to inactive pane", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "splitwin-swap-pane", "keystrokes": "gTab", "description": "swap panes onscreen", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "suspend", "keystrokes": "Ctrl+Z", "description": "suspend VisiData process", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "sysopen-help", "keystrokes": "gCtrl+H", "description": "Show the UNIX man page for VisiData", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "threads-all", "keystrokes": "Ctrl+T", "description": "open Threads Sheet", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "toggle-profile", "keystrokes": "Ctrl+_", "description": "Enable or disable profiling on main VisiData process", "lang": "en" }
+{ "sheet": "BaseSheet", "longname": "undo-last", "keystrokes": "Shift+U", "description": "Undo the most recent change (options.undo must be enabled)", "lang": "en" }
+{ "sheet": "Canvas", "longname": "delete-cursor", "keystrokes": "d", "description": "delete rows on source sheet contained within canvas cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "delete-visible", "keystrokes": "gd", "description": "delete rows on source sheet visible on screen", "lang": "en" }
+{ "sheet": "Canvas", "longname": "dive-cursor", "keystrokes": "Enter", "description": "open sheet of source rows contained within canvas cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "dive-visible", "keystrokes": "gEnter", "description": "open sheet of source rows visible on screen", "lang": "en" }
+{ "sheet": "Canvas", "longname": "end-cursor", "keystrokes": "BUTTON1_RELEASED", "description": "end cursor box with left mouse button release", "lang": "en" }
+{ "sheet": "Canvas", "longname": "end-move", "keystrokes": "BUTTON3_RELEASED", "description": "mark canvas anchor point", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-bottom", "keystrokes": "gDown", "description": "move cursor to bottom edge of visible canvas", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-down", "keystrokes": "Down", "description": "move cursor down by its height", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-down-small", "keystrokes": "zj", "description": "move cursor down one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-left", "keystrokes": "Left", "description": "move cursor left by its width", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-left-small", "keystrokes": "zh", "description": "move cursor left one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-leftmost", "keystrokes": "gLeft", "description": "move cursor to left edge of visible canvas", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-pagedown", "keystrokes": "PgDn", "description": "move cursor down to next visible page", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-pageup", "keystrokes": "PgUp", "description": "move cursor up to previous visible page", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-right", "keystrokes": "Right", "description": "move cursor right by its width", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-right-small", "keystrokes": "zl", "description": "move cursor right one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-rightmost", "keystrokes": "gRight", "description": "move cursor to right edge of visible canvas", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-top", "keystrokes": "gUp", "description": "move cursor to top edge of visible canvas", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-up", "keystrokes": "Up", "description": "move cursor up by its height", "lang": "en" }
+{ "sheet": "Canvas", "longname": "go-up-small", "keystrokes": "zk", "description": "move cursor up one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-doubleheight", "keystrokes": "gShift+K", "description": "double cursor height", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-doublewide", "keystrokes": "gShift+L", "description": "double cursor width", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-halfheight", "keystrokes": "gShift+J", "description": "halve cursor height", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-halfwide", "keystrokes": "gShift+H", "description": "halve cursor width", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-shorter", "keystrokes": "zUp", "description": "decrease cursor height by one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-taller", "keystrokes": "zDown", "description": "increase cursor height by one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-thinner", "keystrokes": "Ctrl+Left", "description": "decrease cursor width by one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-cursor-wider", "keystrokes": "Ctrl+Right", "description": "increase cursor width by one character", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-x-input", "keystrokes": "x", "description": "set xmin/xmax on graph axes", "lang": "en" }
+{ "sheet": "Canvas", "longname": "resize-y-input", "keystrokes": "y", "description": "set ymin/ymax on graph axes", "lang": "en" }
+{ "sheet": "Canvas", "longname": "select-cursor", "keystrokes": "s", "description": "select rows on source sheet contained within canvas cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "select-visible", "keystrokes": "gs", "description": "select rows on source sheet visible on screen", "lang": "en" }
+{ "sheet": "Canvas", "longname": "set-aspect", "keystrokes": "z_", "description": "set aspect ratio", "lang": "en" }
+{ "sheet": "Canvas", "longname": "start-cursor", "keystrokes": "LeftClick", "description": "start cursor box with left mouse button press", "lang": "en" }
+{ "sheet": "Canvas", "longname": "start-move", "keystrokes": "RightClick", "description": "mark grid point to move", "lang": "en" }
+{ "sheet": "Canvas", "longname": "stoggle-cursor", "keystrokes": "t", "description": "toggle selection of rows on source sheet contained within canvas cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "stoggle-visible", "keystrokes": "gt", "description": "toggle selection of rows on source sheet visible on screen", "lang": "en" }
+{ "sheet": "Canvas", "longname": "unselect-cursor", "keystrokes": "u", "description": "unselect rows on source sheet contained within canvas cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "unselect-visible", "keystrokes": "gu", "description": "unselect rows on source sheet visible on screen", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoom-all", "keystrokes": "_", "description": "zoom to fit full extent", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoom-cursor", "keystrokes": "zz", "description": "set visible bounds to cursor", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoomin-cursor", "keystrokes": "+", "description": "zoom into cursor center", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoomin-mouse", "keystrokes": "ScrollwheelUp", "description": "zoom in with scroll wheel", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoomout-cursor", "keystrokes": "-", "description": "zoom out from cursor center", "lang": "en" }
+{ "sheet": "Canvas", "longname": "zoomout-mouse", "keystrokes": "ScrollwheelDown", "description": "zoom out with scroll wheel", "lang": "en" }
+{ "sheet": "ChoiceSheet", "longname": "choose-rows", "keystrokes": "Enter", "description": "", "lang": "en" }
+{ "sheet": "ChoiceSheet", "longname": "choose-rows-selected", "keystrokes": "gEnter", "description": "", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "aggregate-cols", "keystrokes": "g+", "description": "add aggregators to selected source columns", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "freq-row", "keystrokes": "Enter", "description": "open a Frequency Table sheet grouped on column referenced in current row", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "hide-selected", "keystrokes": "g-", "description": "hide selected columns on source sheet", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "join-cols", "keystrokes": "&", "description": "add column from concatenating selected source columns", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "key-off-selected", "keystrokes": "gz!", "description": "unset selected rows as key columns on source sheet", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "key-selected", "keystrokes": "g!", "description": "toggle selected rows as key columns on source sheet", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "resize-source-rows-max", "keystrokes": "", "description": "adjust widths of selected source columns", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-any-selected", "keystrokes": "gz~", "description": "set type of selected columns to anytype", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-currency-selected", "keystrokes": "g$", "description": "set type of selected columns to currency", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-customdate-selected", "keystrokes": "gz@", "description": "set type of selected columns to date", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-date-selected", "keystrokes": "g@", "description": "set type of selected columns to date", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-float-selected", "keystrokes": "g%", "description": "set type of selected columns to float", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-floatlocale-selected", "keystrokes": "", "description": "set type of selected columns to float using system locale", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-floatsi-selected", "keystrokes": "gz%", "description": "set type of selected columns to floatsi", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-int-selected", "keystrokes": "g#", "description": "set type of selected columns to int", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-len-selected", "keystrokes": "gz#", "description": "set type of selected columns to len", "lang": "en" }
+{ "sheet": "ColumnsSheet", "longname": "type-string-selected", "keystrokes": "g~", "description": "set type of selected columns to str", "lang": "en" }
+{ "sheet": "CommandLog", "longname": "replay-all", "keystrokes": "gx", "description": "replay contents of entire CommandLog", "lang": "en" }
+{ "sheet": "CommandLog", "longname": "replay-row", "keystrokes": "x", "description": "replay command in current row", "lang": "en" }
+{ "sheet": "CommandLog", "longname": "replay-stop", "keystrokes": "Ctrl+C", "description": "abort replay", "lang": "en" }
+{ "sheet": "CommandLogJsonl", "longname": "replay-all", "keystrokes": "gx", "description": "replay contents of entire CommandLog", "lang": "en" }
+{ "sheet": "CommandLogJsonl", "longname": "replay-row", "keystrokes": "x", "description": "replay command in current row", "lang": "en" }
+{ "sheet": "CommandLogJsonl", "longname": "replay-stop", "keystrokes": "Ctrl+C", "description": "abort replay", "lang": "en" }
+{ "sheet": "CrosswordSheet", "longname": "open-grid", "keystrokes": "Enter", "description": "open GridSheet: grid for crossword", "lang": "en" }
+{ "sheet": "CrosswordsSheet", "longname": "open-clues", "keystrokes": "Enter", "description": "open CrosswordSheet: clue answer pair for crossword", "lang": "en" }
+{ "sheet": "DescribeSheet", "longname": "select-cell", "keystrokes": "zs", "description": "select rows on source sheet which are being described in current cell", "lang": "en" }
+{ "sheet": "DescribeSheet", "longname": "unselect-cell", "keystrokes": "zu", "description": "unselect rows on source sheet which are being described in current cell", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "copy-row", "keystrokes": "y", "description": "copy file to given directory", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "copy-selected", "keystrokes": "gy", "description": "copy selected files to given directory", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "open-row", "keystrokes": "Enter", "description": "open current file as a new sheet", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "open-rows", "keystrokes": "gEnter", "description": "open selected files as new sheets", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "sysopen-row", "keystrokes": "Ctrl+O", "description": "open current file in external $EDITOR", "lang": "en" }
+{ "sheet": "DirSheet", "longname": "sysopen-rows", "keystrokes": "gCtrl+O", "description": "open selected files in external $EDITOR", "lang": "en" }
+{ "sheet": "EmailSheet", "longname": "extract-part", "keystrokes": "x", "description": "", "lang": "en" }
+{ "sheet": "EmailSheet", "longname": "extract-part-selected", "keystrokes": "gx", "description": "", "lang": "en" }
+{ "sheet": "FreqTableSheet", "longname": "dive-rows", "keystrokes": "gEnter", "description": "open copy of source sheet with rows that are grouped in selected rows", "lang": "en" }
+{ "sheet": "FreqTableSheet", "longname": "unselect-rows", "keystrokes": "gu", "description": "unselect all source rows grouped in current row", "lang": "en" }
+{ "sheet": "GeoJSONMap", "longname": "save-sheet", "keystrokes": "Ctrl+S", "description": "save current sheet to filename in format determined by extension (default .geojson)", "lang": "en" }
+{ "sheet": "GeoJSONSheet", "longname": "plot-row", "keystrokes": ".", "description": "plot geospatial vector in current row", "lang": "en" }
+{ "sheet": "GeoJSONSheet", "longname": "plot-rows", "keystrokes": "g.", "description": "plot all geospatial vectors in current sheet", "lang": "en" }
+{ "sheet": "Hdf5ObjSheet", "longname": "dive-metadata", "keystrokes": "Shift+A", "description": "open metadata sheet for object referenced in current row", "lang": "en" }
+{ "sheet": "HelpSheet", "longname": "exec-command", "keystrokes": "Enter", "description": "execute command on undersheet", "lang": "en" }
+{ "sheet": "IndexSheet", "longname": "join-selected", "keystrokes": "&", "description": "merge selected sheets with visible columns from all, keeping rows according to jointype", "lang": "en" }
+{ "sheet": "IndexSheet", "longname": "reload-selected", "keystrokes": "gCtrl+R", "description": "reload all selected sheets", "lang": "en" }
+{ "sheet": "IndexSheet", "longname": "save-selected", "keystrokes": "gCtrl+S", "description": "save all selected sheets to given file or directory", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-bottom", "keystrokes": "gDown", "description": "move cursor to bottom edge of visible canvas", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-down", "keystrokes": "Down", "description": "move cursor down by its height", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-down-small", "keystrokes": "zj", "description": "move cursor down one character", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-pagedown", "keystrokes": "PgDn", "description": "move cursor down to next visible page", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-pageup", "keystrokes": "PgUp", "description": "move cursor up to previous visible page", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-top", "keystrokes": "gUp", "description": "move cursor to top edge of visible canvas", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-up", "keystrokes": "Up", "description": "move cursor up by its height", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "go-up-small", "keystrokes": "zk", "description": "move cursor up one character", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "resize-cursor-shorter", "keystrokes": "zUp", "description": "decrease cursor height by one character", "lang": "en" }
+{ "sheet": "InvertedCanvas", "longname": "resize-cursor-taller", "keystrokes": "zDown", "description": "increase cursor height by one character", "lang": "en" }
+{ "sheet": "MbtilesSheet", "longname": "plot-row", "keystrokes": ".", "description": "plot tiles in current row", "lang": "en" }
+{ "sheet": "MbtilesSheet", "longname": "plot-selected", "keystrokes": "g.", "description": "plot selected tiles", "lang": "en" }
+{ "sheet": "OptionsSheet", "longname": "edit-option", "keystrokes": "Enter", "description": "edit option at current row", "lang": "en" }
+{ "sheet": "OptionsSheet", "longname": "unset-option", "keystrokes": "d", "description": "remove option override for this context", "lang": "en" }
+{ "sheet": "PNGSheet", "longname": "plot-sheet", "keystrokes": ".", "description": "plot this png", "lang": "en" }
+{ "sheet": "PandasFreqTableSheet", "longname": "open-row", "keystrokes": "Enter", "description": "open copy of source sheet with rows that are grouped in current row", "lang": "en" }
+{ "sheet": "PandasFreqTableSheet", "longname": "select-row", "keystrokes": "s", "description": "select rows grouped in current row in source sheet", "lang": "en" }
+{ "sheet": "PandasFreqTableSheet", "longname": "stoggle-row", "keystrokes": "t", "description": "toggle selection of rows grouped in current row in source sheet", "lang": "en" }
+{ "sheet": "PandasFreqTableSheet", "longname": "unselect-row", "keystrokes": "u", "description": "unselect rows grouped in current row in source sheet", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "dup-selected", "keystrokes": "\"", "description": "open duplicate sheet with only selected rows", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "freq-col", "keystrokes": "Shift+F", "description": "open Frequency Table grouped on current column, with aggregations of other columns", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "freq-keys", "keystrokes": "gShift+F", "description": "open Frequency Table grouped by all key columns on source sheet, with aggregations of other columns", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "random-rows", "keystrokes": "", "description": "open duplicate sheet with a random population subset of N rows", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "select-after", "keystrokes": "gzs", "description": "select all rows from cursor to bottom", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "select-before", "keystrokes": "zs", "description": "select all rows from top to cursor", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "select-col-regex", "keystrokes": "|", "description": "select rows matching regex in current column", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "select-cols-regex", "keystrokes": "g|", "description": "select rows matching regex in any visible column", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "select-rows", "keystrokes": "gs", "description": "select all rows", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "stoggle-after", "keystrokes": "gzt", "description": "toggle selection of rows from cursor to bottom", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "stoggle-before", "keystrokes": "zt", "description": "toggle selection of rows from top to cursor", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "stoggle-rows", "keystrokes": "gt", "description": "toggle selection of all rows", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "unselect-after", "keystrokes": "gzu", "description": "unselect all rows from cursor to bottom", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "unselect-before", "keystrokes": "zu", "description": "unselect all rows from top to cursor", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "unselect-col-regex", "keystrokes": "\\", "description": "unselect rows matching regex in current column", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "unselect-cols-regex", "keystrokes": "g\\", "description": "unselect rows matching regex in any visible column", "lang": "en" }
+{ "sheet": "PandasSheet", "longname": "unselect-rows", "keystrokes": "gu", "description": "unselect all rows", "lang": "en" }
+{ "sheet": "PbfSheet", "longname": "plot-row", "keystrokes": ".", "description": "plot blocks in current row", "lang": "en" }
+{ "sheet": "PbfSheet", "longname": "plot-rows", "keystrokes": "g.", "description": "plot selected blocks", "lang": "en" }
+{ "sheet": "PcapSheet", "longname": "flows", "keystrokes": "Shift+W", "description": "", "lang": "en" }
+{ "sheet": "PcapSheet", "longname": "l2-packet", "keystrokes": 2, "description": "", "lang": "en" }
+{ "sheet": "PcapSheet", "longname": "l3-packet", "keystrokes": 3, "description": "", "lang": "en" }
+{ "sheet": "Plotter", "longname": "visibility", "keystrokes": "v", "description": "toggle show_graph_labels option", "lang": "en" }
+{ "sheet": "PluginsSheet", "longname": "add-plugin", "keystrokes": "a", "description": "Install and enable current plugin", "lang": "en" }
+{ "sheet": "PluginsSheet", "longname": "delete-plugin", "keystrokes": "d", "description": "Disable current plugin", "lang": "en" }
+{ "sheet": "ProfileSheet", "longname": "save-profile", "keystrokes": "zCtrl+S", "description": "save profile", "lang": "en" }
+{ "sheet": "ProfileSheet", "longname": "sysopen-row", "keystrokes": "Ctrl+O", "description": "open current file at referenced row in external $EDITOR", "lang": "en" }
+{ "sheet": "ProfileStatsSheet", "longname": "sysopen-row", "keystrokes": "Ctrl+O", "description": "open current file at referenced row in external $EDITOR", "lang": "en" }
+{ "sheet": "PyobjSheet", "longname": "hide-hidden", "keystrokes": "zv", "description": "hide methods and hidden properties", "lang": "en" }
+{ "sheet": "PyobjSheet", "longname": "show-hidden", "keystrokes": "gv", "description": "show methods and hidden properties", "lang": "en" }
+{ "sheet": "PyobjSheet", "longname": "visibility", "keystrokes": "v", "description": "toggle show/hide for methods and hidden properties", "lang": "en" }
+{ "sheet": "ShapeMap", "longname": "save-sheet", "keystrokes": "Ctrl+S", "description": "save current sheet to filename in format determined by extension (default .geojson)", "lang": "en" }
+{ "sheet": "ShapeSheet", "longname": "plot-row", "keystrokes": ".", "description": "plot geospatial vector in current row", "lang": "en" }
+{ "sheet": "ShapeSheet", "longname": "plot-rows", "keystrokes": "g.", "description": "plot all geospatial vectors in current sheet", "lang": "en" }
+{ "sheet": "SheetsSheet", "longname": "cancel-row", "keystrokes": "zCtrl+C", "description": "abort async thread for current sheet", "lang": "en" }
+{ "sheet": "SheetsSheet", "longname": "cancel-rows", "keystrokes": "gzCtrl+C", "description": "abort async threads for selected sheets", "lang": "en" }
+{ "sheet": "SheetsSheet", "longname": "columns-selected", "keystrokes": "gShift+C", "description": "open Columns Sheet with all visible columns from selected sheets", "lang": "en" }
+{ "sheet": "SheetsSheet", "longname": "describe-selected", "keystrokes": "gShift+I", "description": "open Describe Sheet with all visble columns from selected sheets", "lang": "en" }
+{ "sheet": "SheetsSheet", "longname": "open-row", "keystrokes": "Enter", "description": "open sheet referenced in current row", "lang": "en" }
+{ "sheet": "SqliteIndexSheet", "longname": "add-table", "keystrokes": "a", "description": "stub; add table by saving a sheet to the db file instead", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "add-row", "keystrokes": "a", "description": "append a blank row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "add-rows", "keystrokes": "ga", "description": "append N blank rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-bulk", "keystrokes": "gza", "description": "append N empty columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-expr", "keystrokes": "=", "description": "create new column from Python expression, with column names as variables", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-incr", "keystrokes": "i", "description": "add column with incremental values", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-incr-step", "keystrokes": "zi", "description": "add column with incremental values times given step", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-new", "keystrokes": "za", "description": "append an empty column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "addcol-sh", "keystrokes": "z;", "description": "create new column from bash expression, with $columnNames as variables", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "aggregate-col", "keystrokes": "+", "description": "Add aggregator to current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cache-col", "keystrokes": "z'", "description": "add/reset cache for current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cache-cols", "keystrokes": "gz'", "description": "add/reset cache for all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "capture-col", "keystrokes": ";", "description": "add new column from capture groups of regex; requires example row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "clean-names", "keystrokes": "", "description": "", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "columns-sheet", "keystrokes": "Shift+C", "description": "open Columns Sheet: edit column properties for current sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "commit-sheet", "keystrokes": "zCtrl+S", "description": "commit changes back to source.  not undoable!", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "contract-col", "keystrokes": ")", "description": "unexpand current column; restore original column and remove other columns at this level", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "copy-cell", "keystrokes": "zy", "description": "yank (copy) current cell to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "copy-cells", "keystrokes": "gzy", "description": "yank (copy) contents of current column for selected rows to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "copy-row", "keystrokes": "y", "description": "yank (copy) current row to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "copy-selected", "keystrokes": "gy", "description": "yank (copy) selected rows to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cut-cell", "keystrokes": "zx", "description": "delete (cut) current cell and move it to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cut-cells", "keystrokes": "gzx", "description": "delete (cut) contents of current column for selected rows and move them to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cut-row", "keystrokes": "x", "description": "delete (cut) current row and move it to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "cut-selected", "keystrokes": "gx", "description": "delete (cut) selected rows and move them to clipboard", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "delete-cell", "keystrokes": "zd", "description": "delete current cell (set to None)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "delete-cells", "keystrokes": "gzd", "description": "delete contents of current column for selected rows (set to None)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "delete-row", "keystrokes": "d", "description": "delete current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "delete-selected", "keystrokes": "gd", "description": "delete selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "describe-sheet", "keystrokes": "Shift+I", "description": "open Describe Sheet with descriptive statistics for all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dive-selected", "keystrokes": "gEnter", "description": "open sheet with copies of rows referenced in selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dive-selected-cells", "keystrokes": "gzEnter", "description": "open sheet with copies of rows referenced in selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dup-rows", "keystrokes": "g\"", "description": "open duplicate sheet with all rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dup-rows-deep", "keystrokes": "gz\"", "description": "open duplicate sheet with deepcopy of all rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dup-selected", "keystrokes": "\"", "description": "open duplicate sheet with only selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "dup-selected-deep", "keystrokes": "z\"", "description": "open duplicate sheet with deepcopy of selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "edit-cell", "keystrokes": "e", "description": "edit contents of current cell", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "error-cell", "keystrokes": "zCtrl+E", "description": "view traceback for error in current cell", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "expand-col", "keystrokes": "(", "description": "expand current column of containers one level", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "expand-col-depth", "keystrokes": "z(", "description": "expand current column of containers to given depth (0=fully)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "expand-cols", "keystrokes": "g(", "description": "expand all visible columns of containers one level", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "expand-cols-depth", "keystrokes": "gz(", "description": "expand all visible columns of containers to given depth (0=fully)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "freeze-col", "keystrokes": "'", "description": "add a frozen copy of current column with all cells evaluated", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "freeze-sheet", "keystrokes": "g'", "description": "open a frozen copy of current sheet with all visible columns evaluated", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "freq-col", "keystrokes": "Shift+F", "description": "open Frequency Table grouped on current column, with aggregations of other columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "freq-keys", "keystrokes": "gShift+F", "description": "open Frequency Table grouped by all key columns on source sheet, with aggregations of other columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "freq-summary", "keystrokes": "zShift+F", "description": "open one-line summary for all rows and selected rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-bottom", "keystrokes": "gDown", "description": "go all the way to the bottom of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-col-number", "keystrokes": "zc", "description": "go to given column number (0-based)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-col-regex", "keystrokes": "c", "description": "go to next column with name matching regex", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-down", "keystrokes": "Down", "description": "go down", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-end", "keystrokes": "", "description": "go to last row and last column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-home", "keystrokes": "", "description": "go to first row and first column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-left", "keystrokes": "Left", "description": "go left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-left-page", "keystrokes": "Ctrl+Left", "description": "scroll cursor one page left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-leftmost", "keystrokes": "gLeft", "description": "go all the way to the left of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-mouse", "keystrokes": "LeftClick", "description": "set cursor to row and column where mouse was clicked", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-next-null", "keystrokes": "z>", "description": "go down current column to next null value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-next-selected", "keystrokes": "}", "description": "go down current column to next selected row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-next-value", "keystrokes": ">", "description": "go down current column to next value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-pagedown", "keystrokes": "PgDn", "description": "scroll one page forward", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-pageup", "keystrokes": "PgUp", "description": "scroll one page backward", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-prev-null", "keystrokes": "z<", "description": "go up current column to next null value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-prev-selected", "keystrokes": "{", "description": "go up current column to previous selected row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-prev-value", "keystrokes": "<", "description": "go up current column to next value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-right", "keystrokes": "Right", "description": "go right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-right-page", "keystrokes": "Ctrl+Right", "description": "scroll cursor one page right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-rightmost", "keystrokes": "gRight", "description": "go all the way to the right of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-row-number", "keystrokes": "zr", "description": "go to the given row number (0-based)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-top", "keystrokes": "gUp", "description": "go all the way to the top of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "go-up", "keystrokes": "Up", "description": "go up", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "hide-col", "keystrokes": "-", "description": "Hide current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "join-sheets-all", "keystrokes": "g&", "description": "concatenate all sheets in Sheets Stack", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "join-sheets-top2", "keystrokes": "&", "description": "concatenate top two sheets in Sheets Stack", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "key-col", "keystrokes": "!", "description": "toggle current column as a key column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "key-col-off", "keystrokes": "z!", "description": "unset current column as a key column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "macro-record", "keystrokes": "m", "description": "record macro", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "macro-sheet", "keystrokes": "gm", "description": "open macros sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "melt", "keystrokes": "Shift+M", "description": "open Melted Sheet (unpivot), with key columns retained and all non-key columns reduced to Variable-Value rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "melt-regex", "keystrokes": "gShift+M", "description": "open Melted Sheet (unpivot), with key columns retained and regex capture groups determining how the non-key columns will be reduced to Variable-Value rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "memo-aggregate", "keystrokes": "z+", "description": "memo result of aggregator over values in selected rows for current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "memo-cell", "keystrokes": "Alt+m", "description": "store value in current cell in Memory Sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "open-cell", "keystrokes": "zEnter", "description": "open sheet with copies of rows referenced in current cell", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "open-memos", "keystrokes": "Alt+M", "description": "open the Memory Sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "open-row", "keystrokes": "Enter", "description": "open sheet with copies of rows referenced in current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "paste-after", "keystrokes": "p", "description": "paste clipboard rows after current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "paste-before", "keystrokes": "Shift+P", "description": "paste clipboard rows before current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "paste-cell", "keystrokes": "zp", "description": "set contents of current cell to last clipboard value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "pivot", "keystrokes": "Shift+W", "description": "open Pivot Table: group rows by key column and summarize current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "plot-column", "keystrokes": ".", "description": "plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "plot-numerics", "keystrokes": "g.", "description": "plot a graph of all visible numeric columns vs key columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "pyobj-cell", "keystrokes": "zCtrl+Y", "description": "open current cell as Python object", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "pyobj-row", "keystrokes": "Ctrl+Y", "description": "open current row as Python object", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "random-rows", "keystrokes": "", "description": "open duplicate sheet with a random population subset of N rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "rename-col", "keystrokes": "^", "description": "edit name of current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "rename-col-selected", "keystrokes": "z^", "description": "set name of current column to combined contents of current cell in selected rows (or current row)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "rename-cols-row", "keystrokes": "g^", "description": "set names of all unnamed visible columns to contents of selected rows (or current row)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "rename-cols-selected", "keystrokes": "gz^", "description": "set names of all visible columns to combined contents of selected rows (or current row)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "resize-col-half", "keystrokes": "z-", "description": "reduce width of current column by half", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "resize-col-input", "keystrokes": "z_", "description": "adjust width of current column to N", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "resize-col-max", "keystrokes": "_", "description": "toggle width of current column between full and default width", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "resize-cols-input", "keystrokes": "gz_", "description": "adjust widths of all visible columns to N", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "resize-cols-max", "keystrokes": "g_", "description": "toggle widths of all visible clumns between full and default width", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "save-col", "keystrokes": "", "description": "save current column only to filename in format determined by extension (default .tsv)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "save-col-keys", "keystrokes": "", "description": "save key columns and current column to filename in format determined by extension (default .tsv)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-bottom", "keystrokes": "gzj", "description": "scroll display of current column to the bottom", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-down", "keystrokes": "zj", "description": "scroll display of current column down one line", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-left", "keystrokes": "zh", "description": "scroll display of current column to the left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-leftmost", "keystrokes": "gzh", "description": "scroll display of current column to the beginning", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-right", "keystrokes": "zl", "description": "scroll display of current column to the right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-rightmost", "keystrokes": "gzl", "description": "scroll display of current column to the end", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-top", "keystrokes": "gzk", "description": "scroll display of current column to the top", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-cells-up", "keystrokes": "zk", "description": "scroll display of current column up one line", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-down", "keystrokes": "ScrollwheelDown", "description": "scroll one row down", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-left", "keystrokes": "CTRL-ScrollwheelUp", "description": "scroll one column left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-leftmost", "keystrokes": "", "description": "scroll sheet to leftmost column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-middle", "keystrokes": "zz", "description": "scroll current row to center of screen", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-mouse", "keystrokes": "", "description": "scroll to mouse cursor location", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-right", "keystrokes": "CTRL-ScrollwheelDown", "description": "scroll one column right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-rightmost", "keystrokes": "", "description": "scroll sheet to rightmost column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "scroll-up", "keystrokes": "ScrollwheelUp", "description": "scroll one row up", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "search-col", "keystrokes": "/", "description": "search for regex forwards in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "search-cols", "keystrokes": "g/", "description": "search for regex forwards over all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "search-expr", "keystrokes": "z/", "description": "search by Python expression forwards in current column (with column names as variables)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "search-keys", "keystrokes": "r", "description": "go to next row with key matching regex", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "search-next", "keystrokes": "n", "description": "go to next match from last regex search", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "searchr-col", "keystrokes": "?", "description": "search for regex backwards in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "searchr-cols", "keystrokes": "g?", "description": "search for regex backwards over all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "searchr-expr", "keystrokes": "z?", "description": "search by Python expression backwards in current column (with column names as variables)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "searchr-next", "keystrokes": "Shift+N", "description": "go to previous match from last regex search", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-after", "keystrokes": "gzs", "description": "select all rows from cursor to bottom", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-before", "keystrokes": "zs", "description": "select all rows from top to cursor", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-col-regex", "keystrokes": "|", "description": "select rows matching regex in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-cols-regex", "keystrokes": "g|", "description": "select rows matching regex in any visible column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-equal-cell", "keystrokes": ",", "description": "select rows matching current cell in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-equal-row", "keystrokes": "g,", "description": "select rows matching current row in all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-error", "keystrokes": "", "description": "select rows with errors in any column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-error-col", "keystrokes": "", "description": "select rows with errors in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-exact-cell", "keystrokes": "z,", "description": "select rows matching current cell in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-exact-row", "keystrokes": "gz,", "description": "select rows matching current row in all visible columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-expr", "keystrokes": "z|", "description": "select rows matching Python expression in any visible column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-row", "keystrokes": "s", "description": "select current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "select-rows", "keystrokes": "gs", "description": "select all rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcell-expr", "keystrokes": "z=", "description": "evaluate Python expression on current row and set current cell with result of Python expression", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-clipboard", "keystrokes": "gzp", "description": "set cells of current column for selected rows to last clipboard value", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-expr", "keystrokes": "g=", "description": "set current column for selected rows to result of Python expression", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-fill", "keystrokes": "f", "description": "fills null cells in selected rows of current column with contents of non-null cells up the current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-incr", "keystrokes": "gi", "description": "set current column for selected rows to incremental values", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-incr-step", "keystrokes": "gzi", "description": "set current column for selected rows to incremental values times given step", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-input", "keystrokes": "ge", "description": "set contents of current column for selected rows to same input", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-iter", "keystrokes": "gz=", "description": "set current column for selected rows to the items in result of Python sequence expression", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-subst", "keystrokes": "g*", "description": "regex/subst - modify selected rows in current column, replacing regex with subst, (may include backreferences \\1 etc)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "setcol-subst-all", "keystrokes": "gz*", "description": "modify selected rows in all visible columns, replacing regex with subst (may include \\1 backrefs)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "show-cursor", "keystrokes": "Ctrl+G", "description": "show cursor position and bounds of current sheet on status line", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "show-expr", "keystrokes": "", "description": "evaluate Python expression on current row and show result on status line", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-bottom", "keystrokes": "gShift+J", "description": "slide current row all the way to the bottom of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-down", "keystrokes": "Shift+J", "description": "slide current row down", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-down-n", "keystrokes": "zShift+J", "description": "slide current row N positions down", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-left", "keystrokes": "Shift+H", "description": "slide current column left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-left-n", "keystrokes": "zShift+H", "description": "slide current column N positions to the left", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-leftmost", "keystrokes": "gShift+H", "description": "slide current column all the way to the left of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-right", "keystrokes": "Shift+L", "description": "slide current column right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-right-n", "keystrokes": "zShift+L", "description": "slide current column N positions to the right", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-rightmost", "keystrokes": "gShift+L", "description": "slide current column all the way to the right of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-top", "keystrokes": "gShift+K", "description": "slide current row to top of sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-up", "keystrokes": "Shift+K", "description": "slide current row up", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "slide-up-n", "keystrokes": "zShift+K", "description": "slide current row N positions up", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-asc", "keystrokes": "[", "description": "sort ascending by current column; replace any existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-asc-add", "keystrokes": "z[", "description": "sort ascending by current column; add to existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-desc", "keystrokes": "]", "description": "sort descending by current column; replace any existing sort criteria ", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-desc-add", "keystrokes": "z]", "description": "sort descending by current column; add to existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-keys-asc", "keystrokes": "g[", "description": "sort ascending by all key columns; replace any existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-keys-asc-add", "keystrokes": "gz[", "description": "sort ascending by all key columns; add to existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-keys-desc", "keystrokes": "g]", "description": "sort descending by all key columns; replace any existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "sort-keys-desc-add", "keystrokes": "gz]", "description": "sort descending by all key columns; add to existing sort criteria", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "split-col", "keystrokes": ":", "description": "Add new columns from regex split", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "stoggle-after", "keystrokes": "gzt", "description": "toggle selection of all rows from cursor to bottom", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "stoggle-before", "keystrokes": "zt", "description": "toggle selection of rows from top to cursor", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "stoggle-row", "keystrokes": "t", "description": "toggle selection of current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "stoggle-rows", "keystrokes": "gt", "description": "toggle selection of all rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syscopy-cell", "keystrokes": "zShift+Y", "description": "yank (copy) current cell to system clipboard (using options.clipboard_copy_cmd)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syscopy-cells", "keystrokes": "gzShift+Y", "description": "yank (copy) contents of current column from selected rows to system clipboard (using options.clipboard_copy_cmd", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syscopy-row", "keystrokes": "Shift+Y", "description": "yank (copy) current row to system clipboard (using options.clipboard_copy_cmd)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syscopy-selected", "keystrokes": "gShift+Y", "description": "yank (copy) selected rows to system clipboard (using options.clipboard_copy_cmd)", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syspaste-cells", "keystrokes": "BUTTON2_RELEASED", "description": "paste from system clipboard to region starting at cursor", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "syspaste-cells-selected", "keystrokes": "gzShift+P", "description": "paste from system clipboard to selected cells", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "transpose", "keystrokes": "Shift+T", "description": "open new sheet with rows and columns transposed", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-any", "keystrokes": "z~", "description": "set type of current column to anytype", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-currency", "keystrokes": "$", "description": "set type of current column to currency", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-customdate", "keystrokes": "z@", "description": "set type of current column to custom date format", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-date", "keystrokes": "@", "description": "set type of current column to date", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-float", "keystrokes": "%", "description": "set type of current column to float", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-floatlocale", "keystrokes": "", "description": "set type of current column to float using system locale set in LC_NUMERIC", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-floatsi", "keystrokes": "z%", "description": "set type of current column to SI float", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-int", "keystrokes": "#", "description": "set type of current column to int", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-len", "keystrokes": "z#", "description": "set type of current column to len", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "type-string", "keystrokes": "~", "description": "set type of current column to str", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unfurl-col", "keystrokes": "zShift+M", "description": "row-wise expand current column of lists (e.g. [2]) or dicts (e.g. {3}) within that column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unhide-cols", "keystrokes": "gv", "description": "Show all columns", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-after", "keystrokes": "gzu", "description": "unselect all rows from cursor to bottom", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-before", "keystrokes": "zu", "description": "unselect all rows from top to cursor", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-col-regex", "keystrokes": "\\", "description": "unselect rows matching regex in current column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-cols-regex", "keystrokes": "g\\", "description": "unselect rows matching regex in any visible column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-expr", "keystrokes": "z\\", "description": "unselect rows matching Python expression in any visible column", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-row", "keystrokes": "u", "description": "unselect current row", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "unselect-rows", "keystrokes": "gu", "description": "unselect all rows", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "view-cell", "keystrokes": "", "description": "view contents of current cell in a new sheet", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "visibility-col", "keystrokes": "zv", "description": "", "lang": "en" }
+{ "sheet": "TableSheet", "longname": "visibility-sheet", "keystrokes": "v", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "delete-cursor", "keystrokes": "d", "description": "delete first item under cursor", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "delete-selected", "keystrokes": "gd", "description": "delete selected rows on source sheet", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "dive-cursor", "keystrokes": "Enter", "description": "dive into source rows under cursor", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "dive-selected", "keystrokes": "gEnter", "description": "dive into selected source rows", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "end-cursor", "keystrokes": "BUTTON1_RELEASED", "description": "end cursor box with left mouse button release", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "go-down", "keystrokes": "Down", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "go-left", "keystrokes": "Left", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "go-right", "keystrokes": "Right", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "go-up", "keystrokes": "Up", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "move-cursor", "keystrokes": "LeftClick", "description": "start cursor box with left mouse button press", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-max", "keystrokes": "g_", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-min", "keystrokes": "z_", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-min-height", "keystrokes": "gzUp", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-min-width", "keystrokes": "gzLeft", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-shorter", "keystrokes": "zUp", "description": "decrease cursor height by one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-taller", "keystrokes": "zDown", "description": "increase cursor height by one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-thinner", "keystrokes": "Ctrl+Left", "description": "decrease cursor width by one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "resize-cursor-wider", "keystrokes": "Ctrl+Right", "description": "increase cursor width by one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "select-all", "keystrokes": "gs", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "select-cursor", "keystrokes": "s", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "select-top-cursor", "keystrokes": "zs", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-bottom-obj", "keystrokes": "gShift+J", "description": "slide all selected objects all the way bottom", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-down-obj", "keystrokes": "Shift+J", "description": "slide selected objects down one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-left-obj", "keystrokes": "Shift+H", "description": "slide selected objects left one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-leftmost-obj", "keystrokes": "gShift+H", "description": "slide selected objects all the way left", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-right-obj", "keystrokes": "Shift+L", "description": "slide selected objects right one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-rightmost-obj", "keystrokes": "gShift+L", "description": "slide all selected objects all the way right", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-top-obj", "keystrokes": "gShift+K", "description": "slide all selected objects all the way top", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "slide-up-obj", "keystrokes": "Shift+K", "description": "slide selected objects up one character", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "toggle-all", "keystrokes": "gt", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "toggle-cursor", "keystrokes": "t", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "toggle-top-cursor", "keystrokes": "zt", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "unselect-all", "keystrokes": "gu", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "unselect-cursor", "keystrokes": "u", "description": "", "lang": "en" }
+{ "sheet": "TextCanvas", "longname": "unselect-top-cursor", "keystrokes": "zu", "description": "", "lang": "en" }
+{ "sheet": "TextSheet", "longname": "sysopen-sheet", "keystrokes": "Ctrl+O", "description": "open copy of text sheet in $EDITOR and reload on exit", "lang": "en" }
+{ "sheet": "ThreadsSheet", "longname": "add-row", "keystrokes": "a", "description": "invalid command", "lang": "en" }
+{ "sheet": "ThreadsSheet", "longname": "cancel-thread", "keystrokes": "Ctrl+C", "description": "abort thread at current row", "lang": "en" }
+{ "sheet": "XmlSheet", "longname": "addcol-xmlattr", "keystrokes": "za", "description": "add column for xml attribute", "lang": "en" }
+{ "sheet": "XmlSheet", "longname": "visibility", "keystrokes": "v", "description": "show only columns in current row attributes", "lang": "en" }
+{ "sheet": "ZipSheet", "longname": "extract-file", "keystrokes": "x", "description": "extract current file to current directory", "lang": "en" }
+{ "sheet": "ZipSheet", "longname": "extract-file-to", "keystrokes": "zx", "description": "extract current file to given pathname", "lang": "en" }
+{ "sheet": "ZipSheet", "longname": "extract-selected", "keystrokes": "gx", "description": "extract selected files to current directory", "lang": "en" }
+{ "sheet": "ZipSheet", "longname": "extract-selected-to", "keystrokes": "gzx", "description": "extract selected files to given directory", "lang": "en" }

@@ -1,0 +1,492 @@
+sheet,longname,section,keystrokes,description
+BaseSheet,cancel-all,,gCtrl+C,abort all secondary threads
+BaseSheet,cancel-sheet,,Ctrl+C,abort all threads on current sheet
+BaseSheet,check-version,,zCtrl+V,check VisiData version against given version
+BaseSheet,cmdlog-all,,gShift+D,open global CommandLog for all commands executed in current session
+BaseSheet,cmdlog-sheet,,Shift+D,open current sheet's CommandLog with all other loose ends removed; includes commands from parent sheets
+BaseSheet,cmdlog-sheet-only,,zShift+D,open current sheet's CommandLog with parent sheets commands' removed
+BaseSheet,columns-all,,gShift+C,open Columns Sheet: edit column properties for all visible columns from all sheets
+BaseSheet,describe-all,,gShift+I,open Describe Sheet with description statistics for all visible columns from all sheets
+BaseSheet,error-recent,Other Commands,Ctrl+E,view traceback for most recent error
+BaseSheet,errors-all,Other Commands,gCtrl+E,view traceback for most recent errors
+BaseSheet,exec-longname,,Space,execute command by its longname
+BaseSheet,exec-python,,,execute Python statement with expression scope
+BaseSheet,guard-sheet,,,Set quitguard on current sheet to confirm before quit
+BaseSheet,help-commands,,zCtrl+H,view sheet of command longnames and keybindings for current sheet
+BaseSheet,help-commands-all,,gzCtrl+H,view sheet of command longnames and keybindings for all sheet types
+BaseSheet,help-search,,,search through command longnames with search terms
+BaseSheet,import-python,,gCtrl+X,import Python module in the global scope
+BaseSheet,jump-first,,gCtrl+^,jump to first sheet
+BaseSheet,jump-prev,,Ctrl+^,jump to previous sheet in this pane
+BaseSheet,jump-sheet-1,,Alt+1,jump to sheet 1
+BaseSheet,jump-sheet-10,,Alt+0,jump to sheet 10
+BaseSheet,jump-sheet-2,,Alt+2,jump to sheet 2
+BaseSheet,jump-sheet-3,,Alt+3,jump to sheet 3
+BaseSheet,jump-sheet-4,,Alt+4,jump to sheet 4
+BaseSheet,jump-sheet-5,,Alt+5,jump to sheet 5
+BaseSheet,jump-sheet-6,,Alt+6,jump to sheet 6
+BaseSheet,jump-sheet-7,,Alt+7,jump to sheet 7
+BaseSheet,jump-sheet-8,,Alt+8,jump to sheet 8
+BaseSheet,jump-sheet-9,,Alt+9,jump to sheet 9
+BaseSheet,menu-column,,Alt+c,
+BaseSheet,menu-data,,Alt+d,
+BaseSheet,menu-edit,,Alt+e,
+BaseSheet,menu-file,,Alt+f,
+BaseSheet,menu-help,,Alt+h,
+BaseSheet,menu-plot,,Alt+p,
+BaseSheet,menu-row,,Alt+r,
+BaseSheet,menu-system,,Alt+s,
+BaseSheet,menu-view,,Alt+v,
+BaseSheet,mouse-disable,,,disable mouse events
+BaseSheet,mouse-enable,,,enable mouse events
+BaseSheet,no-op,,BUTTON1_RELEASED,
+BaseSheet,open-colors,,,open Color Sheet with available terminal colors
+BaseSheet,open-config,,gShift+O,open options.config as text sheet
+BaseSheet,open-dir-current,,,open Directory Sheet: browse properties of files in current directory
+BaseSheet,open-file,,o,Open file or URL
+BaseSheet,open-inputs,,,
+BaseSheet,open-memusage,,zCtrl+T,open Memory Usage Sheet
+BaseSheet,open-new,,Shift+A,Open new empty sheet
+BaseSheet,open-plugins,,,Open Plugins Sheet to manage supported plugins
+BaseSheet,open-source,,,jump to the source of this sheet
+BaseSheet,open-statuses,,Ctrl+P,open Status History
+BaseSheet,open-tutorial-visidata,,,open https://jsvine.github.io/intro-to-visidata/
+BaseSheet,open-vd,,Shift+V,open VisiData menu: browse list of core sheets
+BaseSheet,options-global,,Shift+O,open Options Sheet: edit global options (apply to all sheets)
+BaseSheet,options-sheet,,zShift+O,open Options Sheet: edit sheet options (apply to current sheet only)
+BaseSheet,pyobj-expr,,Ctrl+X,evaluate Python expression and open result as Python object
+BaseSheet,pyobj-expr-row,,zCtrl+X,"evaluate Python expression, in context of current row, and open result as Python object"
+BaseSheet,pyobj-sheet,,gCtrl+Y,open current sheet as Python object
+BaseSheet,quit-all,,gq,quit all sheets (clean exit)
+BaseSheet,quit-sheet,,q,quit current sheet
+BaseSheet,quit-sheet-free,,Shift+Q,discard current sheet and free memory
+BaseSheet,redo-last,,Shift+R,Redo the most recent undo (options.undo must be enabled)
+BaseSheet,redraw,,Ctrl+L,Refresh screen
+BaseSheet,reload-sheet,,Ctrl+R,Reload current sheet
+BaseSheet,rename-sheet,,,Rename current sheet
+BaseSheet,repeat-input,,,"run previous command, along with any previous input to that command"
+BaseSheet,repeat-last,,,"run most recent command with an empty, queried input"
+BaseSheet,replay-advance,,Ctrl+N,execute next row in replaying sheet
+BaseSheet,replay-pause,,Ctrl+U,pause/resume replay
+BaseSheet,replay-stop,,Ctrl+C,cancel current replay
+BaseSheet,save-all,,gCtrl+S,save all sheets to given file or directory)
+BaseSheet,save-cmdlog,,Ctrl+D,save CommandLog to filename.vd file
+BaseSheet,save-sheet,,Ctrl+S,save current sheet to filename in format determined by extension (default .tsv)
+BaseSheet,sheets-all,,gShift+S,open Sheets Sheet: join or jump between all sheets from current session
+BaseSheet,sheets-stack,,Shift+S,open Sheets Stack: join or jump between the active sheets on the current stack
+BaseSheet,show-status,,,show given message on status line
+BaseSheet,show-version,,Ctrl+V,Show version and copyright information on status line
+BaseSheet,splitwin-close,,gShift+Z,close split screen
+BaseSheet,splitwin-half,,Shift+Z,ensure split pane is set and push under sheet onto other pane
+BaseSheet,splitwin-input,,zShift+Z,set split pane to specific size
+BaseSheet,splitwin-swap,,Tab,jump to inactive pane
+BaseSheet,splitwin-swap-pane,,gTab,swap panes onscreen
+BaseSheet,suspend,,Ctrl+Z,suspend VisiData process
+BaseSheet,sysopen-help,,gCtrl+H,Show the UNIX man page for VisiData
+BaseSheet,threads-all,,Ctrl+T,open Threads Sheet
+BaseSheet,toggle-profile,,Ctrl+_,Enable or disable profiling on main VisiData process
+BaseSheet,undo-last,,Shift+U,Undo the most recent change (options.undo must be enabled)
+Canvas,delete-cursor,,d,delete rows on source sheet contained within canvas cursor
+Canvas,delete-visible,,gd,delete rows on source sheet visible on screen
+Canvas,dive-cursor,,Enter,open sheet of source rows contained within canvas cursor
+Canvas,dive-visible,,gEnter,open sheet of source rows visible on screen
+Canvas,end-cursor,,BUTTON1_RELEASED,end cursor box with left mouse button release
+Canvas,end-move,,BUTTON3_RELEASED,mark canvas anchor point
+Canvas,go-bottom,,gDown,move cursor to bottom edge of visible canvas
+Canvas,go-down,,Down,move cursor down by its height
+Canvas,go-down-small,,zj,move cursor down one character
+Canvas,go-left,,Left,move cursor left by its width
+Canvas,go-left-small,,zh,move cursor left one character
+Canvas,go-leftmost,,gLeft,move cursor to left edge of visible canvas
+Canvas,go-pagedown,,PgDn,move cursor down to next visible page
+Canvas,go-pageup,,PgUp,move cursor up to previous visible page
+Canvas,go-right,,Right,move cursor right by its width
+Canvas,go-right-small,,zl,move cursor right one character
+Canvas,go-rightmost,,gRight,move cursor to right edge of visible canvas
+Canvas,go-top,,gUp,move cursor to top edge of visible canvas
+Canvas,go-up,,Up,move cursor up by its height
+Canvas,go-up-small,,zk,move cursor up one character
+Canvas,resize-cursor-doubleheight,,gShift+K,double cursor height
+Canvas,resize-cursor-doublewide,,gShift+L,double cursor width
+Canvas,resize-cursor-halfheight,,gShift+J,halve cursor height
+Canvas,resize-cursor-halfwide,,gShift+H,halve cursor width
+Canvas,resize-cursor-shorter,,zUp,decrease cursor height by one character
+Canvas,resize-cursor-taller,,zDown,increase cursor height by one character
+Canvas,resize-cursor-thinner,,Ctrl+Left,decrease cursor width by one character
+Canvas,resize-cursor-wider,,Ctrl+Right,increase cursor width by one character
+Canvas,resize-x-input,,x,set xmin/xmax on graph axes
+Canvas,resize-y-input,,y,set ymin/ymax on graph axes
+Canvas,select-cursor,,s,select rows on source sheet contained within canvas cursor
+Canvas,select-visible,,gs,select rows on source sheet visible on screen
+Canvas,set-aspect,,z_,set aspect ratio
+Canvas,start-cursor,,LeftClick,start cursor box with left mouse button press
+Canvas,start-move,,RightClick,mark grid point to move
+Canvas,stoggle-cursor,,t,toggle selection of rows on source sheet contained within canvas cursor
+Canvas,stoggle-visible,,gt,toggle selection of rows on source sheet visible on screen
+Canvas,unselect-cursor,,u,unselect rows on source sheet contained within canvas cursor
+Canvas,unselect-visible,,gu,unselect rows on source sheet visible on screen
+Canvas,zoom-all,,_,zoom to fit full extent
+Canvas,zoom-cursor,,zz,set visible bounds to cursor
+Canvas,zoomin-cursor,,+,zoom into cursor center
+Canvas,zoomin-mouse,,ScrollwheelUp,zoom in with scroll wheel
+Canvas,zoomout-cursor,,-,zoom out from cursor center
+Canvas,zoomout-mouse,,ScrollwheelDown,zoom out with scroll wheel
+ChoiceSheet,choose-rows,,Enter,
+ChoiceSheet,choose-rows-selected,,gEnter,
+ColumnsSheet,aggregate-cols,,g+,add aggregators to selected source columns
+ColumnsSheet,freq-row,,Enter,open a Frequency Table sheet grouped on column referenced in current row
+ColumnsSheet,hide-selected,,g-,hide selected columns on source sheet
+ColumnsSheet,join-cols,,&,add column from concatenating selected source columns
+ColumnsSheet,key-off-selected,,gz!,unset selected rows as key columns on source sheet
+ColumnsSheet,key-selected,,g!,toggle selected rows as key columns on source sheet
+ColumnsSheet,resize-source-rows-max,,,adjust widths of selected source columns
+ColumnsSheet,type-any-selected,,gz~,set type of selected columns to anytype
+ColumnsSheet,type-currency-selected,,g$,set type of selected columns to currency
+ColumnsSheet,type-customdate-selected,,gz@,set type of selected columns to date
+ColumnsSheet,type-date-selected,,g@,set type of selected columns to date
+ColumnsSheet,type-float-selected,,g%,set type of selected columns to float
+ColumnsSheet,type-floatlocale-selected,,,set type of selected columns to float using system locale
+ColumnsSheet,type-floatsi-selected,,gz%,set type of selected columns to floatsi
+ColumnsSheet,type-int-selected,,g#,set type of selected columns to int
+ColumnsSheet,type-len-selected,,gz#,set type of selected columns to len
+ColumnsSheet,type-string-selected,,g~,set type of selected columns to str
+CommandLog,replay-all,,gx,replay contents of entire CommandLog
+CommandLog,replay-row,,x,replay command in current row
+CommandLog,replay-stop,,Ctrl+C,abort replay
+CommandLogJsonl,replay-all,,gx,replay contents of entire CommandLog
+CommandLogJsonl,replay-row,,x,replay command in current row
+CommandLogJsonl,replay-stop,,Ctrl+C,abort replay
+CrosswordSheet,open-grid,,Enter,open GridSheet: grid for crossword
+CrosswordsSheet,open-clues,,Enter,open CrosswordSheet: clue answer pair for crossword
+DescribeSheet,select-cell,,zs,select rows on source sheet which are being described in current cell
+DescribeSheet,unselect-cell,,zu,unselect rows on source sheet which are being described in current cell
+DirSheet,copy-row,,y,copy file to given directory
+DirSheet,copy-selected,,gy,copy selected files to given directory
+DirSheet,open-row,,Enter,open current file as a new sheet
+DirSheet,open-rows,,gEnter,open selected files as new sheets
+DirSheet,sysopen-row,,Ctrl+O,open current file in external $EDITOR
+DirSheet,sysopen-rows,,gCtrl+O,open selected files in external $EDITOR
+EmailSheet,extract-part,,x,
+EmailSheet,extract-part-selected,,gx,
+FreqTableSheet,dive-rows,,gEnter,open copy of source sheet with rows that are grouped in selected rows
+FreqTableSheet,unselect-rows,,gu,unselect all source rows grouped in current row
+GeoJSONMap,save-sheet,,Ctrl+S,save current sheet to filename in format determined by extension (default .geojson)
+GeoJSONSheet,plot-row,,.,plot geospatial vector in current row
+GeoJSONSheet,plot-rows,,g.,plot all geospatial vectors in current sheet
+Hdf5ObjSheet,dive-metadata,,Shift+A,open metadata sheet for object referenced in current row
+HelpSheet,exec-command,,Enter,execute command on undersheet
+IndexSheet,join-selected,,&,"merge selected sheets with visible columns from all, keeping rows according to jointype"
+IndexSheet,reload-selected,,gCtrl+R,reload all selected sheets
+IndexSheet,save-selected,,gCtrl+S,save all selected sheets to given file or directory
+InvertedCanvas,go-bottom,,gDown,move cursor to bottom edge of visible canvas
+InvertedCanvas,go-down,,Down,move cursor down by its height
+InvertedCanvas,go-down-small,,zj,move cursor down one character
+InvertedCanvas,go-pagedown,,PgDn,move cursor down to next visible page
+InvertedCanvas,go-pageup,,PgUp,move cursor up to previous visible page
+InvertedCanvas,go-top,,gUp,move cursor to top edge of visible canvas
+InvertedCanvas,go-up,,Up,move cursor up by its height
+InvertedCanvas,go-up-small,,zk,move cursor up one character
+InvertedCanvas,resize-cursor-shorter,,zUp,decrease cursor height by one character
+InvertedCanvas,resize-cursor-taller,,zDown,increase cursor height by one character
+MbtilesSheet,plot-row,,.,plot tiles in current row
+MbtilesSheet,plot-selected,,g.,plot selected tiles
+OptionsSheet,edit-option,,Enter,edit option at current row
+OptionsSheet,unset-option,,d,remove option override for this context
+PNGSheet,plot-sheet,,.,plot this png
+PandasFreqTableSheet,open-row,,Enter,open copy of source sheet with rows that are grouped in current row
+PandasFreqTableSheet,select-row,,s,select rows grouped in current row in source sheet
+PandasFreqTableSheet,stoggle-row,,t,toggle selection of rows grouped in current row in source sheet
+PandasFreqTableSheet,unselect-row,,u,unselect rows grouped in current row in source sheet
+PandasSheet,dup-selected,,"""",open duplicate sheet with only selected rows
+PandasSheet,freq-col,,Shift+F,"open Frequency Table grouped on current column, with aggregations of other columns"
+PandasSheet,freq-keys,,gShift+F,"open Frequency Table grouped by all key columns on source sheet, with aggregations of other columns"
+PandasSheet,random-rows,,,open duplicate sheet with a random population subset of N rows
+PandasSheet,select-after,,gzs,select all rows from cursor to bottom
+PandasSheet,select-before,,zs,select all rows from top to cursor
+PandasSheet,select-col-regex,,|,select rows matching regex in current column
+PandasSheet,select-cols-regex,,g|,select rows matching regex in any visible column
+PandasSheet,select-rows,,gs,select all rows
+PandasSheet,stoggle-after,,gzt,toggle selection of rows from cursor to bottom
+PandasSheet,stoggle-before,,zt,toggle selection of rows from top to cursor
+PandasSheet,stoggle-rows,,gt,toggle selection of all rows
+PandasSheet,unselect-after,,gzu,unselect all rows from cursor to bottom
+PandasSheet,unselect-before,,zu,unselect all rows from top to cursor
+PandasSheet,unselect-col-regex,,\,unselect rows matching regex in current column
+PandasSheet,unselect-cols-regex,,g\,unselect rows matching regex in any visible column
+PandasSheet,unselect-rows,,gu,unselect all rows
+PbfSheet,plot-row,,.,plot blocks in current row
+PbfSheet,plot-rows,,g.,plot selected blocks
+PcapSheet,flows,,Shift+W,
+PcapSheet,l2-packet,,2,
+PcapSheet,l3-packet,,3,
+Plotter,visibility,,v,toggle show_graph_labels option
+PluginsSheet,add-plugin,,a,Install and enable current plugin
+PluginsSheet,delete-plugin,,d,Disable current plugin
+ProfileSheet,save-profile,,zCtrl+S,save profile
+ProfileSheet,sysopen-row,,Ctrl+O,open current file at referenced row in external $EDITOR
+ProfileStatsSheet,sysopen-row,,Ctrl+O,open current file at referenced row in external $EDITOR
+PyobjSheet,hide-hidden,,zv,hide methods and hidden properties
+PyobjSheet,show-hidden,,gv,show methods and hidden properties
+PyobjSheet,visibility,,v,toggle show/hide for methods and hidden properties
+ShapeMap,save-sheet,,Ctrl+S,save current sheet to filename in format determined by extension (default .geojson)
+ShapeSheet,plot-row,,.,plot geospatial vector in current row
+ShapeSheet,plot-rows,,g.,plot all geospatial vectors in current sheet
+SheetsSheet,cancel-row,,zCtrl+C,abort async thread for current sheet
+SheetsSheet,cancel-rows,,gzCtrl+C,abort async threads for selected sheets
+SheetsSheet,columns-selected,,gShift+C,open Columns Sheet with all visible columns from selected sheets
+SheetsSheet,describe-selected,,gShift+I,open Describe Sheet with all visble columns from selected sheets
+SheetsSheet,open-row,,Enter,open sheet referenced in current row
+SqliteIndexSheet,add-table,,a,stub; add table by saving a sheet to the db file instead
+TableSheet,add-row,,a,append a blank row
+TableSheet,add-rows,,ga,append N blank rows
+TableSheet,addcol-bulk,,gza,append N empty columns
+TableSheet,addcol-expr,,=,"create new column from Python expression, with column names as variables"
+TableSheet,addcol-incr,,i,add column with incremental values
+TableSheet,addcol-incr-step,,zi,add column with incremental values times given step
+TableSheet,addcol-new,,za,append an empty column
+TableSheet,addcol-sh,,z;,"create new column from bash expression, with $columnNames as variables"
+TableSheet,addcol-subst,,*,"add column derived from current column, replacing regex with subst (may include  backrefs)"
+TableSheet,aggregate-col,,+,Add aggregator to current column
+TableSheet,cache-col,,z',add/reset cache for current column
+TableSheet,cache-cols,,gz',add/reset cache for all visible columns
+TableSheet,capture-col,,;,add new column from capture groups of regex; requires example row
+TableSheet,clean-names,,,
+TableSheet,columns-sheet,,Shift+C,open Columns Sheet: edit column properties for current sheet
+TableSheet,commit-sheet,,zCtrl+S,commit changes back to source.  not undoable!
+TableSheet,contract-col,,),unexpand current column; restore original column and remove other columns at this level
+TableSheet,copy-cell,,zy,yank (copy) current cell to clipboard
+TableSheet,copy-cells,,gzy,yank (copy) contents of current column for selected rows to clipboard
+TableSheet,copy-row,,y,yank (copy) current row to clipboard
+TableSheet,copy-selected,,gy,yank (copy) selected rows to clipboard
+TableSheet,cut-cell,,zx,delete (cut) current cell and move it to clipboard
+TableSheet,cut-cells,,gzx,delete (cut) contents of current column for selected rows and move them to clipboard
+TableSheet,cut-row,,x,delete (cut) current row and move it to clipboard
+TableSheet,cut-selected,,gx,delete (cut) selected rows and move them to clipboard
+TableSheet,delete-cell,,zd,delete current cell (set to None)
+TableSheet,delete-cells,,gzd,delete contents of current column for selected rows (set to None)
+TableSheet,delete-row,,d,delete current row
+TableSheet,delete-selected,,gd,delete selected rows
+TableSheet,describe-sheet,,Shift+I,open Describe Sheet with descriptive statistics for all visible columns
+TableSheet,dive-selected,,gEnter,open sheet with copies of rows referenced in selected rows
+TableSheet,dive-selected-cells,,gzEnter,open sheet with copies of rows referenced in selected rows
+TableSheet,dup-rows,,"g""",open duplicate sheet with all rows
+TableSheet,dup-rows-deep,,"gz""",open duplicate sheet with deepcopy of all rows
+TableSheet,dup-selected,,"""",open duplicate sheet with only selected rows
+TableSheet,dup-selected-deep,,"z""",open duplicate sheet with deepcopy of selected rows
+TableSheet,edit-cell,,e,edit contents of current cell
+TableSheet,error-cell,Other Commands,zCtrl+E,view traceback for error in current cell
+TableSheet,expand-col,,(,expand current column of containers one level
+TableSheet,expand-col-depth,,z(,expand current column of containers to given depth (0=fully)
+TableSheet,expand-cols,,g(,expand all visible columns of containers one level
+TableSheet,expand-cols-depth,,gz(,expand all visible columns of containers to given depth (0=fully)
+TableSheet,freeze-col,,',add a frozen copy of current column with all cells evaluated
+TableSheet,freeze-sheet,,g',open a frozen copy of current sheet with all visible columns evaluated
+TableSheet,freq-col,,Shift+F,"open Frequency Table grouped on current column, with aggregations of other columns"
+TableSheet,freq-keys,,gShift+F,"open Frequency Table grouped by all key columns on source sheet, with aggregations of other columns"
+TableSheet,freq-summary,,zShift+F,open one-line summary for all rows and selected rows
+TableSheet,go-bottom,,gDown,go all the way to the bottom of sheet
+TableSheet,go-col-number,,zc,go to given column number (0-based)
+TableSheet,go-col-regex,,c,go to next column with name matching regex
+TableSheet,go-down,,Down,go down
+TableSheet,go-end,,,go to last row and last column
+TableSheet,go-home,,,go to first row and first column
+TableSheet,go-left,,Left,go left
+TableSheet,go-left-page,,Ctrl+Left,scroll cursor one page left
+TableSheet,go-leftmost,,gLeft,go all the way to the left of sheet
+TableSheet,go-mouse,,LeftClick,set cursor to row and column where mouse was clicked
+TableSheet,go-next-null,,z>,go down current column to next null value
+TableSheet,go-next-selected,,},go down current column to next selected row
+TableSheet,go-next-value,,>,go down current column to next value
+TableSheet,go-pagedown,,PgDn,scroll one page forward
+TableSheet,go-pageup,,PgUp,scroll one page backward
+TableSheet,go-prev-null,,z<,go up current column to next null value
+TableSheet,go-prev-selected,,{,go up current column to previous selected row
+TableSheet,go-prev-value,,<,go up current column to next value
+TableSheet,go-right,,Right,go right
+TableSheet,go-right-page,,Ctrl+Right,scroll cursor one page right
+TableSheet,go-rightmost,,gRight,go all the way to the right of sheet
+TableSheet,go-row-number,,zr,go to the given row number (0-based)
+TableSheet,go-top,,gUp,go all the way to the top of sheet
+TableSheet,go-up,,Up,go up
+TableSheet,hide-col,,-,Hide current column
+TableSheet,join-sheets-all,,g&,concatenate all sheets in Sheets Stack
+TableSheet,join-sheets-top2,,&,concatenate top two sheets in Sheets Stack
+TableSheet,key-col,,!,toggle current column as a key column
+TableSheet,key-col-off,,z!,unset current column as a key column
+TableSheet,macro-record,,m,record macro
+TableSheet,macro-sheet,,gm,open macros sheet
+TableSheet,melt,,Shift+M,"open Melted Sheet (unpivot), with key columns retained and all non-key columns reduced to Variable-Value rows"
+TableSheet,melt-regex,,gShift+M,"open Melted Sheet (unpivot), with key columns retained and regex capture groups determining how the non-key columns will be reduced to Variable-Value rows"
+TableSheet,memo-aggregate,,z+,memo result of aggregator over values in selected rows for current column
+TableSheet,memo-cell,,Alt+m,store value in current cell in Memory Sheet
+TableSheet,open-cell,,zEnter,open sheet with copies of rows referenced in current cell
+TableSheet,open-memos,,Alt+M,open the Memory Sheet
+TableSheet,open-row,,Enter,open sheet with copies of rows referenced in current row
+TableSheet,paste-after,,p,paste clipboard rows after current row
+TableSheet,paste-before,,Shift+P,paste clipboard rows before current row
+TableSheet,paste-cell,,zp,set contents of current cell to last clipboard value
+TableSheet,pivot,,Shift+W,open Pivot Table: group rows by key column and summarize current column
+TableSheet,plot-column,,.,"plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color"
+TableSheet,plot-numerics,,g.,plot a graph of all visible numeric columns vs key columns
+TableSheet,pyobj-cell,,zCtrl+Y,open current cell as Python object
+TableSheet,pyobj-row,,Ctrl+Y,open current row as Python object
+TableSheet,random-rows,,,open duplicate sheet with a random population subset of N rows
+TableSheet,rename-col,,^,edit name of current column
+TableSheet,rename-col-selected,,z^,set name of current column to combined contents of current cell in selected rows (or current row)
+TableSheet,rename-cols-row,,g^,set names of all unnamed visible columns to contents of selected rows (or current row)
+TableSheet,rename-cols-selected,,gz^,set names of all visible columns to combined contents of selected rows (or current row)
+TableSheet,resize-col-half,,z-,reduce width of current column by half
+TableSheet,resize-col-input,,z_,adjust width of current column to N
+TableSheet,resize-col-max,,_,toggle width of current column between full and default width
+TableSheet,resize-cols-input,,gz_,adjust widths of all visible columns to N
+TableSheet,resize-cols-max,,g_,toggle widths of all visible clumns between full and default width
+TableSheet,save-col,,,save current column only to filename in format determined by extension (default .tsv)
+TableSheet,save-col-keys,,,save key columns and current column to filename in format determined by extension (default .tsv)
+TableSheet,scroll-cells-bottom,,gzj,scroll display of current column to the bottom
+TableSheet,scroll-cells-down,,zj,scroll display of current column down one line
+TableSheet,scroll-cells-left,,zh,scroll display of current column to the left
+TableSheet,scroll-cells-leftmost,,gzh,scroll display of current column to the beginning
+TableSheet,scroll-cells-right,,zl,scroll display of current column to the right
+TableSheet,scroll-cells-rightmost,,gzl,scroll display of current column to the end
+TableSheet,scroll-cells-top,,gzk,scroll display of current column to the top
+TableSheet,scroll-cells-up,,zk,scroll display of current column up one line
+TableSheet,scroll-down,,ScrollwheelDown,scroll one row down
+TableSheet,scroll-left,,CTRL-ScrollwheelUp,scroll one column left
+TableSheet,scroll-leftmost,,,scroll sheet to leftmost column
+TableSheet,scroll-middle,,zz,scroll current row to center of screen
+TableSheet,scroll-mouse,,,scroll to mouse cursor location
+TableSheet,scroll-right,,CTRL-ScrollwheelDown,scroll one column right
+TableSheet,scroll-rightmost,,,scroll sheet to rightmost column
+TableSheet,scroll-up,,ScrollwheelUp,scroll one row up
+TableSheet,search-col,,/,search for regex forwards in current column
+TableSheet,search-cols,,g/,search for regex forwards over all visible columns
+TableSheet,search-expr,,z/,search by Python expression forwards in current column (with column names as variables)
+TableSheet,search-keys,,r,go to next row with key matching regex
+TableSheet,search-next,,n,go to next match from last regex search
+TableSheet,searchr-col,,?,search for regex backwards in current column
+TableSheet,searchr-cols,,g?,search for regex backwards over all visible columns
+TableSheet,searchr-expr,,z?,search by Python expression backwards in current column (with column names as variables)
+TableSheet,searchr-next,,Shift+N,go to previous match from last regex search
+TableSheet,select-after,,gzs,select all rows from cursor to bottom
+TableSheet,select-before,,zs,select all rows from top to cursor
+TableSheet,select-col-regex,,|,select rows matching regex in current column
+TableSheet,select-cols-regex,,g|,select rows matching regex in any visible column
+TableSheet,select-equal-cell,,",",select rows matching current cell in current column
+TableSheet,select-equal-row,,"g,",select rows matching current row in all visible columns
+TableSheet,select-error,,,select rows with errors in any column
+TableSheet,select-error-col,,,select rows with errors in current column
+TableSheet,select-exact-cell,,"z,",select rows matching current cell in current column
+TableSheet,select-exact-row,,"gz,",select rows matching current row in all visible columns
+TableSheet,select-expr,,z|,select rows matching Python expression in any visible column
+TableSheet,select-row,,s,select current row
+TableSheet,select-rows,,gs,select all rows
+TableSheet,setcell-expr,,z=,evaluate Python expression on current row and set current cell with result of Python expression
+TableSheet,setcol-clipboard,,gzp,set cells of current column for selected rows to last clipboard value
+TableSheet,setcol-expr,,g=,set current column for selected rows to result of Python expression
+TableSheet,setcol-fill,,f,fills null cells in selected rows of current column with contents of non-null cells up the current column
+TableSheet,setcol-incr,,gi,set current column for selected rows to incremental values
+TableSheet,setcol-incr-step,,gzi,set current column for selected rows to incremental values times given step
+TableSheet,setcol-input,,ge,set contents of current column for selected rows to same input
+TableSheet,setcol-iter,,gz=,set current column for selected rows to the items in result of Python sequence expression
+TableSheet,setcol-subst,,g*,"regex/subst - modify selected rows in current column, replacing regex with subst, (may include backreferences \1 etc)"
+TableSheet,setcol-subst-all,,gz*,"modify selected rows in all visible columns, replacing regex with subst (may include \1 backrefs)"
+TableSheet,show-cursor,,Ctrl+G,show cursor position and bounds of current sheet on status line
+TableSheet,show-expr,,,evaluate Python expression on current row and show result on status line
+TableSheet,slide-bottom,,gShift+J,slide current row all the way to the bottom of sheet
+TableSheet,slide-down,,Shift+J,slide current row down
+TableSheet,slide-down-n,,zShift+J,slide current row N positions down
+TableSheet,slide-left,,Shift+H,slide current column left
+TableSheet,slide-left-n,,zShift+H,slide current column N positions to the left
+TableSheet,slide-leftmost,,gShift+H,slide current column all the way to the left of sheet
+TableSheet,slide-right,,Shift+L,slide current column right
+TableSheet,slide-right-n,,zShift+L,slide current column N positions to the right
+TableSheet,slide-rightmost,,gShift+L,slide current column all the way to the right of sheet
+TableSheet,slide-top,,gShift+K,slide current row to top of sheet
+TableSheet,slide-up,,Shift+K,slide current row up
+TableSheet,slide-up-n,,zShift+K,slide current row N positions up
+TableSheet,sort-asc,,[,sort ascending by current column; replace any existing sort criteria
+TableSheet,sort-asc-add,,z[,sort ascending by current column; add to existing sort criteria
+TableSheet,sort-desc,,],sort descending by current column; replace any existing sort criteria 
+TableSheet,sort-desc-add,,z],sort descending by current column; add to existing sort criteria
+TableSheet,sort-keys-asc,,g[,sort ascending by all key columns; replace any existing sort criteria
+TableSheet,sort-keys-asc-add,,gz[,sort ascending by all key columns; add to existing sort criteria
+TableSheet,sort-keys-desc,,g],sort descending by all key columns; replace any existing sort criteria
+TableSheet,sort-keys-desc-add,,gz],sort descending by all key columns; add to existing sort criteria
+TableSheet,split-col,,:,Add new columns from regex split
+TableSheet,stoggle-after,,gzt,toggle selection of all rows from cursor to bottom
+TableSheet,stoggle-before,,zt,toggle selection of rows from top to cursor
+TableSheet,stoggle-row,,t,toggle selection of current row
+TableSheet,stoggle-rows,,gt,toggle selection of all rows
+TableSheet,syscopy-cell,,zShift+Y,yank (copy) current cell to system clipboard (using options.clipboard_copy_cmd)
+TableSheet,syscopy-cells,,gzShift+Y,yank (copy) contents of current column from selected rows to system clipboard (using options.clipboard_copy_cmd
+TableSheet,syscopy-row,,Shift+Y,yank (copy) current row to system clipboard (using options.clipboard_copy_cmd)
+TableSheet,syscopy-selected,,gShift+Y,yank (copy) selected rows to system clipboard (using options.clipboard_copy_cmd)
+TableSheet,syspaste-cells,,BUTTON2_RELEASED,paste from system clipboard to region starting at cursor
+TableSheet,syspaste-cells-selected,,gzShift+P,paste from system clipboard to selected cells
+TableSheet,transpose,,Shift+T,open new sheet with rows and columns transposed
+TableSheet,type-any,,z~,set type of current column to anytype
+TableSheet,type-currency,,$,set type of current column to currency
+TableSheet,type-customdate,,z@,set type of current column to custom date format
+TableSheet,type-date,,@,set type of current column to date
+TableSheet,type-float,,%,set type of current column to float
+TableSheet,type-floatlocale,,,set type of current column to float using system locale set in LC_NUMERIC
+TableSheet,type-floatsi,,z%,set type of current column to SI float
+TableSheet,type-int,,#,set type of current column to int
+TableSheet,type-len,,z#,set type of current column to len
+TableSheet,type-string,,~,set type of current column to str
+TableSheet,unfurl-col,,zShift+M,row-wise expand current column of lists (e.g. [2]) or dicts (e.g. {3}) within that column
+TableSheet,unhide-cols,,gv,Show all columns
+TableSheet,unselect-after,,gzu,unselect all rows from cursor to bottom
+TableSheet,unselect-before,,zu,unselect all rows from top to cursor
+TableSheet,unselect-col-regex,,\,unselect rows matching regex in current column
+TableSheet,unselect-cols-regex,,g\,unselect rows matching regex in any visible column
+TableSheet,unselect-expr,,z\,unselect rows matching Python expression in any visible column
+TableSheet,unselect-row,,u,unselect current row
+TableSheet,unselect-rows,,gu,unselect all rows
+TableSheet,view-cell,,,view contents of current cell in a new sheet
+TableSheet,visibility-col,,zv,
+TableSheet,visibility-sheet,,v,
+TextCanvas,delete-cursor,,d,delete first item under cursor
+TextCanvas,delete-selected,,gd,delete selected rows on source sheet
+TextCanvas,dive-cursor,,Enter,dive into source rows under cursor
+TextCanvas,dive-selected,,gEnter,dive into selected source rows
+TextCanvas,end-cursor,,BUTTON1_RELEASED,end cursor box with left mouse button release
+TextCanvas,go-down,,Down,
+TextCanvas,go-left,,Left,
+TextCanvas,go-right,,Right,
+TextCanvas,go-up,,Up,
+TextCanvas,move-cursor,,LeftClick,start cursor box with left mouse button press
+TextCanvas,resize-cursor-max,,g_,
+TextCanvas,resize-cursor-min,,z_,
+TextCanvas,resize-cursor-min-height,,gzUp,
+TextCanvas,resize-cursor-min-width,,gzLeft,
+TextCanvas,resize-cursor-shorter,,zUp,decrease cursor height by one character
+TextCanvas,resize-cursor-taller,,zDown,increase cursor height by one character
+TextCanvas,resize-cursor-thinner,,Ctrl+Left,decrease cursor width by one character
+TextCanvas,resize-cursor-wider,,Ctrl+Right,increase cursor width by one character
+TextCanvas,select-all,,gs,
+TextCanvas,select-cursor,,s,
+TextCanvas,select-top-cursor,,zs,
+TextCanvas,slide-bottom-obj,,gShift+J,slide all selected objects all the way bottom
+TextCanvas,slide-down-obj,,Shift+J,slide selected objects down one character
+TextCanvas,slide-left-obj,,Shift+H,slide selected objects left one character
+TextCanvas,slide-leftmost-obj,,gShift+H,slide selected objects all the way left
+TextCanvas,slide-right-obj,,Shift+L,slide selected objects right one character
+TextCanvas,slide-rightmost-obj,,gShift+L,slide all selected objects all the way right
+TextCanvas,slide-top-obj,,gShift+K,slide all selected objects all the way top
+TextCanvas,slide-up-obj,,Shift+K,slide selected objects up one character
+TextCanvas,toggle-all,,gt,
+TextCanvas,toggle-cursor,,t,
+TextCanvas,toggle-top-cursor,,zt,
+TextCanvas,unselect-all,,gu,
+TextCanvas,unselect-cursor,,u,
+TextCanvas,unselect-top-cursor,,zu,
+TextSheet,sysopen-sheet,,Ctrl+O,open copy of text sheet in $EDITOR and reload on exit
+ThreadsSheet,add-row,,a,invalid command
+ThreadsSheet,cancel-thread,,Ctrl+C,abort thread at current row
+XmlSheet,addcol-xmlattr,,za,add column for xml attribute
+XmlSheet,visibility,,v,show only columns in current row attributes
+ZipSheet,extract-file,,x,extract current file to current directory
+ZipSheet,extract-file-to,,zx,extract current file to given pathname
+ZipSheet,extract-selected,,gx,extract selected files to current directory
+ZipSheet,extract-selected-to,,gzx,extract selected files to given directory
