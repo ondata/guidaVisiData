@@ -17,8 +17,17 @@ theme:
   custom_dir: overrides
   favicon: imgs/favicon.ico
   palette:
-    scheme: preference
-    accent: orange
+    - scheme: preference
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   language: it
   features:
     - navigation.top
