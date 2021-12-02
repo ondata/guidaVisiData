@@ -74,7 +74,6 @@ La concatenazione tra due o più tabelle con la stessa struttura si attiva trami
 
 - si apre la shell e si va nella cartella che contiene i file da concatenare;
 - si scrive `vd` e si preme `Invio`;
-- si seleziona la prima voce `DirSheet for the current directory` e si preme `invio`;
 - si selezionano con `s` i due file;
 - si preme `g Invio` per aprirli entrambi;
 - si apre il foglio dei fogli con `Shift+s`;
