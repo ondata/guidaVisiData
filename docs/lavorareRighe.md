@@ -161,7 +161,7 @@ Note:
 
 ### Filtro tramite espressione Python su campo datetime
 
-È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime`, dopo averli impostare come data.
+È possibile filtrare righe tramite un'espressione Python a partire da campi `datetime`, dopo averli impostati come campi di tipo "data".
 
 Usando [questo](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv) file CSV (by [PCM-DPC](https://github.com/pcm-dpc/COVID-19)), se ad esempio dalla tabella di sotto si volessero soltanto i record con giorno 29:
 
