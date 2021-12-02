@@ -68,9 +68,9 @@ Da questa tabella a questo punto, semplificando un po', si potrebbe rapidamente 
 
 
 
-## Concatenare tabelle
+## Concatenare tabelle in verticale
 
-La concatenazione tra due o più tabelle con la stessa struttura si attiva tramite `&`. Ad esempio, a partire dai due file `inputFileOne.csv` e `inputFileTwo.csv`, presenti [qui](https://github.com/ondata/guidaVisiData/tree/master/dati) si procede in questo modo:
+La concatenazione in "verticale" tra due o più tabelle con la stessa struttura si attiva tramite `&`. Ad esempio, a partire dai due file `inputFileOne.csv` e `inputFileTwo.csv`, presenti [qui](https://github.com/ondata/guidaVisiData/tree/master/dati) si procede in questo modo:
 
 - si apre la shell e si va nella cartella che contiene i file da concatenare;
 - si scrive `vd` e si preme `Invio`;
