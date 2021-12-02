@@ -66,11 +66,13 @@ Una volta aggiunto, per usarlo in VisiData:
 È possibile importare in VisiData uno o più moduli Python, in modo che sia disponibili ulteriori funzionalità.<br>
 Per farlo c'è da aggiungere nel file di configurazione la "classica" stringa di *import*.
 
-Ad esempio per abilitare il modulo `re`, basterà aggiungere:
+Ad esempio per abilitare il modulo `re` (quello sulle espressioni regolari), basterà aggiungere:
 
 ```
 import re
 ```
+
+E con questo modulo attivato, si potranno applicare :notepad_spiral: [filtri, basati su espressioni regolari](lavorareRighe.md#filtri-tramite-espressione-python-basata-su-piu-colonne).
 
 ## Un file di configurazione di esempio
 
