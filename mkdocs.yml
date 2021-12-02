@@ -36,8 +36,8 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    - navigation.instant
-#    - navigation.tracking
+#    - navigation.instant
+    - navigation.tracking
   font:
     text: Montserrat
     #code: Cutive Mono
