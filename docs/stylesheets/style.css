@@ -10,10 +10,6 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-[data-md-color-scheme='slate'] tr:nth-child(even) {
-  color: #e28409 !important;
-}
-
 /* colore background intestazione tabella */
 div.md-typeset__table thead {
   background-color: #b6c1ff;
@@ -31,9 +27,4 @@ div.md-typeset__table td {
 article h1,h2,h3,h4 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(0,0,0,.74) !important;
-}
-
-[data-md-color-scheme='slate'] article h1,h2,h3,h4 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.74) !important;
 }
