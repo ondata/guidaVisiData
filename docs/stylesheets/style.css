@@ -21,3 +21,10 @@ div.md-typeset__table thead {
 div.md-typeset__table td {
   font-family: 'Open Sans', sans-serif;
 }
+
+/*font per i titoli nelle pagine*/
+
+article h1,h2,h3,h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(0,0,0,.74) !important;
+}
