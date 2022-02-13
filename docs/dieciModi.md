@@ -23,7 +23,7 @@ I nuovi caricatori sono inclusi in ogni versione e puoi [crearne uno tu stesso f
 
 ## 2. convertire da qualsiasi formato di input in qualsiasi formato di output
 
-All'interno di **VisiData**, premere <kbd>Ctrl+S</kbd> per salvare il file nel formato specificato dall'estensione.
+All'interno di **VisiData**, premere <kbd>CTRL+S</kbd> per salvare il file nel formato specificato dall'estensione.
 
 Converti direttamente dalla riga di comando con:
 
@@ -37,7 +37,7 @@ $ vd -b input.csv -o output.json
 $ netstat -an | vd -f fixed -o used-ports.txt
 ```
 
-Premi <kbd>Ctrl+Q</kbd> per uscire da **VisiData** e salvare nel file di output specificato.
+Premi <kbd>CTRL+Q</kbd> per uscire da **VisiData** e salvare nel file di output specificato.
 
 ## 4. grattare i dati della tabella HTML da una pagina Web:
 
@@ -67,7 +67,7 @@ $ vd --diff foo1.csv foo2.csv
 
 **VisiData** può anche essere utilizzato in modalità batch con [script](https://www.visidata.org/docs/save-restore/) senza richiedere alcuna interazione.
 
-Salvare il _cmdlog_ in un file _.vd_ con `Ctrl+D foo.vd`, quindi riprodurre il file _.vd_ salvato:
+Salvare il _cmdlog_ in un file _.vd_ con `CTRL+D foo.vd`, quindi riprodurre il file _.vd_ salvato:
 
 ```
 $ vd -b -p foo.vd
@@ -77,10 +77,10 @@ $ vd -b -p foo.vd
 
 Avviare vd nella directory con i file
 Modifica i nomi dei file ([documentazione sui comandi di modifica](https://www.visidata.org/docs/edit))
-<kbd>Ctrl+S</kbd> per eseguire il commit ([guarda questo video che mostra come utilizzare il browser di directory](https://www.youtube.com/watch?v=l2Bpmm0yAGw))
+<kbd>CTRL+S</kbd> per eseguire il commit ([guarda questo video che mostra come utilizzare il browser di directory](https://www.youtube.com/watch?v=l2Bpmm0yAGw))
 
 ## 10. vedi tutte le opzioni e i comandi disponibili
 
-Esistono molti altri modi per utilizzare **VisiData!** Per saperne di più, premi <kbd>Ctrl H</kbd> per vedere la [manpage](https://www.visidata.org/man) o <kbd>z Ctrl+H</kbd> per vedere l'elenco completo dei comandi disponibili sul foglio corrente.
+Esistono molti altri modi per utilizzare **VisiData!** Per saperne di più, premi <kbd>CTRL+H</kbd> per vedere la [manpage](https://www.visidata.org/man) o <kbd>z CTRL+H</kbd> per vedere l'elenco completo dei comandi disponibili sul foglio corrente.
 
 

@@ -83,8 +83,8 @@ Ad esempio se voglio selezionare da [questo file](./dati/inputFileOne.csv) tutte
 
 Si fa con queste combinazioni:
 
-- `Shift+j`, per spostare la riga corrente verso il basso;
-- `Shift+k`, per spostare la riga corrente verso l'alto.
+- `SHIFT+J`, per spostare la riga corrente verso il basso;
+- `SHIFT+K`, per spostare la riga corrente verso l'alto.
 
 ## Cancellare righe
 
@@ -96,11 +96,11 @@ Si fa con queste combinazioni:
 Questi i comandi di base:
 
 - `e`, per modificare la cella corrente;
-- `Enter`, per chiudere la modifica;
-- `Control+c`, per cancellare la modifica;
-- `Control+a`, per andare a inizio linea;
-- `Control+e`, per andare a fine linea;
-- `Control+k`, per cancellare il contenuto a partire dalla posizione del cursore.
+- `INVIO`, per chiudere la modifica;
+- `CTRL+C`, per cancellare la modifica;
+- `CTRL+A`, per andare a inizio linea;
+- `CTRL+E`, per andare a fine linea;
+- `CTRL+K`, per cancellare il contenuto a partire dalla posizione del cursore.
 
 
 ---
@@ -113,17 +113,17 @@ I tasti `[` e `]` ordinano i dati rispettivamente in modo crescente e decrescent
 
 ### Filtrare righe
 
-È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi pigiare `"`. Ad esempio si naviga sino alla colonna `marca`, si preme `|`, si scrive `chevr`, si pigia `Invio` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si preme `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
+È possibile estrarre in vari modi un campione delle righe della tabella visualizzata. Quello di base è a partire dalla selezione delle righe (in uno dei modi visti sopra) e poi pigiare `"`. Ad esempio si naviga sino alla colonna `marca`, si preme `|`, si scrive `chevr`, si pigia `INVIO` (vengono selezionati tutti i record associati a `CHEVROLET`) e infine si preme `"`. Si avrà una tabella filtrata, con gli 8814 record relativi a questa marca per l'Abruzzo.
 
 Oppure posso farlo a partire da un "foglio delle frequenze" (vedi [qui](#il-foglio-delle-frequenze)):
 
 - si naviga sino alla colonna `marca`;
-- si pigia `Shift+f`, che mi da in _output_ il conteggio dei valori distinti per marca (sono più di un milione di record, ci vorrà un po' di tempo);
+- si pigia `SHIFT+F`, che mi da in _output_ il conteggio dei valori distinti per marca (sono più di un milione di record, ci vorrà un po' di tempo);
 - si scorre sino alla riga che contiene la marca che si vuole filtrare;
 
 ![](./imgs/11_filtro.png)
 
-- si pigia `Invio` e si avrà una tabella filtrata, con i record relativi a quella marca per l'Abruzzo.
+- si pigia `INVIO` e si avrà una tabella filtrata, con i record relativi a quella marca per l'Abruzzo.
 
 ![](./imgs/12_filtro.png)
 
