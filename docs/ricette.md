@@ -318,7 +318,7 @@ Immaginiamo di volere applicare il *natural sorting* a un file come questo (imma
 Questi saranno i passi da fare:
 
 - aprire il file `vd input.csv`;
-- posizionarsi sulla prima colonna (qui è di *default*, perché è soltanto una) e fare click su <kbd>=</kbd>, per creare una nuova colonna basata su un'espressione Python;
+- fare click su <kbd>=</kbd>, per creare una nuova colonna basata su un'espressione Python;
 - scrivere `natsort(input)` e dare `INVIO`, per applicare la funzione soprastante, al campo `input`.
 
 In output si avrà:
