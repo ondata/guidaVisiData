@@ -308,10 +308,10 @@ Questi i comandi di base:
 
 - `e`, per modificare la cella corrente;
 - `Enter`, per chiudere la modifica;
-- `Control+c`, per cancellare la modifica;
-- `Control+a`, per andare a inizio linea;
-- `Control+e`, per andare a fine linea;
-- `Control+k`, per cancellare il contenuto a partire dalla posizione del cursore.
+- `CONTROL+C`, per cancellare la modifica;
+- `CONTROL+A`, per andare a inizio linea;
+- `CONTROL+E`, per andare a fine linea;
+- `CONTROL+K`, per cancellare il contenuto a partire dalla posizione del cursore.
 
 [`torna su`](#indice)
 
