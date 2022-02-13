@@ -107,4 +107,14 @@ options.clean_names = True;
 for c in visibleCols:
     c.name = c.name
 ''')
+
+# to add natural sorting to cell values
+
+_nsre = re.compile('([0-9]+)')
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower()
+        for text in re.split(_nsre, s)]
+
+def natsort(value, delimiter=','):
+    list1 = value.split(delimiter)
 ```

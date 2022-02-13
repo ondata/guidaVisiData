@@ -284,3 +284,50 @@ Per generare il grafico basterà seguire i seguenti passi:
 In output si avrà qualcosa come quella di sotto
 
 ![](./imgs/scatterPlot.png)
+
+
+### Applicare il natural sorting ai contenuti di una cella
+
+Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`; mentre normalmente un'applicazione - visto la presenza sia di stringhe che di numeri - produrrebbe *by default* questo ordinamento `1,1/A,10,100,3,SNC`.
+
+Il *natural sorting* è un concetto noto e implementato da anni (un [esempio per tutti](https://www.gnu.org/software/coreutils/manual/coreutils.html#Version-sort-ordering)), ma spesso non è disponibile nativamente e bisogna implementarlo importando librerie o sfruttando funzioni dedicate.
+
+In VisiData è applicabile ad esempio aggiungendo per prima cosa una funzione personalizzata al [file di configurazione](configurazione.md):
+
+```
+import re
+
+_nsre = re.compile('([0-9]+)')
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower()
+            for text in re.split(_nsre, s)]
+
+def natsort(value, delimiter=','):
+   list1 = value.split(delimiter)
+   list1.sort(key=natural_sort_key)
+   joined_string = delimiter.join(list1)
+   return joined_string
+```
+
+Immaginiamo di volere applicare il *natural sorting* a un file come questo (immaginiamo sia un `CSV`):
+
+| input |
+| --- |
+| 3,1,10,1/A,100,SNC |
+
+Questi saranno i passi da fare:
+
+- aprire il file `vd input.csv`;
+- posizionarsi sulla prima colonna (qui è di *default*, perché è soltanto una) e fare click su <kbd>=</kbd>, per creare una nuova colonna basata su un'espressione Python;
+- scrivere `natsort(input)` e dare `INVIO`, per applicare la funzione soprastante, al campo `input`.
+
+In output si avrà:
+
+| input | natsort(input) |
+| --- | --- |
+| 3,1,10,1/A,100,SNC | 1,1/A,3,10,100,SNC |
+
+Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata inserita la funzione `natsort`.<br>
+Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeColonna, delimiter='/')`.
+
+Un grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
