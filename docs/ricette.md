@@ -319,7 +319,7 @@ Questi saranno i passi da fare:
 
 - aprire il file `vd input.csv`;
 - fare click su <kbd>=</kbd>, per creare una nuova colonna basata su un'espressione Python;
-- scrivere `natsort(input)` e dare `INVIO`, per applicare la funzione soprastante, al campo `input`.
+- scrivere `natsort(input)` e dare <kbd>INVIO</kbd>, per applicare la funzione soprastante, al campo `input`.
 
 In output si avrà:
 
