@@ -108,7 +108,7 @@ for c in visibleCols:
     c.name = c.name
 ''')
 
-# to add natural sorting to cell values
+# add a function to apply sorting to cell values
 
 _nsre = re.compile('([0-9]+)')
 def natural_sort_key(s):
