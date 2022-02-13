@@ -290,7 +290,7 @@ In output si avrà qualcosa come quella di sotto
 
 Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`; mentre normalmente un'applicazione - visto la presenza sia di stringhe che di numeri - produrrebbe *by default* questo ordinamento `1,1/A,10,100,3,SNC`.
 
-Il *natural sorting* è un concetto noto e implementato da anni (un [esempio per tutti](https://www.gnu.org/software/coreutils/manual/coreutils.html#Version-sort-ordering)), ma spesso non è disponibile nativamente e bisogna implementarlo importando librerie o sfruttando funzioni dedicate.
+Il *natural sorting* è un concetto noto da tempo in letteratura (un [esempio per tutti](https://www.gnu.org/software/coreutils/manual/coreutils.html#Version-sort-ordering)), ma spesso non è disponibile nativamente e bisogna implementarlo importando librerie o sfruttando funzioni dedicate.
 
 In VisiData è applicabile ad esempio aggiungendo per prima cosa una funzione personalizzata al [file di configurazione](configurazione.md):
 
@@ -327,7 +327,7 @@ In output si avrà:
 | --- | --- |
 | 3,1,10,1/A,100,SNC | 1,1/A,3,10,100,SNC |
 
-Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata inserita la funzione `natsort`.<br>
+Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata aggiunta la funzione `natsort`.<br>
 Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeColonna, delimiter='/')`.
 
 Un grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
