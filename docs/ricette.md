@@ -311,9 +311,11 @@ def natsort(value, delimiter=','):
 
 Immaginiamo di volere applicare il *natural sorting* a un file come questo (immaginiamo sia un `CSV`):
 
-| input |
-| --- |
-| 3,1,10,1/A,100,SNC |
+```
+input
+"3,1,10,1/A,100,SNC"
+```
+
 
 Questi saranno i passi da fare:
 
@@ -323,9 +325,10 @@ Questi saranno i passi da fare:
 
 In output si avrà:
 
-| input | natsort(input) |
-| --- | --- |
-| 3,1,10,1/A,100,SNC | 1,1/A,3,10,100,SNC |
+```
+input,natsort(input)
+"3,1,10,1/A,100,SNC","1,1/A,3,10,100,SNC"
+```
 
 Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata aggiunta la funzione `natsort`.<br>
 Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeColonna, delimiter='/')` (in questo caso si è impostato come delimitatore il carattere `/`).
