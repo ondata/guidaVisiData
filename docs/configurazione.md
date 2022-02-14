@@ -108,7 +108,8 @@ for c in visibleCols:
     c.name = c.name
 ''')
 
-# add a function to apply sorting to cell values
+# add a function to apply natural sorting to cell values
+# https://github.com/ondata/guidaVisiData/discussions/51
 
 _nsre = re.compile('([0-9]+)')
 def natural_sort_key(s):
