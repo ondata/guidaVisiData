@@ -288,7 +288,7 @@ In output si avrà qualcosa come quella di sotto
 
 ### Applicare il natural sorting ai contenuti di una cella
 
-Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`. Di contro normalmente un'applicazione - con una lista fatta sia di stringhe che di numeri - produce di solito questo ordinamento `1,1/A,10,100,3,SNC`.
+Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`. Di contro un'applicazione - con una lista fatta sia di stringhe che di numeri - produce di solito questo ordinamento `1,1/A,10,100,3,SNC`.
 
 Il *natural sorting* è un concetto noto da tempo in letteratura (un [esempio per tutti](https://www.gnu.org/software/coreutils/manual/coreutils.html#Version-sort-ordering)), ma spesso non è disponibile nativamente e bisogna implementarlo importando librerie o sfruttando funzioni dedicate.
 
