@@ -288,7 +288,7 @@ In output si avrà qualcosa come quella di sotto
 
 ### Applicare il natural sorting ai contenuti di una cella
 
-Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`; mentre normalmente un'applicazione - visto la presenza sia di stringhe che di numeri - produrrebbe *by default* questo ordinamento `1,1/A,10,100,3,SNC`.
+Il *natural sorting* è un ordinamento di stringhe più "umano".<br>Se una cella contiene ad esempio i valori `3,1,10,1/A,100,SNC`, l'ordinamento naturale potrebbe essere `1,1/A,3,10,100,SNC`. Di contro normalmente un'applicazione - visto la presenza sia di stringhe che di numeri - produce di solito questo ordinamento `1,1/A,10,100,3,SNC`.
 
 Il *natural sorting* è un concetto noto da tempo in letteratura (un [esempio per tutti](https://www.gnu.org/software/coreutils/manual/coreutils.html#Version-sort-ordering)), ma spesso non è disponibile nativamente e bisogna implementarlo importando librerie o sfruttando funzioni dedicate.
 
@@ -309,10 +309,10 @@ def natsort(value, delimiter=','):
    return joined_string
 ```
 
-Immaginiamo di volere applicare il *natural sorting* a un file come questo (immaginiamo sia un `CSV`):
+Immaginiamo di volere applicare il *natural sorting* a un file come questo (un `CSV`):
 
 ```
-input
+nomeCampo
 "3,1,10,1/A,100,SNC"
 ```
 
@@ -321,16 +321,16 @@ Questi saranno i passi da fare:
 
 - aprire il file `vd input.csv`;
 - fare click su <kbd>=</kbd>, per creare una nuova colonna basata su un'espressione Python;
-- scrivere `natsort(input)` e dare <kbd>INVIO</kbd>, per applicare la funzione soprastante, al campo `input`.
+- scrivere `natsort(nomeCampo)` e dare <kbd>INVIO</kbd>, per applicare la funzione soprastante, al campo `nomeCampo`.
 
-In output si avrà:
+In *output* si avrà:
 
 ```
-input,natsort(input)
+nomeCampo,natsort(nomeCampo)
 "3,1,10,1/A,100,SNC","1,1/A,3,10,100,SNC"
 ```
 
 Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata aggiunta la funzione `natsort`.<br>
-Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeColonna, delimiter='/')` (in questo caso si è impostato come delimitatore il carattere `/`).
+Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeCampo, delimiter='/')` (in questo caso si è impostato come delimitatore il carattere `/`).
 
 Un grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
