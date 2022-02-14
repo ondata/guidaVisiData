@@ -294,7 +294,7 @@ Il *natural sorting* è un concetto noto da tempo in letteratura (un [esempio pe
 
 In VisiData è applicabile ad esempio aggiungendo per prima cosa una funzione personalizzata al [file di configurazione](configurazione.md):
 
-```python
+``` py
 import re
 
 _nsre = re.compile('([0-9]+)')
