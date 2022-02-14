@@ -333,4 +333,4 @@ nomeCampo,natsort(nomeCampo)
 Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazione-di-esempio) inserito in questa guida, è stata aggiunta la funzione `natsort`.<br>
 Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeCampo, delimiter='/')` (in questo caso si è impostato come delimitatore il carattere `/`).
 
-Un grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
+Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
