@@ -40,7 +40,6 @@ theme:
 #    - navigation.tracking
   font:
     text: Montserrat
-    #code: Cutive Mono
     code: Fira Code
 
 
