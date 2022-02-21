@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "pigreco",
+      "name": "Salvatore Fiandaca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7631137?v=4",
+      "profile": "http://pigrecoinfinito.com",
+      "contributions": [
+        "content",
+        "example"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "guidaVisiData",
+  "projectOwner": "ondata",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
