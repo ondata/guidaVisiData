@@ -14,6 +14,16 @@
         "content",
         "example"
       ]
+    },
+    {
+      "login": "gbvitrano",
+      "name": "Giovan Battista Vitrano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20488693?v=4",
+      "profile": "https://coseerobe.gbvitrano.it/",
+      "contributions": [
+        "content",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
