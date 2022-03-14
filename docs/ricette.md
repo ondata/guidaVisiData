@@ -350,3 +350,7 @@ Se si vuole cambiare il separatore di campo di un CSV, questi i passi da seguire
 <figure markdown>
   ![](imgs/csv-delimiter.png)
 </figure>
+
+!!! note "Nota"
+
+    Ricetta creata grazie a [questa richiesta](https://github.com/ondata/guidaVisiData/discussions/55) di Salvatore Fiandaca.
