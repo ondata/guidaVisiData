@@ -340,11 +340,11 @@ Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stim
 Se si vuole cambiare il separatore di campo di un CSV, questi i passi da seguire:
 
 - aprire il file;
-- fare click su ++space++;
-- digitare `options-sheet` e premere ++enter++, per visualizzare le opzioni del foglio;
-- cercare l'opzione `csv_delimiter` e impostare come `sheet_value` il separatore desiderato (la cella si modifica con ++e++);
-- chiudere l'`options-sheet` con ++q++;
-- premere ++ctrl+s++ e salvare il file in formato `CSV`.
+- fare click su `barra spaziatrice`;
+- digitare `options-sheet` e premere `INVIO`, per visualizzare le opzioni del foglio;
+- cercare l'opzione `csv_delimiter` e impostare come `sheet_value` il separatore desiderato (la cella si modifica con il tasto `e`);
+- chiudere l'`options-sheet` con il tasto `q`;
+- premere `CTRL` + `s` e salvare il file in formato `CSV`.
 
 
 <figure markdown>
