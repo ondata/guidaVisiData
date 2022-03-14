@@ -334,3 +334,19 @@ Nel [file di configurazione di esempio](configurazione.md#un-file-di-configurazi
 Se nella cella il separatore non è la `,`, si può personalizzare la funzione in questo modo: `natsort(nomeCampo, delimiter='/')` (in questo caso si è impostato come delimitatore il carattere `/`).
 
 Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca), per averci stimolato ad approfondire la cosa, con [questa domanda](https://gis.stackexchange.com/questions/421166/sorting-alphanumeric-array-numerically-using-qgis-field-calculator) su StackExchange.
+
+### Cambiare il separatore di campo di un CSV
+
+Se si vuole cambiare il separatore di campo di un CSV, questi i passi da seguire:
+
+- aprire il file;
+- fare click su ++space++;
+- digitare `options-sheet` e premere ++enter++, per visualizzare le opzioni del foglio;
+- cercare l'opzione `csv_delimiter` e impostare come `sheet_value` il separatore desiderato (la cella si modifica con ++e++);
+- chiudere l'`options-sheet` con ++q++;
+- premere ++ctrl+s++ e salvare il file in formato `CSV`.
+
+
+<figure markdown>
+  ![](imgs/csv-delimiter.png)
+</figure>
