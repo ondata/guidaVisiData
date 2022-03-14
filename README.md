@@ -1,4 +1,7 @@
 <kbd><a href="https://ondata.github.io/guidaVisiData/">APRI LA GUIDA</a></kbd>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## VisiData: il coltellino svizzero per i dati
 
@@ -17,3 +20,24 @@ Se VisiData piacerà anche a te e lo utilizzerai, sarà cosa buona **supportarne
 ---
 
 NOTA BENE: questa guida è ampiamente ispirata a [quella](https://jsvine.github.io/intro-to-visidata/) molto bella di Jeremy Singer Vine.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://pigrecoinfinito.com"><img src="https://avatars.githubusercontent.com/u/7631137?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Salvatore Fiandaca</b></sub></a><br /><a href="#content-pigreco" title="Content">🖋</a> <a href="#example-pigreco" title="Examples">💡</a></td>
+    <td align="center"><a href="https://coseerobe.gbvitrano.it/"><img src="https://avatars.githubusercontent.com/u/20488693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giovan Battista Vitrano</b></sub></a><br /><a href="#content-gbvitrano" title="Content">🖋</a> <a href="#example-gbvitrano" title="Examples">💡</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
