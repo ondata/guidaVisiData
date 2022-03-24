@@ -15,6 +15,6 @@ Si fa da qui [https://www.patreon.com/saulpw](https://www.patreon.com/saulpw).
 
 ## Sostenere l'associazione onData
 
-Se questa guida ti è stata utile, puoi sostenere l'**associazione onData** [facendo una donazione](https://tinyurl.com/sostieniondata), 🙏 **grazie**!
+Se questa guida ti è stata utile, puoi sostenere l'**associazione onData** [facendo una donazione](https://www.ondata.it/dona/), 🙏 **grazie**!
 
-[Sostieni onData :pray:](https://tinyurl.com/sostieniondata){ .md-button .md-button--primary }
+[Sostieni onData :pray:](https://www.ondata.it/dona/){ .md-button .md-button--primary }
