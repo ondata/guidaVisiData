@@ -77,9 +77,9 @@ E con questo modulo attivato, si potranno applicare :notepad_spiral: [filtri, ba
 ### Aggiungere separatore delle migliaia
 
 Quando si apre una tabella in formato `CSV`, tutte le colonne vengono interpretate come testo.<br>
-L'utente potrà poi definire quelle numeriche come colonna con numeri interi o decimali. Ma i separatori delle migliaia di default non sono presenti e non è facile quindi capire sempre se siamo nell'ordine dei milioni o miliardi.
+L'utente potrà poi definire quelle numeriche come colonna con numeri interi o decimali. Ma i separatori delle migliaia di *default* non sono presenti e non è facile quindi capire sempre se siamo ad esempio nell'ordine dei milioni o miliardi.
 
-Allora è comodo modificare il file `~/.visidatarc` e aggiungere questi due parametri.
+Allora è comodo modificare il file `~/.visidatarc` e aggiungere questi parametri
 
 ```python
 # impostazione per i campi float
@@ -89,8 +89,6 @@ options.disp_int_fmt = '{:,}
 ```
 
 In questo modo `10537428.32` sarà visualizzato come `10,537,428.32` e `1530142` come `1,530,142`.
-
-
 
 ## Un file di configurazione di esempio
 
