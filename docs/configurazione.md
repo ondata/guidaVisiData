@@ -85,7 +85,7 @@ Allora è comodo modificare il file `~/.visidatarc` e aggiungere questi parametr
 # impostazione per i campi float
 options.disp_float_fmt = '{:,.02f}'
 # impostazione per i campi interi
-options.disp_int_fmt = '{:,}
+options.disp_int_fmt = '{:,}'
 ```
 
 In questo modo `10537428.32` sarà visualizzato come `10,537,428.32` e `1530142` come `1,530,142`.
