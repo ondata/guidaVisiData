@@ -33,6 +33,14 @@ nella `shell` saranno visualizzati i relativi dati contenuti in esso
 
 ![](imgs/primiPassi_01.png)
 
+!!! attention "Nota"
+
+    Se il file non è un "vero CSV" e utilizza altri separatori di campo (come il punto e virgola `;`) è possibile aprire il file aggiungendo il flag `--csv-delimiter` e specificando il delimitatore tra doppie virgolette. Di seguito un esempio:
+
+    ```bash
+    vd --csv-delimiter ";" nomeFile.csv
+    ```
+
 ### Tramite URL
 
 È possibile aprire un file anche a partire dal suo URL pubblico. Ad esempio:
