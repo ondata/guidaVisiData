@@ -241,9 +241,7 @@ E si ottiene qualcosa come quella di sotto:
 
 !!! Warning "Questa procedura non è più valida per VisiData >= 3.0"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    Fare riferimento alla sezione successiva, per vedere come fare con VisiData >= 3.0.
 
 Su ogni colonna è possibile fare delle trasformazioni basate su espressioni regolari. Se ad esempio si vogliono rimuovere dalle celle della colonna `data_immatricolazione` le informazioni sull'orario e passare quindi da `1995-04-03 00:00:00` a `1995-04-03` si può procedere in questo modo:
 
