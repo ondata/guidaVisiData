@@ -219,7 +219,7 @@ Come output si avrà qualcosa come quella di sotto: due colonne frutto della div
 
 !!! warning "Novità in VisiData >= 3.0"
 
-    Se usi VisiData >= 3.0, la procedura è cambiata. In output viene restituito una colonna che contiene l'*array* dei valori risultato dello *split*: se lo vuoi espandere in colonne, vai sulla colonna e fai click su <kbd>(</kbd>.
+    Se usi VisiData >= 3.0, la procedura è cambiata. In *output* viene restituita una colonna che contiene l'*array* dei valori risultato dello *split*: se la vuoi espandere in colonne, vai sulla colonna che contiene l'*array* e fai click su <kbd>(</kbd>.
 
 ### Nuove colonne come risultato di cattura e estrazione
 
