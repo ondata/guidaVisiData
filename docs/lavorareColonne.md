@@ -217,6 +217,9 @@ Come output si avrà qualcosa come quella di sotto: due colonne frutto della div
 ![](./imgs/16_nuoveColonne.png)
 
 
+!!! warning "Novità in VisiData >= 3.0"
+
+    Se usi VisiData >= 3.0, la procedura è cambiata. In output viene restituito una colonna che contiene l'*array* dei valori risultato dello *split*: se lo vuoi espandere in colonne, vai sulla colonna e fai click su <kbd>(</kbd>.
 
 ### Nuove colonne come risultato di cattura e estrazione
 
