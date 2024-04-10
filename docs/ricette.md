@@ -129,6 +129,20 @@ Nella cartella di lavoro saranno disponibili tutte le tabelle, in formato `CSV`.
 
 Nota bene: la ricetta è stata stimolata da [questa domanda](https://github.com/ondata/guidaVisiData/discussions/26#discussion-3676008).
 
+### Aprire una determinata tabella di una pagina web
+
+Quando si apre una pagina web con VisiData, ci viene restituito un elenco delle tabelle presenti nella pagina.
+
+Se si lancia ad esempio `vd "https://SitoEsempio.it/pagina"`, si avrà un *output* come quello di sotto, in cui nella prima colonna ci sono le tabelle denominate `table_0` e `links`:
+
+![](./imgs/tabelle_html.png)
+
+Se si vuole aprire direttamente la tabella `table_0`, si può fare aggiungendo `+:nome_tabella::`. In questo esempio quindi sarà:
+
+```bash
+vd "https://SitoEsempio.it/pagina" +:table_0::
+```
+
 ### Salvare un flusso di lavoro
 
 #### Introduzione
