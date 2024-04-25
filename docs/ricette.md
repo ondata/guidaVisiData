@@ -262,15 +262,15 @@ Si tratta di un TSV, quindi **è possibile leggerlo e modificarlo proprio con Vi
 Il comando
 
 ```
-vd input.csv -b --save-filetype json | jq .
+vd input.csv -b --save-filetype json -o - | jq .
 ```
 
-invierà ad esempio a `jq` un *output* `JSON` a partire dal CSV di *input*.
+invierà ad esempio a `jq` un *output* `JSON` a partire dal CSV di *input*. `-o -` è l'opzione per fare il redirect dell'**o**utput verso lo *stdout* (rappresentato da `-`).
 
 Se ad esempio si vuole passare l'output a grep:
 
 ```
-vd input.csv -b --save-filetype tsv 2> /dev/null | grep 'a'
+vd input.csv -b --save-filetype tsv -o - 2> /dev/null | grep 'a'
 ```
 
 `2> /dev/null` per non avere `stderr` a schermo.
