@@ -265,7 +265,11 @@ Il comando
 vd input.csv -b --save-filetype json -o - | jq .
 ```
 
-invierà ad esempio a `jq` un *output* `JSON` a partire dal CSV di *input*. `-o -` è l'opzione per fare il redirect dell'**o**utput verso lo *stdout* (rappresentato da `-`).
+invierà ad esempio a `jq` un *output* `JSON` a partire dal CSV di *input*:
+
+- `-b` per eseguire VisiData senza attivarne l'interfaccia;
+- `--save-filetype json` per fissare il formato di output in `JSON`;
+- `-o -` per fare il redirect dell'*output* verso lo `stdout` (rappresentato da `-`).
 
 Se ad esempio si vuole passare l'output a grep:
 
