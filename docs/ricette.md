@@ -389,3 +389,7 @@ Ecco coma farlo:
 Con `rf` si indica che si sta usando una *raw string* e che ad esempio il carattere `\` non deve essere interpretato come un carattere di escape, ma come parte della stringa.
 
 Qui, viene usato il modulo `re` per le espressioni regolari: per usarlo bisogna importarlo nel [file di configurazione](configurazione.md), ad esempio con la riga `import re`.
+
+!!! note "Nota"
+
+    Anche nell'esempio di [filtro per data](#filtrare-un-campo-con-delle-date), si applica una *python expression*.
