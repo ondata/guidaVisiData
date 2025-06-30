@@ -372,3 +372,20 @@ Se si vuole cambiare il separatore di campo di un CSV, questi i passi da seguire
 !!! note "Nota"
 
     Ricetta creata grazie a [questa richiesta](https://github.com/ondata/guidaVisiData/discussions/55) di Salvatore Fiandaca.
+
+### Selezionare righe tramite una python expression
+
+Si può selezionare un sottoinsieme di righe, in base a una condizione, utilizzando una *python expression*.
+
+Ad esempio voglio selezionare tutte le righe in cui il campo `basename` rispetta un'espressione regolare basata su un altro campo, il campo `var`.<br>
+L'espressione prevede di cercare `_V` seguito da un numero, seguito da `_` e dal valore del campo `var`, e infine da un punto e da qualsiasi cosa.
+
+Ecco coma farlo:
+
+- sposarsi sulla colonna `basename`;
+- premere `z|` per attivare la selezione tramite *python expression*;
+- scrivere l'espressione `re.search(rf"_V\d+_{var}\..+", basename)` e premere <kbd>INVIO</kbd>.
+
+Con `rf` si indica che si sta usando una *raw string* e che ad esempio il carattere `\` non deve essere interpretato come un carattere di escape, ma come parte della stringa.
+
+Qui, viene usato il modulo `re` per le espressioni regolari: per usarlo bisogna importarlo nel [file di configurazione](configurazione.md), ad esempio con la riga `import re`.
