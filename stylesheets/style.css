@@ -1,0 +1,30 @@
+/*
+link nel footer
+.md-footer-copyright__highlight a {
+  color:#5A72FF !important;
+}
+*/
+
+/* colore righe pari */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* colore background intestazione tabella */
+div.md-typeset__table thead {
+  background-color: #b6c1ff;
+}
+
+
+/* font per le tabelle */
+
+div.md-typeset__table td {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*font per i titoli nelle pagine*/
+
+article h1,h2,h3,h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(0,0,0,.74) !important;
+}

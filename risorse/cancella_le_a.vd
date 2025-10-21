@@ -1,0 +1,6 @@
+sheet	col	row	longname	input	keystrokes	comment
+global		null_value	set-option
+			open-file	input.csv	o
+input	field1		select-col-regex	^a$	|	select rows matching regex in current column
+input			delete-selected		gd	delete (cut) selected rows and move them to clipboard
+input			save-sheet	output.csv	^S	save current sheet to filename in format determined by extension (default .tsv)
