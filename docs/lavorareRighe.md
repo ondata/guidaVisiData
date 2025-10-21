@@ -182,7 +182,17 @@ Osservazioni: oltre a `day` è possibile usare: `month`, `year`e `hour`
 
 Se si vogliono ad esempio selezionare soltanto righe con date nel futuro, l'espressione sarà `data > datetime.datetime.now()`.
 
+Se si ha a disposizione un campo data (`last_modified`) e si prova `last_modified > "2025-10-11"` non verrà selezionata nessuna riga, perché VisiData confronta un oggetto `datetime` con una stringa.<br>
+Per rendere più semplici espressioni basate sulle date e orari, è comodo modificare il file di configurazione `~/.visidatarc` e aggiungere:
 
+```python
+import datetime
+from datetime import timezone
+```
+
+Questo fa sì che VisiData abbia sempre disponibili le funzioni `datetime` e `timezone`, necessarie per gestire le date, anche con fuso orario.
+
+E si potrà applicare il filtro di sopra in questo modo: `last_modified.date() > datetime.date(2025, 10, 11)`.
 
 ### Filtri tramite espressione python, basata su più colonne
 
